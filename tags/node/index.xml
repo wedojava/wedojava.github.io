@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> node on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/node/</link>
+    <description>Recent content in  node on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Aug 2015 22:44:10 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MacOSX安装NPM经验谈</title>
+      <link>https://wedojava.github.io/posts/macosx%E5%AE%89%E8%A3%85npm%E7%BB%8F%E9%AA%8C%E8%B0%88/</link>
+      <pubDate>Tue, 11 Aug 2015 22:44:10 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/macosx%E5%AE%89%E8%A3%85npm%E7%BB%8F%E9%AA%8C%E8%B0%88/</guid>
+      <description>&lt;p&gt;为了装hexo-cli,需要先装配好npm环境和Git环境,于是接触到了npm的安装难的问题,我在Ubuntu系统上遇到的问题是个别目录无权限访问,我在Mac上也遇到了同样的问题,有建议是用&lt;code&gt;root&lt;/code&gt;权限取安装就好了,但是我不想这样,这样势必是影响了我的操作习惯,&lt;code&gt;root&lt;/code&gt;的根目录和非root用户的根目录不同的.所以我这么做了:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;sudo chown -R [你的当前用户名] /usr/local
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;如果你已经安装了很多了,建议直接删除掉项目里的&lt;code&gt;node_moudles&lt;/code&gt;,重新安装.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

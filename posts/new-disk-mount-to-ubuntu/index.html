@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="wedojava" />
+	
+	
+	
+	<title>为 Ubuntu 加载新硬盘 ｜ 回风舞雪</title>
+	
+    
+    
+    <meta name="description" content=" Thanks for: http://www.111cn.net/sys/Ubuntu/73675.htm 用 vagrant 本地虚拟了一个 Ubuntu，想把数据放到单独的磁盘里，查阅资料，下面把日志记录下来。
+" />
+    
+
+    
+    
+    <meta name="keywords" content="Hugo, theme, zozo, huifeng" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://wedojava.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/zozo.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/search.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Archive</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://wedojava.github.io">
+                    <span>回风舞雪</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Love My Love</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/wedojava" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://weibo.com/wedojava" title="weibo" target="_blank"><i class="ri-weibo-fill"></i></a>
+                
+                
+                <a href="https://wedojava.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/new-disk-mount-to-ubuntu/'>为 Ubuntu 加载新硬盘</a></h2>
+                        <span class="date">2016.04.19</span>
+                    </div>
+                    <div class="post_content markdown"><blockquote>
+<p>Thanks for: <a href="http://www.111cn.net/sys/Ubuntu/73675.htm">http://www.111cn.net/sys/Ubuntu/73675.htm</a>
+用 vagrant 本地虚拟了一个 Ubuntu，想把数据放到单独的磁盘里，查阅资料，下面把日志记录下来。</p>
+</blockquote>
+<p>虚拟机里的新加磁盘类型是 VMDK ，动态分配大小，大小20G。</p>
+<p>运行：</p>
+<pre><code>vagrant up
+vagrant ssh
+</code></pre>
+<p>进入虚拟机！</p>
+<h2 id="一查询现有硬盘情况">一、查询现有硬盘情况</h2>
+<p>运行： <code>sudo fdisk -l</code></p>
+<p>运行 <code>ll -h /dev/sd*</code> 测试linux系统是否能找到挂载的未分区硬盘：</p>
+<p>得到：</p>
+<pre><code>brw-rw---- 1 root disk 8,  0  4月 19 05:15 /dev/sda
+brw-rw---- 1 root disk 8,  1  4月 19 05:15 /dev/sda1
+brw-rw---- 1 root disk 8, 16  4月 19 05:15 /dev/sdb
+</code></pre>
+<blockquote>
+<p>Linux 硬盘识别：</p>
+</blockquote>
+<blockquote>
+<p>2.6 kernel以后,linux会将识别到的硬件设备,在/dev/下建立相应的设备文件.
+如:
+sda        表示第1块SCSI硬盘，第二块是sdb，以此类推
+hda        表示第1块IDE硬盘(即连接在第1个IDE接口的Master口上)
+scd0        表示第1个USB光驱.
+当添加了新硬盘后,在/dev目录下会有相应的设备文件产生.cciss的硬盘是个例外,它的
+设备文件在/dev/cciss/目录下.</p>
+</blockquote>
+<h2 id="二挂载硬盘">二、挂载硬盘</h2>
+<h3 id="1-创建未被挂载的磁盘分区">1. 创建未被挂载的磁盘分区</h3>
+<pre><code>fdisk /dev/sdb
+</code></pre>
+<p>此时会进入到 Command　的状态，大概是这么操作的：</p>
+<ul>
+<li>输入 <code>m</code> 查看帮助</li>
+<li>输入 <code>p</code> 查看 <code>/dev/sdb</code> 分区的状态</li>
+<li>输入 <code>n</code> 创建sdb这块硬盘的分区
+<ul>
+<li>选 <code>p primary</code> =&gt;输入　<code>p</code></li>
+<li><code>Partition number</code> =&gt;分一个区所以输入　<code>1</code></li>
+<li>其他的默认即可</li>
+</ul>
+</li>
+<li>输入 <code>w</code> 保存并退出 Command 状态。</li>
+</ul>
+<p>下面全是命令行下的操作过程：</p>
+<pre><code># 查看帮助信息
+Command (m for help): m
+Command action
+
+a toggle a bootable flag 将分区设置为启动区
+b edit bsd disklabel 编辑bsd的disklabel
+c toggle the dos compatibility flag 设置该分区为dos分区
+d delete a partition 删除分区
+l list known partition types 列出已知的分区类型
+m print this menu 打印帮助列表
+n add a new partition 创建新分区
+o create a new empty DOS partition table
+p print the partition table查看分区信息
+q quit without saving changes 退出不保存
+s create a new empty Sun disklabel
+t change a partition's system id改变分区类型
+u change display/entry units
+v verify the partition table
+w write table to disk and exit 保存退出
+x extra functionality (experts only)
+
+# 查看sdb这块硬盘的分区
+
+Command (m for help): p
+
+Disk /dev/sdb: 21.5 GB, 21474836480 bytes
+255 heads, 63 sectors/track, 2610 cylinders, total 41943040 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0xf74052cc
+
+   Device Boot      Start         End      Blocks   Id  System
+
+
+# 创建sdb这块硬盘的分区
+
+Command (m for help): n
+Partition type:
+   p   primary (0 primary, 0 extended, 4 free)
+   e   extended
+Select (default p): p
+Partition number (1-4, default 1): 1
+First sector (2048-41943039, default 2048): 
+Using default value 2048
+Last sector, +sectors or +size{K,M,G} (2048-41943039, default 41943039): 
+Using default value 41943039
+
+#查看创建sdb硬盘的分区
+Command (m for help): p
+
+Disk /dev/sdb: 21.5 GB, 21474836480 bytes
+255 heads, 63 sectors/track, 2610 cylinders, total 41943040 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0xf74052cc
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdb1            2048    41943039    20970496   83  Linux
+
+#保存退出，分区创建结束
+Command (m for help): w
+The partition table has been altered!
+
+Calling ioctl() to re-read partition table.
+Syncing disks.
+</code></pre>
+<p>fdisk的操作告一段落，现在可以再用 <code>sudo fdisk -l</code> 查看硬盘信息就可以看到sdb1新分区了:</p>
+<pre><code>vagrant@vagrant-ubuntu-trusty-64:~$ sudo fdisk -l
+
+Disk /dev/sda: 42.9 GB, 42949672960 bytes
+4 heads, 32 sectors/track, 655360 cylinders, total 83886080 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x000020ea
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1   *        2048    83886079    41942016   83  Linux
+
+Disk /dev/sdb: 21.5 GB, 21474836480 bytes
+213 heads, 34 sectors/track, 5791 cylinders, total 41943040 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0xf74052cc
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sdb1            2048    41943039    20970496   83  Linux
+</code></pre>
+<h3 id="2-格式化未被挂载的磁盘">2. 格式化未被挂载的磁盘</h3>
+<pre><code>sudo mkfs.ext3 /dev/sdb1
+</code></pre>
+<p>下面是具体过程：</p>
+<pre><code>vagrant@vagrant-ubuntu-trusty-64:~$ sudo mkfs.ext3 /dev/sdb1
+mke2fs 1.42.9 (4-Feb-2014)
+Filesystem label=
+OS type: Linux
+Block size=4096 (log=2)
+Fragment size=4096 (log=2)
+Stride=0 blocks, Stripe width=0 blocks
+1310720 inodes, 5242624 blocks
+262131 blocks (5.00%) reserved for the super user
+First data block=0
+Maximum filesystem blocks=4294967296
+160 block groups
+32768 blocks per group, 32768 fragments per group
+8192 inodes per group
+Superblock backups stored on blocks: 
+    32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+    4096000
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (32768 blocks): done
+Writing superblocks and filesystem accounting information: done   
+</code></pre>
+<h3 id="3-创建目录并挂载">3. 创建目录并挂载</h3>
+<pre><code>sudo mkdir /data1
+sudo mount /dev/sdb1 /data1
+</code></pre>
+<h2 id="三开机自动挂载">三、开机自动挂载</h2>
+<p>因为mount挂载在重启服务器后会失效，所以需要将分区信息写到/etc/fstab文件中让它永久挂载：</p>
+<pre><code>e2label /dev/hda6  先查看需要挂载硬盘分区的labl
+/home
+e2label /dev/hda6 home1  因为系统中已经有个/home的label了，所以这里要重新把/dev/hda6的label设置为home1
+ vi /etc/fstab
+</code></pre>
+<p>在尾部加上</p>
+<pre><code>/dev/sdb1               /home                   ext3    defaults        0 0
+</code></pre>
+<p>表示把新的硬盘分区挂载到 <code>/home</code> 这个目录
+在修改　<code>/etc/fstab</code>　文件后，运行 <code>mount -a</code> 命令验证一下配置是否正确，否则错误配置 fstab 文件导致系统无法正常启动。如果系统无法正常启动，则输入root密码进入修复模式，关键的一步是重新 <code>mount /（mount -n -o remount,rw /）</code> 。如果没有此步操作，则文件系统处于只读状态，导致不能修改配置文件并保存，修复存在的问题。</p>
+<p>重启系统</p>
+<h2 id="四其他可能会用到的命令">四、其他可能会用到的命令</h2>
+<pre><code>sudo vi /etc/fstab
+sudo umount /data1 #卸载磁盘到/data1的映射
+sudo dd if=/dev/zero of=/dev/sdb　填零/dev/sdb
+cat /proc/mounts 查看映射信息
+</code></pre></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://wedojava.github.io/tags/linux/">linux</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/ubuntu/"> ubuntu</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/disk/"> disk</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/%E6%8C%82%E8%BD%BD/"> 挂载</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/%E7%A1%AC%E7%9B%98/"> 硬盘</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                
+<div class="doc_comments">
+    <div class="comments_block_title">发表评论</div>
+    <div id="vcomments"></div>
+</div>
+
+<link rel="stylesheet" href="https://wedojava.github.io/css/comments.css" />
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: 'yusajl3uDsnB888cn1ulQeKz-gzGzoHsz',
+        appKey: 'jYjHeNB1qVYREHe1zX4bRx7z',
+        placeholder: ' ',
+        visitor: 'true',
+    })
+</script>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>&gt;_ Simple Is Correct.</span>
+    </div>
+</footer>
+    <div id="fastSearch">
+   <input id="searchInput" tabindex="0">
+   <ul id="searchResults">
+   </ul>
+ </div>
+ <script src="/js/fuse.js"></script> 
+ <script src="/js/fastsearch.js"></script>
+<script src="https://wedojava.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://wedojava.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://wedojava.github.io/js/fancybox.min.js"></script>
+<script src="https://wedojava.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+
+</body>
+
+</html>

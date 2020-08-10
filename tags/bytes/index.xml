@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> bytes on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/bytes/</link>
+    <description>Recent content in  bytes on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Jul 2019 11:50:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/bytes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Binary I/O operation</title>
+      <link>https://wedojava.github.io/posts/binary-io-operation/</link>
+      <pubDate>Fri, 26 Jul 2019 11:50:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/binary-io-operation/</guid>
+      <description>I coped with character type coversion to let it looks like c type, and search bytes from *.dll to modify it. so, there is sth I learned and written down here.
+# Binary I/O operation Define!
+def hex_read(filepath: str) -&amp;gt; bytearray: if os.path.isfile(filepath): with open(filepath, &amp;#39;rb&amp;#39;) as f: data = bytearray(f.read()) return data Usage:
+dll_data = hex_read(&amp;#39;D:\\test\\test.dll&amp;#39;) Find bytes and replace it:
+index_start = dll_data.find(b&amp;#39;\x85\x69\xf0\x7f&amp;#39;) index_end = index_start + 100 if index_start != -1: data_old = dll_data[index_start:index_end] data_new = replacebytes # replacebytes is the content you want to replace dll_data_new = dll_data.replace(data_old, data_new) with open(&amp;#39;D:\\test\\test.dll&amp;#39;, &amp;#39;wb&amp;#39;) as f: f.write(dll_data_new) </description>
+    </item>
+    
+  </channel>
+</rss>

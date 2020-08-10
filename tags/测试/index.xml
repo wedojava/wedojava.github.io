@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> 测试 on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
+    <description>Recent content in  测试 on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Aug 2015 20:36:34 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>配置Nginx处理PHP请求</title>
+      <link>https://wedojava.github.io/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</link>
+      <pubDate>Mon, 10 Aug 2015 20:36:34 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;运行&lt;code&gt;less /etc/php-fpm.conf&lt;/code&gt;查看配置,&lt;code&gt;include=/etc/php-fpm.d/*.conf&lt;/code&gt;一行说明只要在这个目录下的&lt;code&gt;conf&lt;/code&gt;类型的文件都会被包含到配置里.该目录下会有一个www.conf的文件,为默认配置文件.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;listen = 127.0.0.1:9000&lt;/code&gt;表示监听地址,如果有请求是PHP脚本就发送到这个地址,可以理解为PHP脚本是通过该地址的服务来解析的.可以是IP地址加端口号,也可以用socket的方式,socket方式更安全些.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;修改Nginx的配置文件,在之前已经添加了!文件是:&lt;code&gt;/etc/nginx/conf.d/default.conf&lt;/code&gt;,通过vi编辑器继续修改,添加nginx对php类文件的解析设置:&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

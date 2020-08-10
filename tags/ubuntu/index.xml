@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> ubuntu on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/ubuntu/</link>
+    <description>Recent content in  ubuntu on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Oct 2018 10:28:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux桌面版 &amp; Windows 如何使用 V2ray 服务?</title>
+      <link>https://wedojava.github.io/posts/the-right-way-make-linux-desktop-use-v2ray-service/</link>
+      <pubDate>Fri, 12 Oct 2018 10:28:37 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/the-right-way-make-linux-desktop-use-v2ray-service/</guid>
+      <description>&lt;p&gt;其实我配好的是 Ubuntu 桌面版,如何使用 V2ray,不管什么桌面其实基本大同小异,路子很重要, 路子对了,剩下的就简单了,搞明白后恍然大悟,这么简单就怪自己当时没仔细看文档啊!!!&lt;/p&gt;
+&lt;p&gt;本篇是介绍 V2ray 客户端的使用配置的, 服务端的安装请参照本站另一文.&lt;/p&gt;
+&lt;p&gt;本篇只讲重点,很多内容官方文档都有说明.&lt;/p&gt;
+&lt;p&gt;个人体验是, 如果文档吃透了, 其实命令行的方式启用 V2ray 是最简单的.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install pip to Ubuntu 18.04</title>
+      <link>https://wedojava.github.io/posts/install-pip-2-ubuntu-18/</link>
+      <pubDate>Thu, 11 Oct 2018 23:17:53 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/install-pip-2-ubuntu-18/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考文档:
+&lt;a href=&#34;https://www.linuxidc.com/Linux/2018-05/152390.htm&#34;&gt;https://www.linuxidc.com/Linux/2018-05/152390.htm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本文只讲重点!&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Fix VMware kernel headers for versions not found</title>
+      <link>https://wedojava.github.io/posts/fix-vmware-kernel-headers-for-versions-not-found/</link>
+      <pubDate>Thu, 11 Oct 2018 22:38:15 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/fix-vmware-kernel-headers-for-versions-not-found/</guid>
+      <description>Ubuntu 18 的宿主机,核心 Update 了,然后要求重启,然后, VMware 起不来了, 报错: linux VM kernel headers 4.15.0-37-generic were not found So, Google and Sogou, and look: https://blog.csdn.net/ritterliu/article/details/7554183 http://www.vi-toolkit.com/wiki/index.php/Build_host_vmware_kernel_modules 长话短说,我运行了下面一行,然后就好了! ↓ sudo apt-get install linux-headers-$(uname -r) Good luck good day!</description>
+    </item>
+    
+    <item>
+      <title>Install Redis Cache on Ubuntu Server with PHP 7 and ownCloud</title>
+      <link>https://wedojava.github.io/posts/install-redis-cache-on-ubuntu-server-with-php-7-and-owncloud/</link>
+      <pubDate>Wed, 08 Jun 2016 17:30:33 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/install-redis-cache-on-ubuntu-server-with-php-7-and-owncloud/</guid>
+      <description>参考: https://www.techandme.se/install-redis-cache-on-ubuntu-server-with-php-7-and-owncloud/ 缓存,owncloud推荐使用的是 APCu 和 Redis,we with PHP 7 needed to build the PHP module as well, because PECL install didn’t work on PHP 7 yet. And as usual – as we didn’t find any good straight forward guide, here is one that works, enjoy! 原文说的已经很清楚了,细心点应该不会出错,我这里只记录</description>
+    </item>
+    
+    <item>
+      <title>为 Ubuntu 加载新硬盘</title>
+      <link>https://wedojava.github.io/posts/new-disk-mount-to-ubuntu/</link>
+      <pubDate>Tue, 19 Apr 2016 13:10:53 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/new-disk-mount-to-ubuntu/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Thanks for: &lt;a href=&#34;http://www.111cn.net/sys/Ubuntu/73675.htm&#34;&gt;http://www.111cn.net/sys/Ubuntu/73675.htm&lt;/a&gt;
+用 vagrant 本地虚拟了一个 Ubuntu，想把数据放到单独的磁盘里，查阅资料，下面把日志记录下来。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker-Install-Log</title>
+      <link>https://wedojava.github.io/posts/docker-install-log/</link>
+      <pubDate>Wed, 17 Feb 2016 11:07:48 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/docker-install-log/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gitbook.com/book/yeasy/docker_practice/details&#34;&gt;Docker —— 从入门到实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.docker.com/linux/&#34;&gt;Docker官方-Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>在Ubuntu和CentOS里用IPSec/IKEV2搭建VPN服务器</title>
+      <link>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Sat, 19 Dec 2015 20:15:38 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考文档：https://quericy.me/blog/512
+一键脚本：http://quericy.me/blog/699
+目前用的一键脚本：https://blog.ls20.com/ipsec-l2tp-vpn-auto-setup-for-ubuntu-12-04-on-amazon-ec2/
+一键脚本说明：https://github.com/hwdsl2/setup-ipsec-vpn&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因为我的 vps 是 CentOS 系统，所以 Ubuntu 没测试，本日志主要记录我在 CentOS 上的各种操作。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu安装黑屏问题(ubuntu black screen)</title>
+      <link>https://wedojava.github.io/posts/ubuntu-black-screen/</link>
+      <pubDate>Tue, 01 Sep 2015 19:09:05 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/ubuntu-black-screen/</guid>
+      <description>&lt;p&gt;今天为一台联想安装ubuntu系统，确实手闲，看&lt;code&gt;Elementary OS&lt;/code&gt;非常漂亮，就把一台好好的机子给做了，于是被坑了，但是问题最终通过我强大的搜索能力和完美的解决问题的思路，最终搞定了。下面记录下经验。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

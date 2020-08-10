@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> iptables on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/iptables/</link>
+    <description>Recent content in  iptables on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Aug 2015 22:34:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/iptables/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linode 的 CentOS-7.1 初始化操作</title>
+      <link>https://wedojava.github.io/posts/linode-centos-init/</link>
+      <pubDate>Sat, 15 Aug 2015 22:34:14 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/linode-centos-init/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考文献:https://www.linode.com/docs/&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前面内容不再多说,直接说我开始的地方:&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

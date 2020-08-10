@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> 翻墙 on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/%E7%BF%BB%E5%A2%99/</link>
+    <description>Recent content in  翻墙 on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Oct 2018 18:03:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/%E7%BF%BB%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>通过 V2ray 实现科学上网</title>
+      <link>https://wedojava.github.io/posts/get-through-gfw-by-v2ray/</link>
+      <pubDate>Mon, 08 Oct 2018 18:03:45 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/get-through-gfw-by-v2ray/</guid>
+      <description>&lt;h1 id=&#34;1-前言&#34;&gt;1. 前言&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;如果要老老实实的，踏踏实实的学习，推荐参考官方网站：https://www.v2ray.com&lt;/li&gt;
+&lt;li&gt;如果要快速完成，没想要学习了解，推荐：https://v2ray66.com&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;2-服务器安装&#34;&gt;2. 服务器安装&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;V2Ray 官方文档：&lt;a href=&#34;https://www.v2ray.com/chapter_00/install.html&#34;&gt;https://www.v2ray.com/chapter_00/install.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;V2Ray 配置指南(简易直白):&lt;a href=&#34;https://toutyrater.github.io/prep/install.html&#34;&gt;https://toutyrater.github.io/prep/install.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实不相瞒,一键的更好用:&lt;/strong&gt; &lt;a href=&#34;https://v2ray66.com/post/13/&#34;&gt;https://v2ray666.com/post/13/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>在Ubuntu和CentOS里用IPSec/IKEV2搭建VPN服务器</title>
+      <link>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Sat, 19 Dec 2015 20:15:38 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考文档：https://quericy.me/blog/512
+一键脚本：http://quericy.me/blog/699
+目前用的一键脚本：https://blog.ls20.com/ipsec-l2tp-vpn-auto-setup-for-ubuntu-12-04-on-amazon-ec2/
+一键脚本说明：https://github.com/hwdsl2/setup-ipsec-vpn&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因为我的 vps 是 CentOS 系统，所以 Ubuntu 没测试，本日志主要记录我在 CentOS 上的各种操作。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac OSX 系统下通过 ProxyChains-NG 实现终端（命令行）翻墙</title>
+      <link>https://wedojava.github.io/posts/proxychains-ng-4-osx-setting/</link>
+      <pubDate>Sun, 23 Aug 2015 14:29:56 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/proxychains-ng-4-osx-setting/</guid>
+      <description>&lt;p&gt;起因:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我中华大地大局域网风云变幻,目前&lt;code&gt;git push&lt;/code&gt; &lt;code&gt;git pull&lt;/code&gt;  &lt;code&gt;git clone&lt;/code&gt;等,单反需要访问真互联网的操作总让人痛心!痛彻心扉~~
+怎么办?shadowsocks可以让我访问真互联网,但是每次命令行都会遇到一些问题,开启全局代理依然无法git 到 GitHub.怎么办?之前试过tsocks,现在,我的体验是,它只能支持wget,不能git
+为了方便快捷解决这个问题,这里推荐下ProxyChains-NG,下面具体操作.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>shadowsocks使用帮助和下载</title>
+      <link>https://wedojava.github.io/posts/shadowsocks-bakup/</link>
+      <pubDate>Sun, 23 Aug 2015 12:19:26 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/shadowsocks-bakup/</guid>
+      <description>&lt;p&gt;Shadowsocks Python源码(&lt;a href=&#34;https://coding.net/s/3db823c3-e9fc-47f5-8eeb-6fc619c2f73a&#34;&gt;zip包&lt;/a&gt;,&lt;a href=&#34;https://coding.net/s/882162c5-939f-4746-aa77-f507c989b358&#34;&gt;tar包&lt;/a&gt;)解压后,进入目录运行&lt;code&gt;python setup.py&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> PSR on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/psr/</link>
+    <description>Recent content in  PSR on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Aug 2015 23:52:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/psr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>PHP编码规范-学习笔记</title>
+      <link>https://wedojava.github.io/posts/php%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 11 Aug 2015 23:52:03 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/php%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;PHP标准组 提出并发布了一系列的风格建议。其中有部分是关于代码风格的，即 PSR-0, PSR-1, PSR-2 和 PSR-4。这些推荐只是一些被其他项目所遵循的规则，如 Drupal, Zend, Symfony, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium 等。你可以把这些规则用在自己的项目中，或者继续使用自己的风格。通常情况下，你应该遵循一个已知的标准来编写 PHP 代码。可能是 PSR 的组合或者是 PEAR 或 Zend 编码准则中的一个。这代表其他开发者能够方便的阅读和使用你的代码，并且使用这些组件的应用程序可以和其他第三方的组件保持一致。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

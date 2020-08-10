@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> int on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/int/</link>
+    <description>Recent content in  int on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Aug 2019 15:56:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/int/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Program C Basic Tips [C/C&#43;&#43;]</title>
+      <link>https://wedojava.github.io/posts/program-c-basic-tips/</link>
+      <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/program-c-basic-tips/</guid>
+      <description>&lt;p&gt;Continuous update!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hex byte string int coversion</title>
+      <link>https://wedojava.github.io/posts/hex-b-str-int-switch-in-python/</link>
+      <pubDate>Fri, 26 Jul 2019 09:56:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/hex-b-str-int-switch-in-python/</guid>
+      <description>Reference:
+ https://docs.python.org/zh-cn/3/library/stdtypes.html https://docs.python.org/zh-cn/3/library/struct.html   # Python Types Coversion hey, there are some usefull features below, I will update at intervals:
+bit_length() New in version 3.1:
+In [73]: n = -37 In [74]: bin(n) Out[74]: &#39;-0b100101&#39; In [75]: n.bit_length() Out[75]: 6  hex to int:
+In [59]: int(&#39;0x22357&#39;, 16) Out[59]: 140119  int to hex:
+In [32]: hex(141128) Out[32]: &#39;0x22748&#39;  packed binary data to int:
+In [70]: struct.unpack(&amp;quot;I&amp;quot;, b&#39;\x57\x23\x02\x00&#39;) Out[70]: (140119,) In [71]: type(struct.unpack(&amp;quot;I&amp;quot;, b&#39;\x57\x23\x02\x00&#39;)) Out[71]: tuple In [72]: struct.unpack(&amp;quot;I&amp;quot;, b&#39;\x57\x23\x02\x00&#39;)[0] Out[72]: 140119   what is param &amp;ldquo;I&amp;rdquo;? Read More about struct  int to packed binary data:</description>
+    </item>
+    
+  </channel>
+</rss>

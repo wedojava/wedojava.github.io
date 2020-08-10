@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> 代理 on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/%E4%BB%A3%E7%90%86/</link>
+    <description>Recent content in  代理 on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Oct 2018 10:28:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/%E4%BB%A3%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux桌面版 &amp; Windows 如何使用 V2ray 服务?</title>
+      <link>https://wedojava.github.io/posts/the-right-way-make-linux-desktop-use-v2ray-service/</link>
+      <pubDate>Fri, 12 Oct 2018 10:28:37 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/the-right-way-make-linux-desktop-use-v2ray-service/</guid>
+      <description>&lt;p&gt;其实我配好的是 Ubuntu 桌面版,如何使用 V2ray,不管什么桌面其实基本大同小异,路子很重要, 路子对了,剩下的就简单了,搞明白后恍然大悟,这么简单就怪自己当时没仔细看文档啊!!!&lt;/p&gt;
+&lt;p&gt;本篇是介绍 V2ray 客户端的使用配置的, 服务端的安装请参照本站另一文.&lt;/p&gt;
+&lt;p&gt;本篇只讲重点,很多内容官方文档都有说明.&lt;/p&gt;
+&lt;p&gt;个人体验是, 如果文档吃透了, 其实命令行的方式启用 V2ray 是最简单的.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac OSX 系统下通过 ProxyChains-NG 实现终端（命令行）翻墙</title>
+      <link>https://wedojava.github.io/posts/proxychains-ng-4-osx-setting/</link>
+      <pubDate>Sun, 23 Aug 2015 14:29:56 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/proxychains-ng-4-osx-setting/</guid>
+      <description>&lt;p&gt;起因:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我中华大地大局域网风云变幻,目前&lt;code&gt;git push&lt;/code&gt; &lt;code&gt;git pull&lt;/code&gt;  &lt;code&gt;git clone&lt;/code&gt;等,单反需要访问真互联网的操作总让人痛心!痛彻心扉~~
+怎么办?shadowsocks可以让我访问真互联网,但是每次命令行都会遇到一些问题,开启全局代理依然无法git 到 GitHub.怎么办?之前试过tsocks,现在,我的体验是,它只能支持wget,不能git
+为了方便快捷解决这个问题,这里推荐下ProxyChains-NG,下面具体操作.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

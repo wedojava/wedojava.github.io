@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on 回风舞雪</title>
+    <link>https://wedojava.github.io/categories/nginx/</link>
+    <description>Recent content in Nginx on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2019 12:08:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/categories/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to enable TLS in Nginx by Let&#39;s Encrypt</title>
+      <link>https://wedojava.github.io/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</link>
+      <pubDate>Fri, 16 Aug 2019 12:08:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</guid>
+      <description>&lt;p&gt;{% centerquote %}
+让你的网站 https 起来吧！
+{% endcenterquote %}&lt;/p&gt;
+&lt;h2 id=&#34;1-enable-tls&#34;&gt;1. Enable TLS&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reference:
+&lt;a href=&#34;https://letsencrypt.org&#34;&gt;https://letsencrypt.org&lt;/a&gt;
+&lt;a href=&#34;https://certbot.eff.org&#34;&gt;https://certbot.eff.org&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;11-setup-certbot&#34;&gt;1.1. Setup Certbot&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F&#34;&gt;Enable EPEL repo&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum install epel-release
+$ sudo yum install subscription-manager
+$ subscription-manager repos --enable &amp;quot;rhel-*-optional-rpms&amp;quot; --enable &amp;quot;rhel-*-extras-rpms&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are using CentOS, you can enable the optional channel by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum -y install yum-utils
+$ sudo yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After doing this, you can install Certbot by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum install certbot python2-certbot-nginx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If &lt;code&gt;No package certbot available.&lt;/code&gt; occur, try the below:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum install certbot-nginx
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

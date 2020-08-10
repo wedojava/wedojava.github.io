@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 回风舞雪</title>
+    <link>https://wedojava.github.io/categories/docker/</link>
+    <description>Recent content in Docker on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 17 Feb 2016 11:07:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker-Install-Log</title>
+      <link>https://wedojava.github.io/posts/docker-install-log/</link>
+      <pubDate>Wed, 17 Feb 2016 11:07:48 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/docker-install-log/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gitbook.com/book/yeasy/docker_practice/details&#34;&gt;Docker —— 从入门到实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.docker.com/linux/&#34;&gt;Docker官方-Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

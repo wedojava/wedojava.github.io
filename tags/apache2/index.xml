@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> apache2 on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/apache2/</link>
+    <description>Recent content in  apache2 on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 May 2016 12:23:57 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/apache2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LAMP环境搭建(Ubuntu14.04 For OwnCloud)</title>
+      <link>https://wedojava.github.io/posts/lamp-stepbystep/</link>
+      <pubDate>Thu, 19 May 2016 12:23:57 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/lamp-stepbystep/</guid>
+      <description>&lt;p&gt;本日志主要记录我配置OwnCloud环境的过程,注意,针对OwnCloud,至于某些模块开启和关闭问题,可以根据具体情况自行调整.另外我操作的系统是Ubuntu14.04LTS.
+这里推荐一个很不错的文档位置:https://www.linode.com/docs/&lt;/p&gt;
+&lt;p&gt;感悟:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;遇坑过坑,佛挡杀佛.&lt;/li&gt;
+&lt;li&gt;看文档很重要,当然,能去官方的GitHub看看更好.&lt;/li&gt;
+&lt;li&gt;最大坑解决过程: OwnCloud文档 -&amp;gt; MySQL文档 -&amp;gt; MariaDB文档 -&amp;gt; Google -&amp;gt; MySQL/MariaDB文档 -&amp;gt; Github/owncloud/core -&amp;gt; issue -&amp;gt;search for my ailling key-&amp;gt; get it!!&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

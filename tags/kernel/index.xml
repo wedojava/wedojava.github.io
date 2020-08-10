@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> kernel on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/kernel/</link>
+    <description>Recent content in  kernel on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Oct 2018 22:38:15 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fix VMware kernel headers for versions not found</title>
+      <link>https://wedojava.github.io/posts/fix-vmware-kernel-headers-for-versions-not-found/</link>
+      <pubDate>Thu, 11 Oct 2018 22:38:15 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/fix-vmware-kernel-headers-for-versions-not-found/</guid>
+      <description>Ubuntu 18 的宿主机,核心 Update 了,然后要求重启,然后, VMware 起不来了, 报错: linux VM kernel headers 4.15.0-37-generic were not found So, Google and Sogou, and look: https://blog.csdn.net/ritterliu/article/details/7554183 http://www.vi-toolkit.com/wiki/index.php/Build_host_vmware_kernel_modules 长话短说,我运行了下面一行,然后就好了! ↓ sudo apt-get install linux-headers-$(uname -r) Good luck good day!</description>
+    </item>
+    
+  </channel>
+</rss>

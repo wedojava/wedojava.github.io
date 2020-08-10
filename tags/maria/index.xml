@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> Maria on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/maria/</link>
+    <description>Recent content in  Maria on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Aug 2015 19:40:49 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/maria/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>安装数据库管理系统MariaDB(MySQL)</title>
+      <link>https://wedojava.github.io/posts/02-%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fmariadb-or-mysql/</link>
+      <pubDate>Mon, 10 Aug 2015 19:40:49 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/02-%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fmariadb-or-mysql/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Maria数据库具体可以搜索看，完全可以替代了MySQL数据库，推荐使用MySQL原作者以自己女儿命名的开源数据库Maria，MySQL被Oracle收下了。恩恩。。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;注意,能运行下面的命令,前提是你已经成功添加了资源仓库,并且是CentOS 7.X,如果是6.X,建议直接跳到最后一项.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

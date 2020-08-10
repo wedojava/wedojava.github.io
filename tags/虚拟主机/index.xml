@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> 虚拟主机 on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</link>
+    <description>Recent content in  虚拟主机 on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Aug 2015 20:34:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>配置Nginx虚拟主机</title>
+      <link>https://wedojava.github.io/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</link>
+      <pubDate>Mon, 10 Aug 2015 20:34:37 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</guid>
+      <description>&lt;h2 id=&#34;完全diy配置的情况&#34;&gt;完全DIY配置的情况&lt;/h2&gt;
+&lt;p&gt;默认情况下是安装在&lt;code&gt;/etc/nginx&lt;/code&gt;目录下的:&lt;code&gt;nginx.conf&lt;/code&gt;是主配置文件,里面有一个&lt;strong&gt;server&lt;/strong&gt;区块是默认的,刚安装好打开的默认页面就是这里所设定的.&lt;code&gt;include /etc/nginx/conf.d/*.conf;&lt;/code&gt;一行就是将所有conf.d目录下的所有.conf的配置文件全部加载进来,这样的话,我们要配置新的虚拟目录只需要将在该目录下添加.conf的配置文件即可,不同的站点可以是不同的配置文件.可以先配置一个模板型conf文件,比如我们可以先把自带的default.conf文件配置下:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

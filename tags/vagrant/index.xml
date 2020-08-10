@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> vagrant on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/vagrant/</link>
+    <description>Recent content in  vagrant on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Sep 2015 14:28:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>laravel-homestead 开发环境使用</title>
+      <link>https://wedojava.github.io/posts/laravel-homestead-note/</link>
+      <pubDate>Sun, 20 Sep 2015 14:28:35 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/laravel-homestead-note/</guid>
+      <description>&lt;p&gt;这里记录下我使用 vagrant 来做开发环境的各种经验，本文主要讲通过 homestead 命令行来控制虚拟机。
+之前我用 vagrant 搭建了自己的方便移动的开发和生产环境，用过 CentOS-6.5 CentOS-7.0 CentOS-7.1，最终我回到了官方提供的开发环境：&lt;code&gt;laravel/homestead&lt;/code&gt;，为什么要绕一圈，为什么绕了一圈又回来了呢？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>&#39;问题:能解析html但不能解析php&#39;</title>
+      <link>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</link>
+      <pubDate>Mon, 10 Aug 2015 20:46:02 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</guid>
+      <description>&lt;p&gt;这种情况一般是因为权限问题导致的,最开始遇到这种情是用linuxeye的一键遇到的,共享出来和本地映射的文件夹里的php代码不能被解析,在虚拟机里查看文件夹环境,发现都是www的用户和用户组,但是怎么改都改不过来,在宿主机上怎么改owner也是徒劳,怎么办呢?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>&#39;问题:怎么修改页面都不生效&#39;</title>
+      <link>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</link>
+      <pubDate>Mon, 10 Aug 2015 20:44:08 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
+      <description>vagrant＋virtualbox 安装虚拟机会遇到服务器内容修改了但是页面不变化的问题 关闭Nginx的sendfile一项的属性: sudo vim /etc/nginx/nginx.conf 找到sendfile,将on改为off,保存关闭文件.</description>
+    </item>
+    
+  </channel>
+</rss>

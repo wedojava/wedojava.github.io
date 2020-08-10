@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="wedojava" />
+	
+	
+	
+	<title>Use utterances as Hexo Next theme comments ｜ 回风舞雪</title>
+	
+    
+    
+    <meta name="description" content="{% centerquote 王小波 %} 人的一切痛苦，本质上都是对自己无能的愤怒。 {% endcenterquote %}
+Why Utterances?  The most similar comments to github issue. Emoji add free as github issue. Markdown support. Data storage can be trusted and stable, thanks to github.  But my choice is Valine Oh my, after study utterances, I have to changed my choice to Valine:
+ utterances need to modify many theme files, I think I&amp;rsquo;ll forget where to restore it. utterances&amp;rsquo;s replies are not smart enough. utterances has more differ from github issue after all, it lost some great features like reply. utterances cannot display count of comments at home page. Valine not the best one but enough for me, except add emoji free to bottom line.  So, this post is just a study and successful attempt for utterances.
+Why not Gitment or Gitalk? Reference:
+ https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public https://blog.wolfogre.com/posts/security-problem-of-gitment/ " />
+    
+
+    
+    
+    <meta name="keywords" content="Hugo, theme, zozo, huifeng" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://wedojava.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/zozo.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/search.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Archive</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://wedojava.github.io">
+                    <span>回风舞雪</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Love My Love</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/wedojava" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://weibo.com/wedojava" title="weibo" target="_blank"><i class="ri-weibo-fill"></i></a>
+                
+                
+                <a href="https://wedojava.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/use-utteranc-as-hexo-comments/'>Use utterances as Hexo Next theme comments</a></h2>
+                        <span class="date">2019.08.09</span>
+                    </div>
+                    <div class="post_content markdown"><p>{% centerquote 王小波 %}
+人的一切痛苦，本质上都是对自己无能的愤怒。
+{% endcenterquote %}</p>
+<h2 id="why-utterances">Why Utterances?</h2>
+<ol>
+<li>The most similar comments to github issue.</li>
+<li>Emoji add free as github issue.</li>
+<li>Markdown support.</li>
+<li>Data storage can be trusted and stable, thanks to github.</li>
+</ol>
+<h2 id="but-my-choice-is-valine">But my choice is Valine</h2>
+<p>Oh my, after study utterances, I have to changed my choice to <a href="https://valine.js.org/">Valine</a>:</p>
+<ol>
+<li>utterances need to modify many theme files, I think I&rsquo;ll forget where to restore it.</li>
+<li>utterances&rsquo;s replies are not smart enough.</li>
+<li>utterances has more differ from github issue after all, it lost some great features like reply.</li>
+<li>utterances cannot display count of comments at home page.</li>
+<li>Valine not the best one but enough for me, except add emoji free to bottom line.</li>
+</ol>
+<p>So, this post is just a study and successful attempt for utterances.</p>
+<h2 id="why-not-gitment-or-gitalk">Why not Gitment or Gitalk?</h2>
+<p>Reference:</p>
+<ul>
+<li><a href="https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public">https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public</a></li>
+<li><a href="https://blog.wolfogre.com/posts/security-problem-of-gitment/">https://blog.wolfogre.com/posts/security-problem-of-gitment/</a></li>
+</ul>
+<h2 id="how-to-use-utterances">How to use Utterances?</h2>
+<p>Fill out: <a href="https://utteranc.es/">utterances</a> -&gt; configuration, you can get a script.</p>
+<p>Then:</p>
+<pre><code>touch &lt;your theme path&gt;/layout/_third-party/comments/utterances.swig
+vim &lt;your theme path&gt;/layout/_third-party/comments/utterances.swig
+</code></pre>
+<p>Add code below to <code>utterances.swig</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{% if theme.utterances.enable %}
+  &lt;script src=&#34;https://utteranc.es/client.js&#34;
+    repo=&#34;{{ theme.utterances.repo }}&#34;
+    issue-term=&#34;{{ theme.utterances.issue_term }}&#34;
+    label=&#34;{{ theme.utterances.label }}&#34;
+    theme=&#34;{{ theme.utterances.theme }}&#34;
+    crossorigin=&#34;anonymous&#34;
+    async&gt;
+  &lt;/script&gt;
+{% endif %}
+</code></pre></div><pre><code>vim &lt;your theme path&gt;/layout/_partials/comments.swig
+</code></pre>
+<p>Refer to the following to modify <code>comments.swig</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{% elseif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
+     &lt;div class=&#34;comments&#34; id=&#34;comments&#34;&gt;
+     &lt;/div&gt;
++
++  {% elseif theme.utterances.enable %}
++    &lt;div class=&#34;comments&#34; id=&#34;comments&#34;&gt;
++      {% include &#39;../_third-party/comments/utterances.swig&#39; %}
++    &lt;/div&gt;
+   {% endif %}
+</code></pre></div><pre><code>vim &lt;your theme path&gt;/_config.yml
+</code></pre>
+<p>Add following to _config.yml:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">utterances:
+  enable: true
+  repo: # owner/repo
+  issue_term: # pathname, url, title, og:title [ISSUE NUMBER] or [SPECIFIC TERM]
+  theme: # github-light or github-dark
+  label: 💬Comments  #  The label must exist in your repo, mine is 💬Comments
+</code></pre></div><p>{% note danger %}
+<strong>Tips:</strong></p>
+<ul>
+<li>currect format: <code>repo: # owner/repo</code></li>
+<li>wrong format:  <code>repo: # https://github.com/owner/repo.git</code>
+{% endnote %}</li>
+</ul>
+<hr>
+<p>Reference:</p>
+<blockquote>
+<p><a href="https://www.njphper.com/posts/a4cd94b2.html">https://www.njphper.com/posts/a4cd94b2.html</a>
+<a href="https://wangjiezhe.com/posts/2018-10-29-Hexo-NexT-3/">https://wangjiezhe.com/posts/2018-10-29-Hexo-NexT-3/</a></p>
+</blockquote>
+<p>EOF</p></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://wedojava.github.io/tags/hexo/">hexo</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/utterances/"> Utterances</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/next/"> next</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                
+<div class="doc_comments">
+    <div class="comments_block_title">发表评论</div>
+    <div id="vcomments"></div>
+</div>
+
+<link rel="stylesheet" href="https://wedojava.github.io/css/comments.css" />
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: 'yusajl3uDsnB888cn1ulQeKz-gzGzoHsz',
+        appKey: 'jYjHeNB1qVYREHe1zX4bRx7z',
+        placeholder: ' ',
+        visitor: 'true',
+    })
+</script>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>&gt;_ Simple Is Correct.</span>
+    </div>
+</footer>
+    <div id="fastSearch">
+   <input id="searchInput" tabindex="0">
+   <ul id="searchResults">
+   </ul>
+ </div>
+ <script src="/js/fuse.js"></script> 
+ <script src="/js/fastsearch.js"></script>
+<script src="https://wedojava.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://wedojava.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://wedojava.github.io/js/fancybox.min.js"></script>
+<script src="https://wedojava.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+
+</body>
+
+</html>

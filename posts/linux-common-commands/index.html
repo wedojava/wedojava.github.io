@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="wedojava" />
+	
+	
+	
+	<title>Linux 系统常用命令 ｜ 回风舞雪</title>
+	
+    
+    
+    <meta name="description" content="常用指令  ls　显示文件或目录  -l 列出文件详细信息l(list) -a 列出当前目录下所有文件及目录，包括隐藏的a(all)   mkdir 创建目录  -p 创建目录，若无父目录，则创建p(parent)   cd 切换目录 touch 创建空文件 echo 创建带有内容的文件。 cat 查看文件内容 cp 拷贝 " />
+    
+
+    
+    
+    <meta name="keywords" content="Hugo, theme, zozo, huifeng" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://wedojava.github.io/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.iocss/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/zozo.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/search.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://wedojava.github.io/css/highlight.css" />
+
+    
+    
+</head>
+
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Archive</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://wedojava.github.io">
+                    <span>回风舞雪</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Love My Love</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/wedojava" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://weibo.com/wedojava" title="weibo" target="_blank"><i class="ri-weibo-fill"></i></a>
+                
+                
+                <a href="https://wedojava.github.io/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/linux-common-commands/'>Linux 系统常用命令</a></h2>
+                        <span class="date">2015.08.10</span>
+                    </div>
+                    <div class="post_content markdown"><h2 id="常用指令">常用指令</h2>
+<ul>
+<li>ls　　        显示文件或目录
+<ul>
+<li>-l          列出文件详细信息l(list)</li>
+<li>-a         列出当前目录下所有文件及目录，包括隐藏的a(all)</li>
+</ul>
+</li>
+<li>mkdir         创建目录
+<ul>
+<li>-p         创建目录，若无父目录，则创建p(parent)</li>
+</ul>
+</li>
+<li>cd             切换目录</li>
+<li>touch        创建空文件</li>
+<li>echo          创建带有内容的文件。</li>
+<li>cat            查看文件内容</li>
+<li>cp             拷贝</li>
+</ul>
+<ul>
+<li>mv            移动或重命名</li>
+<li>rm            删除文件
+<ul>
+<li>-r           递归删除，可删除子目录及文件</li>
+<li>-f            强制删除</li>
+</ul>
+</li>
+<li>find           在文件系统中搜索某文件</li>
+<li>wc            统计文本中行数、字数、字符数</li>
+<li>grep         在文本文件中查找某个字符串</li>
+<li>rmdir        删除空目录</li>
+<li>tree          树形结构显示目录，需要安装tree包</li>
+<li>pwd          显示当前目录</li>
+<li>ln              创建链接文件</li>
+<li>more、less    分页显示文本文件内容</li>
+<li>head、tail     显示文件头、尾内容</li>
+<li>ctrl+alt+F1   命令行全屏模式</li>
+</ul>
+<h2 id="设定开机启动">设定开机启动</h2>
+<p>参考:https://mariadb.com/kb/zh-cn/iniciando-e-parando-mariadb-automaticamente/</p>
+<p>Ubuntu</p>
+<p>服务启动:<code>sudo /etc/init.d/mysql start</code>或<code>service mysql start</code></p>
+<p>CentOS 6</p>
+<p>在基于RPM的发行版系统(like Fedora and CentOS), 可以使用 <code>chkconfig</code>配置开机启动:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">chkconfig --add mysql
+chkconfig [--level 345] mysql on
+</code></pre></div><p>[&ndash;level 345]为可选项</p>
+<h2 id="系统管理命令">系统管理命令</h2>
+<ul>
+<li>stat              显示指定文件的详细信息，比ls更详细</li>
+<li>who               显示在线登陆用户</li>
+<li>whoami            显示当前操作用户</li>
+<li>hostname          显示主机名</li>
+<li>uname             显示系统简要信息
+<ul>
+<li>-a           显示系统完整信息</li>
+</ul>
+</li>
+<li>top               动态显示当前耗费资源最多进程信息</li>
+<li>ps                显示瞬间进程状态 ps aux
+<ul>
+<li>-ef          显示系统常驻进程</li>
+</ul>
+</li>
+<li>du                查看目录大小 du -h /home带有单位显示目录信息</li>
+<li>df                查看磁盘大小 df -h 带有单位显示磁盘信息</li>
+<li>ifconfig          查看网络情况</li>
+<li>ping              测试网络连通</li>
+<li>netstat           显示网络状态信息</li>
+<li>man               显示命令手册</li>
+<li>clear             清屏</li>
+<li>alias             对命令重命名 如：alias showmeit=”ps aux” ，另外解除使用unaliax showmeit</li>
+<li>kill              杀死进程，可以先用 ps 或 top 命令查看进程的id，然后再用kill命令杀死进程。</li>
+</ul>
+<h2 id="打包压缩相关命令">打包压缩相关命令</h2>
+<ul>
+<li>gzip：</li>
+<li>bzip2：</li>
+<li>tar:                打包压缩
+<ul>
+<li>-c             归档文件</li>
+<li>-x             解压缩文件</li>
+<li>-z             gzip压缩文件</li>
+<li>-j             bzip2压缩文件</li>
+<li>-v            显示压缩或解压缩过程 v(view)</li>
+<li>-f             使用档名</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>例：</p>
+</blockquote>
+<p>tar -cvf /home/abc.tar /home/abc              只打包，不压缩</p>
+<blockquote>
+</blockquote>
+<p>tar -zcvf /home/abc.tar.gz /home/abc        打包，并用gzip压缩</p>
+<blockquote>
+</blockquote>
+<p>tar -jcvf /home/abc.tar.bz2 /home/abc       打包，并用bzip2压缩</p>
+<pre><code>如果想解压缩，就直接替换上面的命令  tar -cvf  / tar -zcvf  / tar -jcvf 中的“c” 换成“x” 就可以了。
+</code></pre>
+<h2 id="关机重启机器">关机/重启机器</h2>
+<ul>
+<li>shutdown
+<ul>
+<li>-r              关机重启</li>
+<li>-h             关机不重启</li>
+<li>now          立刻关机</li>
+</ul>
+</li>
+<li>halt                关机</li>
+<li>reboot           重启</li>
+<li>init 0          立刻关机</li>
+<li>init 6          重启</li>
+</ul>
+<h2 id="linux管道">Linux管道</h2>
+<p>将一个命令的标准输出作为另一个命令的标准输入。也就是把几个命令组合起来使用，后一个命令处理前一个命令的输出结果。</p>
+<blockquote>
+<p>例：grep -r “close” /home/* | more       在home目录下所有文件中查找，包括close的文件，并分页输出。</p>
+</blockquote>
+<blockquote>
+<p>例: <code>cat text.txt &gt; tmp.txt</code> 或 <code>echo &quot;something&quot; &gt; tmp.txt</code> 会把前面的输出内容 <strong>覆盖</strong> 到tmp.txt里.</p>
+</blockquote>
+<blockquote>
+<p>例: <code>cat text.txt &gt;&gt; tmp.txt</code> 或 <code>echo &quot;something&quot; &gt;&gt; tmp.txt</code> 会把前面的输出内容 <strong>追加</strong> 到tmp.txt里.</p>
+</blockquote>
+<h2 id="linux软件包管理">Linux软件包管理</h2>
+<p>dpkg (Debian Package)管理工具，软件包名以.deb后缀。这种方法适合系统不能联网的情况下。
+比如安装tree命令的安装包，先将tree.deb传到Linux系统中。再使用如下命令安装。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo dpkg -i tree_1.5.3-1_i386.deb         安装软件
+sudo dpkg -r tree                          卸载软件
+
+</code></pre></div><p><strong>注：</strong></p>
+<ul>
+<li>
+<p>将tree.deb传到Linux系统中，有多种方式。VMwareTool，使用挂载方式；使用winSCP工具等；
+APT（Advanced Packaging Tool）高级软件工具。这种方法适合系统能够连接互联网的情况。</p>
+<ul>
+<li>
+<p>依然以tree为例:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo apt-get install tree                  安装tree
+sudo apt-get remove tree              卸载tree
+sudo apt-get update                      更新软件
+sudo apt-get upgrade
+</code></pre></div></li>
+<li>
+<p>将.rpm文件转为.deb文件</p>
+<p>.rpm为RedHat使用的软件格式。在Ubuntu下不能直接使用，所以需要转换一下。</p>
+<p><code>sudo alien filename.rpm</code></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="vim使用">vim使用</h2>
+<p>vim三种模式：命令模式、插入模式、编辑模式。使用ESC或i或：来切换模式。</p>
+<p>命令模式下：</p>
+<ul>
+<li>:q                      退出</li>
+<li>:q!                     强制退出</li>
+<li>:wq                     保存并退出</li>
+<li>:set number             显示行号</li>
+<li>:set nonumber           隐藏行号</li>
+<li>/apache                 在文档中查找字符apache，按n跳到下一个，shift+n上一个</li>
+<li>yyp                      复制光标所在行，并粘贴</li>
+<li>h(左移一个字符←)、j(下一行↓)、k(上一行↑)、l(右移一个字符→)</li>
+</ul>
+<h2 id="用户及用户组管理">用户及用户组管理</h2>
+<ul>
+<li>/etc/passwd      存储用户账号</li>
+<li>/etc/group        存储组账号</li>
+<li>/etc/shadow      存储用户账号的密码</li>
+<li>/etc/gshadow    存储用户组账号的密码</li>
+<li>useradd user      添加用户</li>
+<li>userdel user       删除用户</li>
+<li>groupadd user   添加组用户</li>
+<li>groupdel user    删除组用户</li>
+<li>passwd root      给用户root设置密码</li>
+<li>su root             临时提权到root用户</li>
+<li>su – root           切换到root用户</li>
+<li>/etc/profile        系统环境变量</li>
+<li>bash_profile      用户环境变量</li>
+<li>.bashrc             用户环境变量</li>
+<li>su user             切换用户，加载配置文件.bashrc</li>
+<li>su – user           切换用户，加载配置文件/etc/profile ，加载bash_profile</li>
+</ul>
+<h2 id="更改文件的用户及用户组">更改文件的用户及用户组</h2>
+<p><code>sudo chown [-R递归] owner[:group] {File|Directory}</code></p>
+<p>要想切换文件所属的用户及组。可以使用命令:</p>
+<p><code>sudo chown root:root rarlinux-x64-5.1.b3.tar.gz</code></p>
+<h2 id="文件权限管理">文件权限管理</h2>
+<p>三种基本权限</p>
+<p>R         读          数值表示为4</p>
+<p>W         写          数值表示为2</p>
+<p>X         可执行      数值表示为1</p>
+<h2 id="更改权限">更改权限</h2>
+<p><code>sudo chmod [u所属用户  g所属组  o其他用户  a所有用户]  [+增加权限  -减少权限]  [r  w  x]   目录名</code></p>
+<p>例如：有一个文件filename，权限为“-rw-r—-x” ,将权限值改为”-rwxrw-r-x”，用数值表示为765</p>
+<p><code>sudo chmod u+x g+w o+r  filename</code></p>
+<p>上面的例子可以用数值表示</p>
+<p><code>sudo chmod 765 filename</code></p></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://wedojava.github.io/tags/linux/">linux</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/%E5%91%BD%E4%BB%A4/"> 命令</a>
+                                    
+                                    <a href="https://wedojava.github.io/tags/vim/"> vim</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                
+<div class="doc_comments">
+    <div class="comments_block_title">发表评论</div>
+    <div id="vcomments"></div>
+</div>
+
+<link rel="stylesheet" href="https://wedojava.github.io/css/comments.css" />
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: 'yusajl3uDsnB888cn1ulQeKz-gzGzoHsz',
+        appKey: 'jYjHeNB1qVYREHe1zX4bRx7z',
+        placeholder: ' ',
+        visitor: 'true',
+    })
+</script>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>&gt;_ Simple Is Correct.</span>
+    </div>
+</footer>
+    <div id="fastSearch">
+   <input id="searchInput" tabindex="0">
+   <ul id="searchResults">
+   </ul>
+ </div>
+ <script src="/js/fuse.js"></script> 
+ <script src="/js/fastsearch.js"></script>
+<script src="https://wedojava.github.io/js/jquery-3.5.1.min.js"></script>
+<link href="https://wedojava.github.io/css/fancybox.min.css" rel="stylesheet">
+<script src="https://wedojava.github.io/js/fancybox.min.js"></script>
+<script src="https://wedojava.github.io/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+
+</body>
+
+</html>

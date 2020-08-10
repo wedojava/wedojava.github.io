@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> 前端 on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/%E5%89%8D%E7%AB%AF/</link>
+    <description>Recent content in  前端 on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 01 Sep 2015 21:18:48 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>跟着宁皓网学 SemanticUI 学习笔记(01)</title>
+      <link>https://wedojava.github.io/posts/ninghao-semantic-study-01/</link>
+      <pubDate>Tue, 01 Sep 2015 21:18:48 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/ninghao-semantic-study-01/</guid>
+      <description>&lt;p&gt;至于 SemanticUI 也做过一些调研，最后还是选择了它，最重要的原因是想跟着宁皓学学看，我想，任何界面框架，学好了都能做很多事情，有人说，semantic 太大，那么，你学好它，只 build 你需要的功能，它应该就满足你的需要了吧，而且，这个也许还不是我们页面的瓶颈。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

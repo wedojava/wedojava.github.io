@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> 用户 on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/%E7%94%A8%E6%88%B7/</link>
+    <description>Recent content in  用户 on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Aug 2015 20:46:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/%E7%94%A8%E6%88%B7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;问题:能解析html但不能解析php&#39;</title>
+      <link>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</link>
+      <pubDate>Mon, 10 Aug 2015 20:46:02 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</guid>
+      <description>&lt;p&gt;这种情况一般是因为权限问题导致的,最开始遇到这种情是用linuxeye的一键遇到的,共享出来和本地映射的文件夹里的php代码不能被解析,在虚拟机里查看文件夹环境,发现都是www的用户和用户组,但是怎么改都改不过来,在宿主机上怎么改owner也是徒劳,怎么办呢?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

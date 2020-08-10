@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HAProxy on 回风舞雪</title>
+    <link>https://wedojava.github.io/categories/haproxy/</link>
+    <description>Recent content in HAProxy on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Aug 2019 15:56:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/categories/haproxy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HAProxy Simple Usage</title>
+      <link>https://wedojava.github.io/posts/haproxy-simple-usage/</link>
+      <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/haproxy-simple-usage/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Reference:
+&lt;a href=&#34;http://cbonte.github.io/haproxy-dconv/1.9/configuration.html#2.5&#34;&gt;http://cbonte.github.io/haproxy-dconv/1.9/configuration.html#2.5&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;No introduce, no advanced usage, also no tutor for how to install, just config to implement proxy.&lt;/p&gt;
+&lt;p&gt;The case there is so easy so you can get sense of achivement quickly.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

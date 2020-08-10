@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network on 回风舞雪</title>
+    <link>https://wedojava.github.io/categories/network/</link>
+    <description>Recent content in Network on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jan 2020 19:35:36 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/categories/network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GNS3 Experience Setup and usage in linux</title>
+      <link>https://wedojava.github.io/posts/gns3-experience-simple-expriements/</link>
+      <pubDate>Mon, 13 Jan 2020 19:35:36 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/gns3-experience-simple-expriements/</guid>
+      <description>&lt;h1 id=&#34;install&#34;&gt;Install&lt;/h1&gt;
+&lt;p&gt;Reference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.gns3.com/1QXVIihk7dsOL7Xr7Bmz4zRzTsJ02wklfImGuHwTlaA4/index.html#&#34;&gt;GNS3 Installation on Linux &lt;/a&gt; 👈 no useful to Archlinux and Manjaro and no better than above! so sad!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/GNS3/dynamips&#34;&gt;Dynamips (Cisco Router Emulator)&lt;/a&gt; 👈 Official document for Dynamips&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://binarynature.blogspot.com/2015/11/install-configure-gns3-arch-linux.html&#34;&gt;Install and configure GNS3 on Arch Linux&lt;/a&gt; 👈 Very detailed and procise!&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@Ninja/install-gns3-on-arch-manjaro-linux-the-right-way-c5a3c4fa337d&#34;&gt;Install GNS3 on Arch / Manjaro Linux (The Right Way)&lt;/a&gt; 👈 Very detailed and procise!
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sirtoffski.github.io/Arch-GNS3-Helper/&#34;&gt;Arch-GNS3-Helper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

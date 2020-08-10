@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> epel on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/epel/</link>
+    <description>Recent content in  epel on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 10 Aug 2015 19:35:36 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/epel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>添加资源仓库</title>
+      <link>https://wedojava.github.io/posts/01-%E6%B7%BB%E5%8A%A0%E8%B5%84%E6%BA%90%E4%BB%93%E5%BA%93/</link>
+      <pubDate>Mon, 10 Aug 2015 19:35:36 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/01-%E6%B7%BB%E5%8A%A0%E8%B5%84%E6%BA%90%E4%BB%93%E5%BA%93/</guid>
+      <description>&lt;p&gt;由于centos自带的资源仓库里资源的版本不够新,所以我们选择添加两个资源仓库.&lt;/p&gt;
+&lt;p&gt;虚拟机从  &lt;a href=&#34;https://github.com/chef/bento&#34;&gt;https://github.com/chef/bento&lt;/a&gt;  找,安装好后,进行下面的步骤:&lt;/p&gt;
+&lt;p&gt;这里我安装了centos7.1版本&lt;/p&gt;
+&lt;p&gt;下面开始:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

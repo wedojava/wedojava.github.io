@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> VPN on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/vpn/</link>
+    <description>Recent content in  VPN on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 19 Dec 2015 20:15:38 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在Ubuntu和CentOS里用IPSec/IKEV2搭建VPN服务器</title>
+      <link>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Sat, 19 Dec 2015 20:15:38 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考文档：https://quericy.me/blog/512
+一键脚本：http://quericy.me/blog/699
+目前用的一键脚本：https://blog.ls20.com/ipsec-l2tp-vpn-auto-setup-for-ubuntu-12-04-on-amazon-ec2/
+一键脚本说明：https://github.com/hwdsl2/setup-ipsec-vpn&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;因为我的 vps 是 CentOS 系统，所以 Ubuntu 没测试，本日志主要记录我在 CentOS 上的各种操作。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

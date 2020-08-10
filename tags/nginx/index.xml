@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> nginx on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/nginx/</link>
+    <description>Recent content in  nginx on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2019 12:08:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to enable TLS in Nginx by Let&#39;s Encrypt</title>
+      <link>https://wedojava.github.io/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</link>
+      <pubDate>Fri, 16 Aug 2019 12:08:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</guid>
+      <description>&lt;p&gt;{% centerquote %}
+让你的网站 https 起来吧！
+{% endcenterquote %}&lt;/p&gt;
+&lt;h2 id=&#34;1-enable-tls&#34;&gt;1. Enable TLS&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reference:
+&lt;a href=&#34;https://letsencrypt.org&#34;&gt;https://letsencrypt.org&lt;/a&gt;
+&lt;a href=&#34;https://certbot.eff.org&#34;&gt;https://certbot.eff.org&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;11-setup-certbot&#34;&gt;1.1. Setup Certbot&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://fedoraproject.org/wiki/EPEL#How_can_I_use_these_extra_packages.3F&#34;&gt;Enable EPEL repo&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum install epel-release
+$ sudo yum install subscription-manager
+$ subscription-manager repos --enable &amp;quot;rhel-*-optional-rpms&amp;quot; --enable &amp;quot;rhel-*-extras-rpms&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are using CentOS, you can enable the optional channel by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum -y install yum-utils
+$ sudo yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rhel-server-optional
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After doing this, you can install Certbot by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum install certbot python2-certbot-nginx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If &lt;code&gt;No package certbot available.&lt;/code&gt; occur, try the below:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo yum install certbot-nginx
+&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    
+    <item>
+      <title>Install nginx php7 and config firewalld in CentOS 7.6</title>
+      <link>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
+      <pubDate>Wed, 16 Jan 2019 10:47:39 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
+      <description>&lt;h1 id=&#34;1-服务器环境&#34;&gt;1. 服务器环境&lt;/h1&gt;
+&lt;p&gt;系统：CentOS 7.6
+防火墙：firewalld&lt;/p&gt;
+&lt;h2 id=&#34;11-防火墙配置&#34;&gt;1.1. 防火墙配置&lt;/h2&gt;
+&lt;p&gt;此防火墙为 CentOS 7.6 自带自启动，默认没有任何通路出去，你只能从外面ping的通，ssh连接，其他什么也做不了。&lt;/p&gt;
+&lt;p&gt;下面我们开放两个端口，一个是 &lt;code&gt;80/TCP&lt;/code&gt; ，一个是自定义的ssh连接端口 &lt;code&gt;123/TCP&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;$ firewall-cmd --permanent --add-port=80/tcp
+$ firewall-cmd --permanent --add-port=123/tcp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;firewall-cmd：是Linux提供的操作firewall的一个工具;&lt;/li&gt;
+&lt;li&gt;&amp;ndash;permanent：表示设置为持久;&lt;/li&gt;
+&lt;li&gt;&amp;ndash;add-port：标识添加的端口;&lt;/li&gt;
+&lt;li&gt;&amp;ndash;zone=public:指定的zone为public(不加此参数默认都是添加到这里).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;默认的，通过命令行添加的规则会添加到文件： &lt;code&gt;/etc/firewalld/zones/public.xml&lt;/code&gt; .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LEMP/LNMP　环境搭建(Nginx1.10 &#43; PHP7)</title>
+      <link>https://wedojava.github.io/posts/lemp-step-to-step/</link>
+      <pubDate>Wed, 18 May 2016 18:38:05 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/lemp-step-to-step/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;更多文档请浏览官方文档和Wiki，这个很重要，其实文档里已经说的很清楚了，会遇到的Bug往往在回复里也有。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deploy Hexo sites to VPS</title>
+      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps/</link>
+      <pubDate>Sun, 16 Aug 2015 00:49:53 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;参考以下内容,感谢原作者,转载留个链接:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Berry的博客: 已消失&amp;hellip;&amp;hellip;
+添加新用户,SSH设置,参考了Linode官方帮助:&lt;a href=&#34;https://www.linode.com/docs/security/securing-your-server/&#34;&gt;Securing Your Server&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;两种方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在VPS上执行&lt;code&gt;hexo server&lt;/code&gt;，再配置Nginx反向代理，让blog的域名指向&lt;code&gt;http://localhost:4000&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在本地生成静态文件，把静态文件部署到VPS上，用Nginx直接做Web服务。(嗯,我喜欢这种,就用这种吧)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>&#39;问题:能解析html但不能解析php&#39;</title>
+      <link>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</link>
+      <pubDate>Mon, 10 Aug 2015 20:46:02 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</guid>
+      <description>&lt;p&gt;这种情况一般是因为权限问题导致的,最开始遇到这种情是用linuxeye的一键遇到的,共享出来和本地映射的文件夹里的php代码不能被解析,在虚拟机里查看文件夹环境,发现都是www的用户和用户组,但是怎么改都改不过来,在宿主机上怎么改owner也是徒劳,怎么办呢?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>&#39;问题:怎么修改页面都不生效&#39;</title>
+      <link>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</link>
+      <pubDate>Mon, 10 Aug 2015 20:44:08 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
+      <description>vagrant＋virtualbox 安装虚拟机会遇到服务器内容修改了但是页面不变化的问题 关闭Nginx的sendfile一项的属性: sudo vim /etc/nginx/nginx.conf 找到sendfile,将on改为off,保存关闭文件.</description>
+    </item>
+    
+    <item>
+      <title>常识不常识</title>
+      <link>https://wedojava.github.io/posts/%E5%B8%B8%E8%AF%86%E4%B8%8D%E5%B8%B8%E8%AF%86/</link>
+      <pubDate>Mon, 10 Aug 2015 20:41:25 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/%E5%B8%B8%E8%AF%86%E4%B8%8D%E5%B8%B8%E8%AF%86/</guid>
+      <description>&lt;h2 id=&#34;session目录的权限&#34;&gt;Session目录的权限&lt;/h2&gt;
+&lt;p&gt;php.ini文件里一般会定义session文件的路径,但是php-fpm配置文件会覆盖php.ini里的配置.&lt;/p&gt;
+&lt;p&gt;在&lt;code&gt;/etc/php-fpm.d/www.conf&lt;/code&gt;文件中,一般在底部会有&lt;code&gt;session.save_path&lt;/code&gt;,这里就是session文件的保存位置了&lt;/p&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>配置Nginx伪静态</title>
+      <link>https://wedojava.github.io/posts/07-%E9%85%8D%E7%BD%AEnginx%E4%BC%AA%E9%9D%99%E6%80%81/</link>
+      <pubDate>Mon, 10 Aug 2015 20:38:42 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/07-%E9%85%8D%E7%BD%AEnginx%E4%BC%AA%E9%9D%99%E6%80%81/</guid>
+      <description>&lt;p&gt;&lt;code&gt;sudo vim /etc/nginx/conf.d/default.conf&lt;/code&gt;(编辑其他配置文件也可)&lt;/p&gt;
+&lt;p&gt;在server{}里面再添加一个location区块,或在index 设置行的下面添加一行&lt;code&gt;include laravel.conf;&lt;/code&gt;(linuxeye一键包的方式)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;location / {
+  try_files $uri $uri/ /index.php?$query_string;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>配置Nginx处理PHP请求</title>
+      <link>https://wedojava.github.io/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</link>
+      <pubDate>Mon, 10 Aug 2015 20:36:34 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;运行&lt;code&gt;less /etc/php-fpm.conf&lt;/code&gt;查看配置,&lt;code&gt;include=/etc/php-fpm.d/*.conf&lt;/code&gt;一行说明只要在这个目录下的&lt;code&gt;conf&lt;/code&gt;类型的文件都会被包含到配置里.该目录下会有一个www.conf的文件,为默认配置文件.
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;listen = 127.0.0.1:9000&lt;/code&gt;表示监听地址,如果有请求是PHP脚本就发送到这个地址,可以理解为PHP脚本是通过该地址的服务来解析的.可以是IP地址加端口号,也可以用socket的方式,socket方式更安全些.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;修改Nginx的配置文件,在之前已经添加了!文件是:&lt;code&gt;/etc/nginx/conf.d/default.conf&lt;/code&gt;,通过vi编辑器继续修改,添加nginx对php类文件的解析设置:&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>配置Nginx虚拟主机</title>
+      <link>https://wedojava.github.io/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</link>
+      <pubDate>Mon, 10 Aug 2015 20:34:37 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</guid>
+      <description>&lt;h2 id=&#34;完全diy配置的情况&#34;&gt;完全DIY配置的情况&lt;/h2&gt;
+&lt;p&gt;默认情况下是安装在&lt;code&gt;/etc/nginx&lt;/code&gt;目录下的:&lt;code&gt;nginx.conf&lt;/code&gt;是主配置文件,里面有一个&lt;strong&gt;server&lt;/strong&gt;区块是默认的,刚安装好打开的默认页面就是这里所设定的.&lt;code&gt;include /etc/nginx/conf.d/*.conf;&lt;/code&gt;一行就是将所有conf.d目录下的所有.conf的配置文件全部加载进来,这样的话,我们要配置新的虚拟目录只需要将在该目录下添加.conf的配置文件即可,不同的站点可以是不同的配置文件.可以先配置一个模板型conf文件,比如我们可以先把自带的default.conf文件配置下:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>安装Web服务器：Nginx</title>
+      <link>https://wedojava.github.io/posts/04-%E5%AE%89%E8%A3%85web%E6%9C%8D%E5%8A%A1%E5%99%A8nginx/</link>
+      <pubDate>Mon, 10 Aug 2015 20:32:33 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/04-%E5%AE%89%E8%A3%85web%E6%9C%8D%E5%8A%A1%E5%99%A8nginx/</guid>
+      <description>这个简单，直接上命令： sudo yum install -y nginx 启动服务：sudo systemctl start nginx 检查服务：systemctl status nginx 设为启动项：sudo systemctl enable nginx</description>
+    </item>
+    
+  </channel>
+</rss>

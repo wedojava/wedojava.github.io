@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> next on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/next/</link>
+    <description>Recent content in  next on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Aug 2019 16:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/next/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Use utterances as Hexo Next theme comments</title>
+      <link>https://wedojava.github.io/posts/use-utteranc-as-hexo-comments/</link>
+      <pubDate>Fri, 09 Aug 2019 16:00:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/use-utteranc-as-hexo-comments/</guid>
+      <description>&lt;p&gt;{% centerquote 王小波 %}
+人的一切痛苦，本质上都是对自己无能的愤怒。
+{% endcenterquote %}&lt;/p&gt;
+&lt;h2 id=&#34;why-utterances&#34;&gt;Why Utterances?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The most similar comments to github issue.&lt;/li&gt;
+&lt;li&gt;Emoji add free as github issue.&lt;/li&gt;
+&lt;li&gt;Markdown support.&lt;/li&gt;
+&lt;li&gt;Data storage can be trusted and stable, thanks to github.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;but-my-choice-is-valine&#34;&gt;But my choice is Valine&lt;/h2&gt;
+&lt;p&gt;Oh my, after study utterances, I have to changed my choice to &lt;a href=&#34;https://valine.js.org/&#34;&gt;Valine&lt;/a&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;utterances need to modify many theme files, I think I&amp;rsquo;ll forget where to restore it.&lt;/li&gt;
+&lt;li&gt;utterances&amp;rsquo;s replies are not smart enough.&lt;/li&gt;
+&lt;li&gt;utterances has more differ from github issue after all, it lost some great features like reply.&lt;/li&gt;
+&lt;li&gt;utterances cannot display count of comments at home page.&lt;/li&gt;
+&lt;li&gt;Valine not the best one but enough for me, except add emoji free to bottom line.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, this post is just a study and successful attempt for utterances.&lt;/p&gt;
+&lt;h2 id=&#34;why-not-gitment-or-gitalk&#34;&gt;Why not Gitment or Gitalk?&lt;/h2&gt;
+&lt;p&gt;Reference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public&#34;&gt;https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.wolfogre.com/posts/security-problem-of-gitment/&#34;&gt;https://blog.wolfogre.com/posts/security-problem-of-gitment/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

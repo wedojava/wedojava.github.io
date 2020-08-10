@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> C on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/c/</link>
+    <description>Recent content in  C on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Aug 2019 15:56:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Capture Screen or Screen Shot [C/C&#43;&#43; win32 api]</title>
+      <link>https://wedojava.github.io/posts/c-capturescreen-screenshot/</link>
+      <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/c-capturescreen-screenshot/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Reference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://causeyourestuck.io/2016/01/12/screenshot-c-win32-api/&#34;&gt;Screenshot C++ win32 api&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gist.github.com/rdp/9821698&#34;&gt;https://gist.github.com/rdp/9821698&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/997175/how-can-i-take-a-screenshot-and-save-it-as-jpeg-on-windows&#34;&gt;How can I take a screenshot and save it as JPEG on Windows?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/win32/gdiplus/-gdiplus-converting-a-bmp-image-to-a-png-image-use&#34;&gt;Converting a BMP Image to a PNG Image&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.microsoft.com/en-us/windows/win32/gdiplus/-gdiplus-retrieving-the-class-identifier-for-an-encoder-use&#34;&gt;Retrieving the Class Identifier for an Encoder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/sqn614/article/details/71105117&#34;&gt;c++链接时，无法解析的外部符号 _GdipAlloc等一系列报错&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I implemented screen shot from two methods, this post decription the way use [C/C++ win32 api] to get it, Python edition for screen shot is more easy than this, I&amp;rsquo;ll release it late also.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Program C Basic Tips [C/C&#43;&#43;]</title>
+      <link>https://wedojava.github.io/posts/program-c-basic-tips/</link>
+      <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/program-c-basic-tips/</guid>
+      <description>&lt;p&gt;Continuous update!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

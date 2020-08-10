@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> pcap on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/pcap/</link>
+    <description>Recent content in  pcap on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Feb 2020 17:01:42 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/pcap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install openssh to redhat 6.3 via source</title>
+      <link>https://wedojava.github.io/posts/installopensshonredhatviasource/</link>
+      <pubDate>Thu, 27 Feb 2020 17:01:42 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/installopensshonredhatviasource/</guid>
+      <description>&lt;p&gt;This post is the log for compile source and install some package to linux, yeah, it&amp;rsquo;ll fit to offline install while you&amp;rsquo;re download packages before.&lt;/p&gt;
+&lt;h1 id=&#34;download&#34;&gt;Download&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;openssh-7.5p1 (This is the last version support: ssh protocal &amp;lt; 1.5 ) -&amp;gt; &lt;a href=&#34;https://cdn.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-7.5p1.tar.gz&#34;&gt;Download now&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;zlib-devel -&amp;gt; &lt;a href=&#34;https://www.zlib.net/zlib-1.2.11.tar.gz&#34;&gt;Download now&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;openssl-fip -&amp;gt; &lt;a href=&#34;https://www.openssl.org/source/openssl-fips-2.0.16.tar.gz&#34;&gt;Download now&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;openssl-1.0.2u -&amp;gt; &lt;a href=&#34;https://github.com/openssl/openssl/releases/tag/OpenSSL_1_0_2u&#34;&gt;Download now&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

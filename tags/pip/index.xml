@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> pip on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/pip/</link>
+    <description>Recent content in  pip on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Oct 2018 23:17:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/pip/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install pip to Ubuntu 18.04</title>
+      <link>https://wedojava.github.io/posts/install-pip-2-ubuntu-18/</link>
+      <pubDate>Thu, 11 Oct 2018 23:17:53 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/install-pip-2-ubuntu-18/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考文档:
+&lt;a href=&#34;https://www.linuxidc.com/Linux/2018-05/152390.htm&#34;&gt;https://www.linuxidc.com/Linux/2018-05/152390.htm&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本文只讲重点!&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

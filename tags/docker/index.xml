@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/docker/</link>
+    <description>Recent content in docker on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Jan 2019 10:47:39 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install nginx php7 and config firewalld in CentOS 7.6</title>
+      <link>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
+      <pubDate>Wed, 16 Jan 2019 10:47:39 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
+      <description>&lt;h1 id=&#34;1-服务器环境&#34;&gt;1. 服务器环境&lt;/h1&gt;
+&lt;p&gt;系统：CentOS 7.6
+防火墙：firewalld&lt;/p&gt;
+&lt;h2 id=&#34;11-防火墙配置&#34;&gt;1.1. 防火墙配置&lt;/h2&gt;
+&lt;p&gt;此防火墙为 CentOS 7.6 自带自启动，默认没有任何通路出去，你只能从外面ping的通，ssh连接，其他什么也做不了。&lt;/p&gt;
+&lt;p&gt;下面我们开放两个端口，一个是 &lt;code&gt;80/TCP&lt;/code&gt; ，一个是自定义的ssh连接端口 &lt;code&gt;123/TCP&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;$ firewall-cmd --permanent --add-port=80/tcp
+$ firewall-cmd --permanent --add-port=123/tcp
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol&gt;
+&lt;li&gt;firewall-cmd：是Linux提供的操作firewall的一个工具;&lt;/li&gt;
+&lt;li&gt;&amp;ndash;permanent：表示设置为持久;&lt;/li&gt;
+&lt;li&gt;&amp;ndash;add-port：标识添加的端口;&lt;/li&gt;
+&lt;li&gt;&amp;ndash;zone=public:指定的zone为public(不加此参数默认都是添加到这里).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;默认的，通过命令行添加的规则会添加到文件： &lt;code&gt;/etc/firewalld/zones/public.xml&lt;/code&gt; .&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker-Install-Log</title>
+      <link>https://wedojava.github.io/posts/docker-install-log/</link>
+      <pubDate>Wed, 17 Feb 2016 11:07:48 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/docker-install-log/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gitbook.com/book/yeasy/docker_practice/details&#34;&gt;Docker —— 从入门到实践&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.docker.com/linux/&#34;&gt;Docker官方-Linux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

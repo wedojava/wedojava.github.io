@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title> hexo on 回风舞雪</title>
+    <link>https://wedojava.github.io/tags/hexo/</link>
+    <description>Recent content in  hexo on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Jul 2020 18:15:55 +0800</lastBuildDate>
+    
+	<atom:link href="https://wedojava.github.io/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hexo转到hugo，有些经验和脚本希望能帮到大家</title>
+      <link>https://wedojava.github.io/posts/hexo2hugo/</link>
+      <pubDate>Sun, 26 Jul 2020 18:15:55 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/hexo2hugo/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;干货：从hexo转到hugo写了个python3的脚本: &lt;a href=&#34;https://gist.github.com/wedojava/aab3a975858fbbbab4e0b3300ad7e1c8&#34;&gt;migrate hexo to hugo&lt;/a&gt;，毕竟快一年没用Python了，如果有问题欢迎骚扰.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;更多参考：https://gohugo.io/hosting-and-deployment/hosting-on-github/&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Use utterances as Hexo Next theme comments</title>
+      <link>https://wedojava.github.io/posts/use-utteranc-as-hexo-comments/</link>
+      <pubDate>Fri, 09 Aug 2019 16:00:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/use-utteranc-as-hexo-comments/</guid>
+      <description>&lt;p&gt;{% centerquote 王小波 %}
+人的一切痛苦，本质上都是对自己无能的愤怒。
+{% endcenterquote %}&lt;/p&gt;
+&lt;h2 id=&#34;why-utterances&#34;&gt;Why Utterances?&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;The most similar comments to github issue.&lt;/li&gt;
+&lt;li&gt;Emoji add free as github issue.&lt;/li&gt;
+&lt;li&gt;Markdown support.&lt;/li&gt;
+&lt;li&gt;Data storage can be trusted and stable, thanks to github.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;but-my-choice-is-valine&#34;&gt;But my choice is Valine&lt;/h2&gt;
+&lt;p&gt;Oh my, after study utterances, I have to changed my choice to &lt;a href=&#34;https://valine.js.org/&#34;&gt;Valine&lt;/a&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;utterances need to modify many theme files, I think I&amp;rsquo;ll forget where to restore it.&lt;/li&gt;
+&lt;li&gt;utterances&amp;rsquo;s replies are not smart enough.&lt;/li&gt;
+&lt;li&gt;utterances has more differ from github issue after all, it lost some great features like reply.&lt;/li&gt;
+&lt;li&gt;utterances cannot display count of comments at home page.&lt;/li&gt;
+&lt;li&gt;Valine not the best one but enough for me, except add emoji free to bottom line.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, this post is just a study and successful attempt for utterances.&lt;/p&gt;
+&lt;h2 id=&#34;why-not-gitment-or-gitalk&#34;&gt;Why not Gitment or Gitalk?&lt;/h2&gt;
+&lt;p&gt;Reference:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public&#34;&gt;https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.wolfogre.com/posts/security-problem-of-gitment/&#34;&gt;https://blog.wolfogre.com/posts/security-problem-of-gitment/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deploy Hexo to VPS By Caddy And Webhooks(Python)</title>
+      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</link>
+      <pubDate>Thu, 11 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</guid>
+      <description>&lt;p&gt;There are steps to make Hexo works well with caddy, github webhooks and service script write by python3.&lt;/p&gt;
+&lt;p&gt;Why not nginx, because I know well about it, I think, and now I want to try caddy.&lt;/p&gt;
+&lt;p&gt;Why not git to deploy it？ &lt;a href=&#34;https://huifeng.me/2015/08/16/deploy-hexo-to-vps/&#34;&gt;This is the way to use git for deployment&lt;/a&gt;. But it was outdated or I think, use webhooks and caddy maybe the pop and better way than that.&lt;/p&gt;
+&lt;p&gt;This is not as common use for webhooks, the main idear for easy to write hexo blog is follow:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;One github&amp;rsquo;s repository cloned at your local system: Only write your md files at there.
+Two folders at VPS to clone your md files and generate by hexo for deploy.&lt;/p&gt;
+&lt;p&gt;Advantage:
+Write blog so easy, just write down and push to github.
+Generate at server, so you never need install hexo to your local system, so you can write and push anywhere have git installed
+Generate at server, so it will stable and faster than local.&lt;/p&gt;
+&lt;p&gt;Disadvantage:
+Many settings and preparations at VPS.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;My System environment:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local: Windows 10&lt;/li&gt;
+&lt;li&gt;VPS: Ubuntu 18.04 LTS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;OK, let&amp;rsquo;s GO!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Outline:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Preparation for your host: git&lt;/li&gt;
+&lt;li&gt;Preparation for your VPS: git, Node.js, Hexo, webhook scripts&lt;/li&gt;
+&lt;li&gt;Install and config Caddy to your VPS&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Deploy Hexo sites to VPS</title>
+      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps/</link>
+      <pubDate>Sun, 16 Aug 2015 00:49:53 +0800</pubDate>
+      
+      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;参考以下内容,感谢原作者,转载留个链接:&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Berry的博客: 已消失&amp;hellip;&amp;hellip;
+添加新用户,SSH设置,参考了Linode官方帮助:&lt;a href=&#34;https://www.linode.com/docs/security/securing-your-server/&#34;&gt;Securing Your Server&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;两种方法&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在VPS上执行&lt;code&gt;hexo server&lt;/code&gt;，再配置Nginx反向代理，让blog的域名指向&lt;code&gt;http://localhost:4000&lt;/code&gt;。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在本地生成静态文件，把静态文件部署到VPS上，用Nginx直接做Web服务。(嗯,我喜欢这种,就用这种吧)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
