@@ -12,7 +12,8 @@
 	
     
     
-    <meta name="description" content="Hi there, my hugo have three repos:
+    <meta name="description" content="First of all, I will never use coding.net or gitee for my blog repos deploy, they are not confortable to me, so sad, so bad.
+My hugo have three repos:
  hugo(hugo resource, private repo) - root zozo(theme/zozo, private repo) - submodule public(html files, public repo) - submodule  Maybe, you have this structure too.
 I clone my repo hugo to my other desktop, but theme and public folders are blank.
 Now, fix it!
@@ -102,7 +103,8 @@ Now, fix it!
                         <h2><a href='/posts/clonehugotootherdesktop/'>Clone Hugo To Other Desktop</a></h2>
                         <span class="date">2020.07.30</span>
                     </div>
-                    <div class="post_content markdown"><p>Hi there, my hugo have three repos:</p>
+                    <div class="post_content markdown"><p>First of all, I will never use coding.net or gitee for my blog repos deploy, they are not confortable to me, so sad, so bad.</p>
+<p>My hugo have three repos:</p>
 <ol>
 <li>hugo(hugo resource, private repo) - root</li>
 <li>zozo(theme/zozo, private repo) - submodule</li>
@@ -112,12 +114,18 @@ Now, fix it!
 I clone my repo <code>hugo</code> to my other desktop, but <code>theme</code> and <code>public</code> folders are blank.<br>
 Now, fix it!</p>
 <h1 id="reference">Reference:</h1>
-<p><a href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97">https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97</a></p>
+<p><a href="https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97">https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97</a><br>
+<a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/</a></p>
 <h1 id="how">How:</h1>
+<h2 id="1-just-for-submodules-folders-empty">1. Just for submodules folders empty</h2>
 <ol>
 <li>make sure <code>.gitmodule</code> is correct.</li>
-<li>run <code>git submodule update</code> to update</li>
+<li>maybe <code>.gitmodule</code> sames right, but cannot work, <code>git submodule sync</code>.</li>
+<li>run <code>git submodule init</code> then <code>git submodule update</code> to update</li>
 </ol>
+<h2 id="2-even-not-cloned">2. Even not cloned</h2>
+<p>Just run <code>git clone https://github.com/wedojava/blog.git --recurse-submodules</code>, after this, submodules will be fetched done.
+then, you may make some changes, need push, just do it, but notion that, cd your submodule folders and push them first may give you best wishes.</p>
 <h1 id="issue">Issue:</h1>
 <p>If some submodule cannot push and at the weird branch, just go to that path, run <code>git switch master</code> then <code>git push</code> or <code>git pull</code>.</p>
 <hr>
