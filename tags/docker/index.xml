@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/docker/</link>
+    <link>https://huifeng.me/tags/docker/</link>
     <description>Recent content in docker on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Jan 2019 10:47:39 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install nginx php7 and config firewalld in CentOS 7.6</title>
-      <link>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
+      <link>https://huifeng.me/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
       <pubDate>Wed, 16 Jan 2019 10:47:39 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
+      <guid>https://huifeng.me/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
       <description>&lt;h1 id=&#34;1-服务器环境&#34;&gt;1. 服务器环境&lt;/h1&gt;
 &lt;p&gt;系统：CentOS 7.6
 防火墙：firewalld&lt;/p&gt;
@@ -37,10 +37,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>Docker-Install-Log</title>
-      <link>https://wedojava.github.io/posts/docker-install-log/</link>
+      <link>https://huifeng.me/posts/docker-install-log/</link>
       <pubDate>Wed, 17 Feb 2016 11:07:48 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/docker-install-log/</guid>
+      <guid>https://huifeng.me/posts/docker-install-log/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;参考：&lt;/p&gt;
 &lt;/blockquote&gt;

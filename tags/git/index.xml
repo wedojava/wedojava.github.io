@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/git/</link>
+    <link>https://huifeng.me/tags/git/</link>
     <description>Recent content in git on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 30 Jul 2020 19:36:42 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Clone Hugo To Other Desktop</title>
-      <link>https://wedojava.github.io/posts/clonehugotootherdesktop/</link>
+      <link>https://huifeng.me/posts/clonehugotootherdesktop/</link>
       <pubDate>Thu, 30 Jul 2020 19:36:42 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/clonehugotootherdesktop/</guid>
+      <guid>https://huifeng.me/posts/clonehugotootherdesktop/</guid>
       <description>&lt;p&gt;Hi there, my hugo have three repos:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;hugo(hugo resource, private repo) - root&lt;/li&gt;
@@ -30,10 +30,10 @@ Now, fix it!&lt;/p&gt;</description>
     
     <item>
       <title>Git Tips</title>
-      <link>https://wedojava.github.io/posts/gittips/</link>
+      <link>https://huifeng.me/posts/gittips/</link>
       <pubDate>Sun, 26 Jul 2020 20:08:36 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/gittips/</guid>
+      <guid>https://huifeng.me/posts/gittips/</guid>
       <description>&lt;h1 id=&#34;-constantly&#34;&gt;# Constantly&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;# git remote add
 git remote add origin https://e.coding.net/wedojava/hugo/zozo.git
@@ -49,10 +49,10 @@ git config --global user.email &amp;#34;wedojava@gmail.com&amp;#34;
     
     <item>
       <title>Git劈腿实战:让项目脚踩两条船</title>
-      <link>https://wedojava.github.io/posts/git-push-and-backup-to-coding/</link>
+      <link>https://huifeng.me/posts/git-push-and-backup-to-coding/</link>
       <pubDate>Thu, 27 Aug 2015 17:55:02 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/git-push-and-backup-to-coding/</guid>
+      <guid>https://huifeng.me/posts/git-push-and-backup-to-coding/</guid>
       <description>&lt;p&gt;如何让你的项目可以劈腿呢?可以同时向两个位置push呢?如何实现github和coding上代码同步呢?
 其实将代码同时放到GitHub和Coding上在本地看来,就是需要两次push,两次push的名称不同
 一次是默认的,比如我的主要库是在GitHub上的&lt;code&gt;origin master&lt;/code&gt;,
@@ -61,10 +61,10 @@ git config --global user.email &amp;#34;wedojava@gmail.com&amp;#34;
     
     <item>
       <title>Mac OSX 系统下通过 ProxyChains-NG 实现终端（命令行）翻墙</title>
-      <link>https://wedojava.github.io/posts/proxychains-ng-4-osx-setting/</link>
+      <link>https://huifeng.me/posts/proxychains-ng-4-osx-setting/</link>
       <pubDate>Sun, 23 Aug 2015 14:29:56 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/proxychains-ng-4-osx-setting/</guid>
+      <guid>https://huifeng.me/posts/proxychains-ng-4-osx-setting/</guid>
       <description>&lt;p&gt;起因:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我中华大地大局域网风云变幻,目前&lt;code&gt;git push&lt;/code&gt; &lt;code&gt;git pull&lt;/code&gt;  &lt;code&gt;git clone&lt;/code&gt;等,单反需要访问真互联网的操作总让人痛心!痛彻心扉~~
@@ -75,10 +75,10 @@ git config --global user.email &amp;#34;wedojava@gmail.com&amp;#34;
     
     <item>
       <title>Deploy Hexo sites to VPS</title>
-      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps/</link>
+      <link>https://huifeng.me/posts/deploy-hexo-to-vps/</link>
       <pubDate>Sun, 16 Aug 2015 00:49:53 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps/</guid>
+      <guid>https://huifeng.me/posts/deploy-hexo-to-vps/</guid>
       <description>&lt;p&gt;&lt;strong&gt;参考以下内容,感谢原作者,转载留个链接:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Berry的博客: 已消失&amp;hellip;&amp;hellip;

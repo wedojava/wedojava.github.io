@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> vim on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/vim/</link>
+    <link>https://huifeng.me/tags/vim/</link>
     <description>Recent content in  vim on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 22 Jan 2020 17:01:42 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Right way install Context (right menu)</title>
-      <link>https://wedojava.github.io/posts/context-right-menu/</link>
+      <link>https://huifeng.me/posts/context-right-menu/</link>
       <pubDate>Wed, 22 Jan 2020 17:01:42 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/context-right-menu/</guid>
+      <guid>https://huifeng.me/posts/context-right-menu/</guid>
       <description>&lt;p&gt;如何添加系统右键菜单? 我把我的全收集在这里!&lt;/p&gt;
 &lt;p&gt;Reference: &lt;a href=&#34;https://www.zhihu.com/question/48091139&#34;&gt;https://www.zhihu.com/question/48091139&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;how-to&#34;&gt;How to&lt;/h2&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>Linux 系统常用命令</title>
-      <link>https://wedojava.github.io/posts/linux-common-commands/</link>
+      <link>https://huifeng.me/posts/linux-common-commands/</link>
       <pubDate>Mon, 10 Aug 2015 19:21:30 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/linux-common-commands/</guid>
+      <guid>https://huifeng.me/posts/linux-common-commands/</guid>
       <description>&lt;h2 id=&#34;常用指令&#34;&gt;常用指令&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ls　　        显示文件或目录

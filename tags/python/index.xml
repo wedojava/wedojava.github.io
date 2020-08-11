@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> python on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/python/</link>
+    <link>https://huifeng.me/tags/python/</link>
     <description>Recent content in  python on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Jul 2019 11:50:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Binary I/O operation</title>
-      <link>https://wedojava.github.io/posts/binary-io-operation/</link>
+      <link>https://huifeng.me/posts/binary-io-operation/</link>
       <pubDate>Fri, 26 Jul 2019 11:50:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/binary-io-operation/</guid>
+      <guid>https://huifeng.me/posts/binary-io-operation/</guid>
       <description>I coped with character type coversion to let it looks like c type, and search bytes from *.dll to modify it. so, there is sth I learned and written down here.
 # Binary I/O operation Define!
 def hex_read(filepath: str) -&amp;gt; bytearray: if os.path.isfile(filepath): with open(filepath, &amp;#39;rb&amp;#39;) as f: data = bytearray(f.read()) return data Usage:
@@ -26,10 +26,10 @@ index_start = dll_data.find(b&amp;#39;\x85\x69\xf0\x7f&amp;#39;) index_end = ind
     
     <item>
       <title>Hex byte string int coversion</title>
-      <link>https://wedojava.github.io/posts/hex-b-str-int-switch-in-python/</link>
+      <link>https://huifeng.me/posts/hex-b-str-int-switch-in-python/</link>
       <pubDate>Fri, 26 Jul 2019 09:56:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/hex-b-str-int-switch-in-python/</guid>
+      <guid>https://huifeng.me/posts/hex-b-str-int-switch-in-python/</guid>
       <description>Reference:
  https://docs.python.org/zh-cn/3/library/stdtypes.html https://docs.python.org/zh-cn/3/library/struct.html   # Python Types Coversion hey, there are some usefull features below, I will update at intervals:
 bit_length() New in version 3.1:
@@ -41,10 +41,10 @@ In [70]: struct.unpack(&amp;quot;I&amp;quot;, b&#39;\x57\x23\x02\x00&#39;) Out[7
     
     <item>
       <title>Deploy Hexo to VPS By Caddy And Webhooks(Python)</title>
-      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</link>
+      <link>https://huifeng.me/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</link>
       <pubDate>Thu, 11 Jul 2019 12:00:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</guid>
+      <guid>https://huifeng.me/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</guid>
       <description>&lt;p&gt;There are steps to make Hexo works well with caddy, github webhooks and service script write by python3.&lt;/p&gt;
 &lt;p&gt;Why not nginx, because I know well about it, I think, and now I want to try caddy.&lt;/p&gt;
 &lt;p&gt;Why not git to deploy it？ &lt;a href=&#34;https://huifeng.me/2015/08/16/deploy-hexo-to-vps/&#34;&gt;This is the way to use git for deployment&lt;/a&gt;. But it was outdated or I think, use webhooks and caddy maybe the pop and better way than that.&lt;/p&gt;
@@ -75,10 +75,10 @@ Many settings and preparations at VPS.&lt;/p&gt;
     
     <item>
       <title>Install pip to Ubuntu 18.04</title>
-      <link>https://wedojava.github.io/posts/install-pip-2-ubuntu-18/</link>
+      <link>https://huifeng.me/posts/install-pip-2-ubuntu-18/</link>
       <pubDate>Thu, 11 Oct 2018 23:17:53 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/install-pip-2-ubuntu-18/</guid>
+      <guid>https://huifeng.me/posts/install-pip-2-ubuntu-18/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;参考文档:
 &lt;a href=&#34;https://www.linuxidc.com/Linux/2018-05/152390.htm&#34;&gt;https://www.linuxidc.com/Linux/2018-05/152390.htm&lt;/a&gt;&lt;/p&gt;

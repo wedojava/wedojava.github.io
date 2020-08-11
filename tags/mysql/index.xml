@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> MySQL on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/mysql/</link>
+    <link>https://huifeng.me/tags/mysql/</link>
     <description>Recent content in  MySQL on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 19 May 2016 12:23:57 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LAMP环境搭建(Ubuntu14.04 For OwnCloud)</title>
-      <link>https://wedojava.github.io/posts/lamp-stepbystep/</link>
+      <link>https://huifeng.me/posts/lamp-stepbystep/</link>
       <pubDate>Thu, 19 May 2016 12:23:57 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/lamp-stepbystep/</guid>
+      <guid>https://huifeng.me/posts/lamp-stepbystep/</guid>
       <description>&lt;p&gt;本日志主要记录我配置OwnCloud环境的过程,注意,针对OwnCloud,至于某些模块开启和关闭问题,可以根据具体情况自行调整.另外我操作的系统是Ubuntu14.04LTS.
 这里推荐一个很不错的文档位置:https://www.linode.com/docs/&lt;/p&gt;
 &lt;p&gt;感悟:&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>Owncloud　安装实录(Apache2.4&#43;PHP7&#43;MariaDB10)</title>
-      <link>https://wedojava.github.io/posts/owncloud-install/</link>
+      <link>https://huifeng.me/posts/owncloud-install/</link>
       <pubDate>Tue, 03 May 2016 11:29:51 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/owncloud-install/</guid>
+      <guid>https://huifeng.me/posts/owncloud-install/</guid>
       <description>&lt;p&gt;本来是用的　Homestead　box　虚拟机环境，但是遇到些问题，看到官方例子是用　Apache，并且官方推荐是用Apache 的 mod_php　来解析PHP。这里记录下整个过程。So many chores beat me?No chores can beat me.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;由于是打算用作运维的环境搭建，所以一切跟着官方文档做吧。
@@ -43,10 +43,10 @@
     
     <item>
       <title>安装数据库管理系统MariaDB(MySQL)</title>
-      <link>https://wedojava.github.io/posts/02-%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fmariadb-or-mysql/</link>
+      <link>https://huifeng.me/posts/02-%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fmariadb-or-mysql/</link>
       <pubDate>Mon, 10 Aug 2015 19:40:49 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/02-%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fmariadb-or-mysql/</guid>
+      <guid>https://huifeng.me/posts/02-%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fmariadb-or-mysql/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Maria数据库具体可以搜索看，完全可以替代了MySQL数据库，推荐使用MySQL原作者以自己女儿命名的开源数据库Maria，MySQL被Oracle收下了。恩恩。。&lt;/p&gt;
 &lt;/blockquote&gt;

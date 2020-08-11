@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Laravel on 回风舞雪</title>
-    <link>https://wedojava.github.io/categories/laravel/</link>
+    <link>https://huifeng.me/categories/laravel/</link>
     <description>Recent content in Laravel on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Dec 2015 13:53:07 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/categories/laravel/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/categories/laravel/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>laravel-artisan-model-常用命令</title>
-      <link>https://wedojava.github.io/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://huifeng.me/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Thu, 31 Dec 2015 13:53:07 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://huifeng.me/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>&lt;p&gt;常常会用到 artisan 的一些命令，往往要去查文档，翻弄半天，不方便，这里归纳在这里&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>laravel-服务提供者-我是这么理解的</title>
-      <link>https://wedojava.github.io/posts/laravel-%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85-%E6%88%91%E6%98%AF%E8%BF%99%E4%B9%88%E7%90%86%E8%A7%A3%E7%9A%84/</link>
+      <link>https://huifeng.me/posts/laravel-%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85-%E6%88%91%E6%98%AF%E8%BF%99%E4%B9%88%E7%90%86%E8%A7%A3%E7%9A%84/</link>
       <pubDate>Wed, 23 Dec 2015 18:18:30 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/laravel-%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85-%E6%88%91%E6%98%AF%E8%BF%99%E4%B9%88%E7%90%86%E8%A7%A3%E7%9A%84/</guid>
+      <guid>https://huifeng.me/posts/laravel-%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85-%E6%88%91%E6%98%AF%E8%BF%99%E4%B9%88%E7%90%86%E8%A7%A3%E7%9A%84/</guid>
       <description>&lt;p&gt;关于 laravel 的很多理解还是比较缺乏，最近看 laravel 学院的基础教程，这里把我的个人理解放这里，方便日后温故。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>laravel-homestead 开发环境使用</title>
-      <link>https://wedojava.github.io/posts/laravel-homestead-note/</link>
+      <link>https://huifeng.me/posts/laravel-homestead-note/</link>
       <pubDate>Sun, 20 Sep 2015 14:28:35 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/laravel-homestead-note/</guid>
+      <guid>https://huifeng.me/posts/laravel-homestead-note/</guid>
       <description>&lt;p&gt;这里记录下我使用 vagrant 来做开发环境的各种经验，本文主要讲通过 homestead 命令行来控制虚拟机。
 之前我用 vagrant 搭建了自己的方便移动的开发和生产环境，用过 CentOS-6.5 CentOS-7.0 CentOS-7.1，最终我回到了官方提供的开发环境：&lt;code&gt;laravel/homestead&lt;/code&gt;，为什么要绕一圈，为什么绕了一圈又回来了呢？&lt;/p&gt;</description>
     </item>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> unable on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/unable/</link>
+    <link>https://huifeng.me/tags/unable/</link>
     <description>Recent content in  unable on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 May 2016 10:47:39 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/unable/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/unable/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>sudo命令输入密码还是不能用？</title>
-      <link>https://wedojava.github.io/posts/sudo-unable-in-centos/</link>
+      <link>https://huifeng.me/posts/sudo-unable-in-centos/</link>
       <pubDate>Thu, 05 May 2016 10:47:39 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/sudo-unable-in-centos/</guid>
+      <guid>https://huifeng.me/posts/sudo-unable-in-centos/</guid>
       <description>&lt;p&gt;sudo Command is unable in centos system?&lt;/p&gt;
 &lt;p&gt;我遇到了这样的问题，在 CentOS 7　系统下，执行 &lt;code&gt;sudo&lt;/code&gt;　提示 &lt;code&gt;Sorry, try again.&lt;/code&gt;　，密码是正确的密码，当前用户和　root　的密码都试过，都是这样　&lt;code&gt;visudo&lt;/code&gt; 也都配置正确，怎么办？&lt;/p&gt;
 &lt;p&gt;我参考了这里：https://www.centos.org/forums/viewtopic.php?t=40708&lt;/p&gt;</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shell on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/shell/</link>
+    <link>https://huifeng.me/tags/shell/</link>
     <description>Recent content in shell on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 May 2016 10:47:39 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Shell Study</title>
-      <link>https://wedojava.github.io/posts/shell-study/</link>
+      <link>https://huifeng.me/posts/shell-study/</link>
       <pubDate>Thu, 05 May 2016 10:47:39 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/shell-study/</guid>
+      <guid>https://huifeng.me/posts/shell-study/</guid>
       <description>$ pushd $openssh_source_dir &amp;gt; /dev/null 命令 说明 command &amp;gt; file 将输出重定向到 file。 command &amp;lt; file 将输入重定向到 file。 command &amp;raquo; file 将输出以追加的方式重定向到 file。 n &amp;gt; file 将文件描述符为 n 的文件重定向到 file。 n &amp;raquo; file 将文件描述符为 n 的文件以追加</description>
     </item>
     

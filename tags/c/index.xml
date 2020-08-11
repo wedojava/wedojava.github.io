@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> C on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/c/</link>
+    <link>https://huifeng.me/tags/c/</link>
     <description>Recent content in  C on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Aug 2019 15:56:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/c/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/c/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Capture Screen or Screen Shot [C/C&#43;&#43; win32 api]</title>
-      <link>https://wedojava.github.io/posts/c-capturescreen-screenshot/</link>
+      <link>https://huifeng.me/posts/c-capturescreen-screenshot/</link>
       <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/c-capturescreen-screenshot/</guid>
+      <guid>https://huifeng.me/posts/c-capturescreen-screenshot/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Reference:&lt;/p&gt;
 &lt;ul&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>Program C Basic Tips [C/C&#43;&#43;]</title>
-      <link>https://wedojava.github.io/posts/program-c-basic-tips/</link>
+      <link>https://huifeng.me/posts/program-c-basic-tips/</link>
       <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/program-c-basic-tips/</guid>
+      <guid>https://huifeng.me/posts/program-c-basic-tips/</guid>
       <description>&lt;p&gt;Continuous update!&lt;/p&gt;</description>
     </item>
     

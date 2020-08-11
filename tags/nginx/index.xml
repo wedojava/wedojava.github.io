@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> nginx on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/nginx/</link>
+    <link>https://huifeng.me/tags/nginx/</link>
     <description>Recent content in  nginx on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 16 Aug 2019 12:08:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to enable TLS in Nginx by Let&#39;s Encrypt</title>
-      <link>https://wedojava.github.io/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</link>
+      <link>https://huifeng.me/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</link>
       <pubDate>Fri, 16 Aug 2019 12:08:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</guid>
+      <guid>https://huifeng.me/posts/how-to-enable-tls-in-nginx-by-letsencrypt/</guid>
       <description>&lt;p&gt;{% centerquote %}
 让你的网站 https 起来吧！
 {% endcenterquote %}&lt;/p&gt;
@@ -46,10 +46,10 @@ $ sudo yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rh
     
     <item>
       <title>Install nginx php7 and config firewalld in CentOS 7.6</title>
-      <link>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
+      <link>https://huifeng.me/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
       <pubDate>Wed, 16 Jan 2019 10:47:39 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
+      <guid>https://huifeng.me/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
       <description>&lt;h1 id=&#34;1-服务器环境&#34;&gt;1. 服务器环境&lt;/h1&gt;
 &lt;p&gt;系统：CentOS 7.6
 防火墙：firewalld&lt;/p&gt;
@@ -70,10 +70,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>LEMP/LNMP　环境搭建(Nginx1.10 &#43; PHP7)</title>
-      <link>https://wedojava.github.io/posts/lemp-step-to-step/</link>
+      <link>https://huifeng.me/posts/lemp-step-to-step/</link>
       <pubDate>Wed, 18 May 2016 18:38:05 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/lemp-step-to-step/</guid>
+      <guid>https://huifeng.me/posts/lemp-step-to-step/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;更多文档请浏览官方文档和Wiki，这个很重要，其实文档里已经说的很清楚了，会遇到的Bug往往在回复里也有。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -81,10 +81,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>Deploy Hexo sites to VPS</title>
-      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps/</link>
+      <link>https://huifeng.me/posts/deploy-hexo-to-vps/</link>
       <pubDate>Sun, 16 Aug 2015 00:49:53 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps/</guid>
+      <guid>https://huifeng.me/posts/deploy-hexo-to-vps/</guid>
       <description>&lt;p&gt;&lt;strong&gt;参考以下内容,感谢原作者,转载留个链接:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Berry的博客: 已消失&amp;hellip;&amp;hellip;
@@ -103,28 +103,28 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>&#39;问题:能解析html但不能解析php&#39;</title>
-      <link>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</link>
+      <link>https://huifeng.me/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</link>
       <pubDate>Mon, 10 Aug 2015 20:46:02 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</guid>
+      <guid>https://huifeng.me/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/</guid>
       <description>&lt;p&gt;这种情况一般是因为权限问题导致的,最开始遇到这种情是用linuxeye的一键遇到的,共享出来和本地映射的文件夹里的php代码不能被解析,在虚拟机里查看文件夹环境,发现都是www的用户和用户组,但是怎么改都改不过来,在宿主机上怎么改owner也是徒劳,怎么办呢?&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>&#39;问题:怎么修改页面都不生效&#39;</title>
-      <link>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</link>
+      <link>https://huifeng.me/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</link>
       <pubDate>Mon, 10 Aug 2015 20:44:08 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
+      <guid>https://huifeng.me/posts/%E9%97%AE%E9%A2%98-%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%A1%B5%E9%9D%A2%E9%83%BD%E4%B8%8D%E7%94%9F%E6%95%88/</guid>
       <description>vagrant＋virtualbox 安装虚拟机会遇到服务器内容修改了但是页面不变化的问题 关闭Nginx的sendfile一项的属性: sudo vim /etc/nginx/nginx.conf 找到sendfile,将on改为off,保存关闭文件.</description>
     </item>
     
     <item>
       <title>常识不常识</title>
-      <link>https://wedojava.github.io/posts/%E5%B8%B8%E8%AF%86%E4%B8%8D%E5%B8%B8%E8%AF%86/</link>
+      <link>https://huifeng.me/posts/%E5%B8%B8%E8%AF%86%E4%B8%8D%E5%B8%B8%E8%AF%86/</link>
       <pubDate>Mon, 10 Aug 2015 20:41:25 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/%E5%B8%B8%E8%AF%86%E4%B8%8D%E5%B8%B8%E8%AF%86/</guid>
+      <guid>https://huifeng.me/posts/%E5%B8%B8%E8%AF%86%E4%B8%8D%E5%B8%B8%E8%AF%86/</guid>
       <description>&lt;h2 id=&#34;session目录的权限&#34;&gt;Session目录的权限&lt;/h2&gt;
 &lt;p&gt;php.ini文件里一般会定义session文件的路径,但是php-fpm配置文件会覆盖php.ini里的配置.&lt;/p&gt;
 &lt;p&gt;在&lt;code&gt;/etc/php-fpm.d/www.conf&lt;/code&gt;文件中,一般在底部会有&lt;code&gt;session.save_path&lt;/code&gt;,这里就是session文件的保存位置了&lt;/p&gt;
@@ -133,10 +133,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>配置Nginx伪静态</title>
-      <link>https://wedojava.github.io/posts/07-%E9%85%8D%E7%BD%AEnginx%E4%BC%AA%E9%9D%99%E6%80%81/</link>
+      <link>https://huifeng.me/posts/07-%E9%85%8D%E7%BD%AEnginx%E4%BC%AA%E9%9D%99%E6%80%81/</link>
       <pubDate>Mon, 10 Aug 2015 20:38:42 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/07-%E9%85%8D%E7%BD%AEnginx%E4%BC%AA%E9%9D%99%E6%80%81/</guid>
+      <guid>https://huifeng.me/posts/07-%E9%85%8D%E7%BD%AEnginx%E4%BC%AA%E9%9D%99%E6%80%81/</guid>
       <description>&lt;p&gt;&lt;code&gt;sudo vim /etc/nginx/conf.d/default.conf&lt;/code&gt;(编辑其他配置文件也可)&lt;/p&gt;
 &lt;p&gt;在server{}里面再添加一个location区块,或在index 设置行的下面添加一行&lt;code&gt;include laravel.conf;&lt;/code&gt;(linuxeye一键包的方式)&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;location / {
@@ -147,10 +147,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>配置Nginx处理PHP请求</title>
-      <link>https://wedojava.github.io/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</link>
+      <link>https://huifeng.me/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</link>
       <pubDate>Mon, 10 Aug 2015 20:36:34 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</guid>
+      <guid>https://huifeng.me/posts/06-%E9%85%8D%E7%BD%AEnginx%E5%A4%84%E7%90%86php%E8%AF%B7%E6%B1%82/</guid>
       <description>&lt;ol&gt;
 &lt;li&gt;运行&lt;code&gt;less /etc/php-fpm.conf&lt;/code&gt;查看配置,&lt;code&gt;include=/etc/php-fpm.d/*.conf&lt;/code&gt;一行说明只要在这个目录下的&lt;code&gt;conf&lt;/code&gt;类型的文件都会被包含到配置里.该目录下会有一个www.conf的文件,为默认配置文件.
 &lt;ul&gt;
@@ -163,20 +163,20 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>配置Nginx虚拟主机</title>
-      <link>https://wedojava.github.io/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</link>
+      <link>https://huifeng.me/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</link>
       <pubDate>Mon, 10 Aug 2015 20:34:37 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</guid>
+      <guid>https://huifeng.me/posts/05-%E9%85%8D%E7%BD%AEnginx%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/</guid>
       <description>&lt;h2 id=&#34;完全diy配置的情况&#34;&gt;完全DIY配置的情况&lt;/h2&gt;
 &lt;p&gt;默认情况下是安装在&lt;code&gt;/etc/nginx&lt;/code&gt;目录下的:&lt;code&gt;nginx.conf&lt;/code&gt;是主配置文件,里面有一个&lt;strong&gt;server&lt;/strong&gt;区块是默认的,刚安装好打开的默认页面就是这里所设定的.&lt;code&gt;include /etc/nginx/conf.d/*.conf;&lt;/code&gt;一行就是将所有conf.d目录下的所有.conf的配置文件全部加载进来,这样的话,我们要配置新的虚拟目录只需要将在该目录下添加.conf的配置文件即可,不同的站点可以是不同的配置文件.可以先配置一个模板型conf文件,比如我们可以先把自带的default.conf文件配置下:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>安装Web服务器：Nginx</title>
-      <link>https://wedojava.github.io/posts/04-%E5%AE%89%E8%A3%85web%E6%9C%8D%E5%8A%A1%E5%99%A8nginx/</link>
+      <link>https://huifeng.me/posts/04-%E5%AE%89%E8%A3%85web%E6%9C%8D%E5%8A%A1%E5%99%A8nginx/</link>
       <pubDate>Mon, 10 Aug 2015 20:32:33 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/04-%E5%AE%89%E8%A3%85web%E6%9C%8D%E5%8A%A1%E5%99%A8nginx/</guid>
+      <guid>https://huifeng.me/posts/04-%E5%AE%89%E8%A3%85web%E6%9C%8D%E5%8A%A1%E5%99%A8nginx/</guid>
       <description>这个简单，直接上命令： sudo yum install -y nginx 启动服务：sudo systemctl start nginx 检查服务：systemctl status nginx 设为启动项：sudo systemctl enable nginx</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> 硬盘 on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/%E7%A1%AC%E7%9B%98/</link>
+    <link>https://huifeng.me/tags/%E7%A1%AC%E7%9B%98/</link>
     <description>Recent content in  硬盘 on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 Apr 2016 13:10:53 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/%E7%A1%AC%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/%E7%A1%AC%E7%9B%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>为 Ubuntu 加载新硬盘</title>
-      <link>https://wedojava.github.io/posts/new-disk-mount-to-ubuntu/</link>
+      <link>https://huifeng.me/posts/new-disk-mount-to-ubuntu/</link>
       <pubDate>Tue, 19 Apr 2016 13:10:53 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/new-disk-mount-to-ubuntu/</guid>
+      <guid>https://huifeng.me/posts/new-disk-mount-to-ubuntu/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Thanks for: &lt;a href=&#34;http://www.111cn.net/sys/Ubuntu/73675.htm&#34;&gt;http://www.111cn.net/sys/Ubuntu/73675.htm&lt;/a&gt;
 用 vagrant 本地虚拟了一个 Ubuntu，想把数据放到单独的磁盘里，查阅资料，下面把日志记录下来。&lt;/p&gt;

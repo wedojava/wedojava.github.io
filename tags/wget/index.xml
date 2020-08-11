@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wget on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/wget/</link>
+    <link>https://huifeng.me/tags/wget/</link>
     <description>Recent content in wget on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 21 Sep 2015 18:19:17 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/wget/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/wget/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>神器wget的使用方法</title>
-      <link>https://wedojava.github.io/posts/utilities-wget/</link>
+      <link>https://huifeng.me/posts/utilities-wget/</link>
       <pubDate>Mon, 21 Sep 2015 18:19:17 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/utilities-wget/</guid>
+      <guid>https://huifeng.me/posts/utilities-wget/</guid>
       <description>&lt;p&gt;此乃神器也,然,深度使用尚需学习,文分两段:全站下载和常用参数说明&lt;/p&gt;</description>
     </item>
     

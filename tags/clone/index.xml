@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clone on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/clone/</link>
+    <link>https://huifeng.me/tags/clone/</link>
     <description>Recent content in clone on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 30 Jul 2020 19:36:42 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/clone/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/clone/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Clone Hugo To Other Desktop</title>
-      <link>https://wedojava.github.io/posts/clonehugotootherdesktop/</link>
+      <link>https://huifeng.me/posts/clonehugotootherdesktop/</link>
       <pubDate>Thu, 30 Jul 2020 19:36:42 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/clonehugotootherdesktop/</guid>
+      <guid>https://huifeng.me/posts/clonehugotootherdesktop/</guid>
       <description>&lt;p&gt;Hi there, my hugo have three repos:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;hugo(hugo resource, private repo) - root&lt;/li&gt;

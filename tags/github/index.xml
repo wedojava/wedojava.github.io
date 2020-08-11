@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> github on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/github/</link>
+    <link>https://huifeng.me/tags/github/</link>
     <description>Recent content in  github on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Jul 2020 18:15:55 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hexo转到hugo，有些经验和脚本希望能帮到大家</title>
-      <link>https://wedojava.github.io/posts/hexo2hugo/</link>
+      <link>https://huifeng.me/posts/hexo2hugo/</link>
       <pubDate>Sun, 26 Jul 2020 18:15:55 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/hexo2hugo/</guid>
+      <guid>https://huifeng.me/posts/hexo2hugo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;干货：从hexo转到hugo写了个python3的脚本: &lt;a href=&#34;https://gist.github.com/wedojava/aab3a975858fbbbab4e0b3300ad7e1c8&#34;&gt;migrate hexo to hugo&lt;/a&gt;，毕竟快一年没用Python了，如果有问题欢迎骚扰.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>Git劈腿实战:让项目脚踩两条船</title>
-      <link>https://wedojava.github.io/posts/git-push-and-backup-to-coding/</link>
+      <link>https://huifeng.me/posts/git-push-and-backup-to-coding/</link>
       <pubDate>Thu, 27 Aug 2015 17:55:02 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/git-push-and-backup-to-coding/</guid>
+      <guid>https://huifeng.me/posts/git-push-and-backup-to-coding/</guid>
       <description>&lt;p&gt;如何让你的项目可以劈腿呢?可以同时向两个位置push呢?如何实现github和coding上代码同步呢?
 其实将代码同时放到GitHub和Coding上在本地看来,就是需要两次push,两次push的名称不同
 一次是默认的,比如我的主要库是在GitHub上的&lt;code&gt;origin master&lt;/code&gt;,

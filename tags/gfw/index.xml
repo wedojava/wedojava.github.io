@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> GFW on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/gfw/</link>
+    <link>https://huifeng.me/tags/gfw/</link>
     <description>Recent content in  GFW on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 23 Aug 2015 12:19:26 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/gfw/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/gfw/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>shadowsocks使用帮助和下载</title>
-      <link>https://wedojava.github.io/posts/shadowsocks-bakup/</link>
+      <link>https://huifeng.me/posts/shadowsocks-bakup/</link>
       <pubDate>Sun, 23 Aug 2015 12:19:26 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/shadowsocks-bakup/</guid>
+      <guid>https://huifeng.me/posts/shadowsocks-bakup/</guid>
       <description>&lt;p&gt;Shadowsocks Python源码(&lt;a href=&#34;https://coding.net/s/3db823c3-e9fc-47f5-8eeb-6fc619c2f73a&#34;&gt;zip包&lt;/a&gt;,&lt;a href=&#34;https://coding.net/s/882162c5-939f-4746-aa77-f507c989b358&#34;&gt;tar包&lt;/a&gt;)解压后,进入目录运行&lt;code&gt;python setup.py&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     

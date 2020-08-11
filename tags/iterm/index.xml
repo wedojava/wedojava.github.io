@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iterm on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/iterm/</link>
+    <link>https://huifeng.me/tags/iterm/</link>
     <description>Recent content in iterm on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 25 Aug 2015 21:50:12 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/iterm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/iterm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>让终端更美丽动人-解决乱码问题</title>
-      <link>https://wedojava.github.io/posts/made-iterm2-lovely-and-amazing/</link>
+      <link>https://huifeng.me/posts/made-iterm2-lovely-and-amazing/</link>
       <pubDate>Tue, 25 Aug 2015 21:50:12 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/made-iterm2-lovely-and-amazing/</guid>
+      <guid>https://huifeng.me/posts/made-iterm2-lovely-and-amazing/</guid>
       <description>&lt;h2 id=&#34;made-iterm2-lovely-and-amazing&#34;&gt;Made iTerm2 lovely and amazing&lt;/h2&gt;
 &lt;p&gt;为了让我的Mac的终端更漂亮,我结结实实的经历了一番折腾,之前一直被卡在乱码的事情上了,今天解决了,这里记录下经验.
 本文适用于Mac OSX系统,Linux系统也可以,办法都是一样的.&lt;/p&gt;

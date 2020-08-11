@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> screen on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/screen/</link>
+    <link>https://huifeng.me/tags/screen/</link>
     <description>Recent content in  screen on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Aug 2019 15:56:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/screen/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/screen/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Capture Screen or Screen Shot [C/C&#43;&#43; win32 api]</title>
-      <link>https://wedojava.github.io/posts/c-capturescreen-screenshot/</link>
+      <link>https://huifeng.me/posts/c-capturescreen-screenshot/</link>
       <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/c-capturescreen-screenshot/</guid>
+      <guid>https://huifeng.me/posts/c-capturescreen-screenshot/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Reference:&lt;/p&gt;
 &lt;ul&gt;
@@ -36,10 +36,10 @@
     
     <item>
       <title>Ubuntu安装黑屏问题(ubuntu black screen)</title>
-      <link>https://wedojava.github.io/posts/ubuntu-black-screen/</link>
+      <link>https://huifeng.me/posts/ubuntu-black-screen/</link>
       <pubDate>Tue, 01 Sep 2015 19:09:05 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/ubuntu-black-screen/</guid>
+      <guid>https://huifeng.me/posts/ubuntu-black-screen/</guid>
       <description>&lt;p&gt;今天为一台联想安装ubuntu系统，确实手闲，看&lt;code&gt;Elementary OS&lt;/code&gt;非常漂亮，就把一台好好的机子给做了，于是被坑了，但是问题最终通过我强大的搜索能力和完美的解决问题的思路，最终搞定了。下面记录下经验。&lt;/p&gt;</description>
     </item>
     

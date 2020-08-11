@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>centos on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/centos/</link>
+    <link>https://huifeng.me/tags/centos/</link>
     <description>Recent content in centos on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Jan 2019 10:47:39 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/centos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install nginx php7 and config firewalld in CentOS 7.6</title>
-      <link>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
+      <link>https://huifeng.me/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</link>
       <pubDate>Wed, 16 Jan 2019 10:47:39 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
+      <guid>https://huifeng.me/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/</guid>
       <description>&lt;h1 id=&#34;1-服务器环境&#34;&gt;1. 服务器环境&lt;/h1&gt;
 &lt;p&gt;系统：CentOS 7.6
 防火墙：firewalld&lt;/p&gt;
@@ -37,10 +37,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>sudo命令输入密码还是不能用？</title>
-      <link>https://wedojava.github.io/posts/sudo-unable-in-centos/</link>
+      <link>https://huifeng.me/posts/sudo-unable-in-centos/</link>
       <pubDate>Thu, 05 May 2016 10:47:39 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/sudo-unable-in-centos/</guid>
+      <guid>https://huifeng.me/posts/sudo-unable-in-centos/</guid>
       <description>&lt;p&gt;sudo Command is unable in centos system?&lt;/p&gt;
 &lt;p&gt;我遇到了这样的问题，在 CentOS 7　系统下，执行 &lt;code&gt;sudo&lt;/code&gt;　提示 &lt;code&gt;Sorry, try again.&lt;/code&gt;　，密码是正确的密码，当前用户和　root　的密码都试过，都是这样　&lt;code&gt;visudo&lt;/code&gt; 也都配置正确，怎么办？&lt;/p&gt;
 &lt;p&gt;我参考了这里：https://www.centos.org/forums/viewtopic.php?t=40708&lt;/p&gt;</description>
@@ -48,10 +48,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>在Ubuntu和CentOS里用IPSec/IKEV2搭建VPN服务器</title>
-      <link>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <link>https://huifeng.me/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
       <pubDate>Sat, 19 Dec 2015 20:15:38 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <guid>https://huifeng.me/posts/%E5%9C%A8ubuntu%E5%92%8Ccentos%E9%87%8C%E7%94%A8ipsec-ikev2%E6%90%AD%E5%BB%BAvpn%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;参考文档：https://quericy.me/blog/512
 一键脚本：http://quericy.me/blog/699
@@ -63,10 +63,10 @@ $ firewall-cmd --permanent --add-port=123/tcp
     
     <item>
       <title>Linode 的 CentOS-7.1 初始化操作</title>
-      <link>https://wedojava.github.io/posts/linode-centos-init/</link>
+      <link>https://huifeng.me/posts/linode-centos-init/</link>
       <pubDate>Sat, 15 Aug 2015 22:34:14 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/linode-centos-init/</guid>
+      <guid>https://huifeng.me/posts/linode-centos-init/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;参考文献:https://www.linode.com/docs/&lt;/p&gt;
 &lt;/blockquote&gt;

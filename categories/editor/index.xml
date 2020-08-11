@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Editor on 回风舞雪</title>
-    <link>https://wedojava.github.io/categories/editor/</link>
+    <link>https://huifeng.me/categories/editor/</link>
     <description>Recent content in Editor on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 10 Oct 2018 10:49:14 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/categories/editor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/categories/editor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fix OmniMarkdownPreview Cannot Preview</title>
-      <link>https://wedojava.github.io/posts/fix-omnimarkdownpreview-cannot-preview/</link>
+      <link>https://huifeng.me/posts/fix-omnimarkdownpreview-cannot-preview/</link>
       <pubDate>Wed, 10 Oct 2018 10:49:14 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/fix-omnimarkdownpreview-cannot-preview/</guid>
+      <guid>https://huifeng.me/posts/fix-omnimarkdownpreview-cannot-preview/</guid>
       <description>{% centerquote 王小波 %} 人的一切痛苦，本质上都是对自己无能的愤怒。 {% endcenterquote %} Quick Fix 1: Remove Strikethrough Extension Sublime Text &amp;gt; Preferences &amp;gt; Package Settings &amp;gt; OmniMarkupPreviewer &amp;gt; Settings - User paste the following to remove the strikeout package. { &amp;#34;renderer_options-MarkdownRenderer&amp;#34;: { &amp;#34;extensions&amp;#34;: [&amp;#34;tables&amp;#34;, &amp;#34;fenced_code&amp;#34;, &amp;#34;codehilite&amp;#34;] } } Quick Fix 2: Fix the Strikethrough Extension (if you need it) Find the python-markdown sublime package. On the Mac: subl &amp;#34;/Users/&amp;lt;username&amp;gt;/Library/Application Support/Sublime Text 3/Packages/OmniMarkupPreviewer/OmniMarkupLib/Renderers/libs/mdx_strikeout.py&amp;#34; Replace the makeExtension() method with the following: def makeExtension(*args, **kwargs):</description>
     </item>
     
     <item>
       <title>Sublime-text3使用经验</title>
-      <link>https://wedojava.github.io/posts/sublime-text3-mastery/</link>
+      <link>https://huifeng.me/posts/sublime-text3-mastery/</link>
       <pubDate>Mon, 07 Sep 2015 12:01:03 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/sublime-text3-mastery/</guid>
+      <guid>https://huifeng.me/posts/sublime-text3-mastery/</guid>
       <description>&lt;p&gt;这个编辑器的打开速度是我喜欢的，它的自定义性又很强，经历bracket,atom等各种编辑器后，最后由laracastes.com再次将我带入Sublime text3的世界。下面，我主要介绍下中文输入法和laracastes.com里说的各种技巧。当然前提还是：你得学会在中国上互联网，代理或VPN都行。
 下面进入正题.&lt;/p&gt;</description>
     </item>

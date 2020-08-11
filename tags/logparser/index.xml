@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> logparser on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/logparser/</link>
+    <link>https://huifeng.me/tags/logparser/</link>
     <description>Recent content in  logparser on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Nov 2018 12:28:35 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/logparser/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/logparser/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>how to export exchange logs to csv by logparser</title>
-      <link>https://wedojava.github.io/posts/exchange-logs-to-csv-by-logparser/</link>
+      <link>https://huifeng.me/posts/exchange-logs-to-csv-by-logparser/</link>
       <pubDate>Wed, 28 Nov 2018 12:28:35 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/exchange-logs-to-csv-by-logparser/</guid>
+      <guid>https://huifeng.me/posts/exchange-logs-to-csv-by-logparser/</guid>
       <description>You can download logParser from microsoft : https://www.microsoft.com/en-us/download/confirmation.aspx?id=24659
 # 1. In short, run: LogParser &amp;#34;select [#Fields: date-time] as date, sender-address, recipient-address, recipient-count, return-path, client-hostname, client-ip, server-hostname, server-ip, original-client-ip, original-server-ip, event-id, total-bytes, connector-id, message-subject, source into C:\ExChange\log_all\result.csv from C:\ExChange\log_all\MessageTracking\*.LOG&amp;#34; -i:CSV -headerRow:on -nSkipLines:4 code above can export all logs to one csv file.
  -nSkipLines:4 : filter 4 lines at begin.the log files&amp;rsquo; first 4 lines is the head of file,no need for export. [#Fields: date-time] as date : style like #Fields: date-time is complex title for csv, make it like [#Fields: date-time] can get the true info from log files.  # 2.</description>

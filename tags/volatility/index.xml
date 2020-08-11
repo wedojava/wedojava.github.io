@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Volatility on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/volatility/</link>
+    <link>https://huifeng.me/tags/volatility/</link>
     <description>Recent content in Volatility on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 Nov 2019 10:49:14 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/volatility/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/volatility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Volatility and Mimikatz</title>
-      <link>https://wedojava.github.io/posts/volatility-mimikatz/</link>
+      <link>https://huifeng.me/posts/volatility-mimikatz/</link>
       <pubDate>Tue, 26 Nov 2019 10:49:14 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/volatility-mimikatz/</guid>
+      <guid>https://huifeng.me/posts/volatility-mimikatz/</guid>
       <description>{% centerquote 王小波 %} 人的一切痛苦，本质上都是对自己无能的愤怒。 {% endcenterquote %} [TOC] ENV： Windows* x86 python 2.7.17 # Memory dump 使用第三方软件抓取内存dump 针对于物理机,通常可以使用如下工具来抓取内存dump: KnTTools F-Response Mandiant Memoryze HBGary FastDump MoonSols Windows Memory Toolkit AccessData FTK Imager EnCase/WinEn Belkasoft Live</description>
     </item>
     

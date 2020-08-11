@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blog on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/blog/</link>
+    <link>https://huifeng.me/tags/blog/</link>
     <description>Recent content in blog on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 26 Jul 2020 18:15:55 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hexo转到hugo，有些经验和脚本希望能帮到大家</title>
-      <link>https://wedojava.github.io/posts/hexo2hugo/</link>
+      <link>https://huifeng.me/posts/hexo2hugo/</link>
       <pubDate>Sun, 26 Jul 2020 18:15:55 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/hexo2hugo/</guid>
+      <guid>https://huifeng.me/posts/hexo2hugo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;干货：从hexo转到hugo写了个python3的脚本: &lt;a href=&#34;https://gist.github.com/wedojava/aab3a975858fbbbab4e0b3300ad7e1c8&#34;&gt;migrate hexo to hugo&lt;/a&gt;，毕竟快一年没用Python了，如果有问题欢迎骚扰.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>My Nodejs And Ghost Install On CentOS7.1</title>
-      <link>https://wedojava.github.io/posts/mynodejsandghostinstalloncentos7-1-md/</link>
+      <link>https://huifeng.me/posts/mynodejsandghostinstalloncentos7-1-md/</link>
       <pubDate>Thu, 22 Oct 2015 19:48:57 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/mynodejsandghostinstalloncentos7-1-md/</guid>
+      <guid>https://huifeng.me/posts/mynodejsandghostinstalloncentos7-1-md/</guid>
       <description>&lt;p&gt;今天试着在 CentOS-7.1虚拟机上安装 nodejs 的环境，安装这个环境当然是为了能运行 Ghost 博客程序了，为什么要在虚拟机上安装？那是因为我打算搞到我自己的局域网服务器环境里去。下面开始！&lt;/p&gt;</description>
     </item>
     

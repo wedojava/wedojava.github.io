@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> 环境变量 on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
+    <link>https://huifeng.me/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/</link>
     <description>Recent content in  环境变量 on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 26 Aug 2015 00:18:16 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>修改系统环境变量</title>
-      <link>https://wedojava.github.io/posts/system-path-edit/</link>
+      <link>https://huifeng.me/posts/system-path-edit/</link>
       <pubDate>Wed, 26 Aug 2015 00:18:16 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/system-path-edit/</guid>
+      <guid>https://huifeng.me/posts/system-path-edit/</guid>
       <description>&lt;p&gt;每次,每次要改系统变量都要查,都要搜索,这次我把这个知识点记录下来,主要针对Linux和Mac系统.&lt;/p&gt;</description>
     </item>
     

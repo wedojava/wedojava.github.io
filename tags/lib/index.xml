@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> lib on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/lib/</link>
+    <link>https://huifeng.me/tags/lib/</link>
     <description>Recent content in  lib on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Feb 2020 17:01:42 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/lib/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/lib/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install openssh to redhat 6.3 via source</title>
-      <link>https://wedojava.github.io/posts/installopensshonredhatviasource/</link>
+      <link>https://huifeng.me/posts/installopensshonredhatviasource/</link>
       <pubDate>Thu, 27 Feb 2020 17:01:42 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/installopensshonredhatviasource/</guid>
+      <guid>https://huifeng.me/posts/installopensshonredhatviasource/</guid>
       <description>&lt;p&gt;This post is the log for compile source and install some package to linux, yeah, it&amp;rsquo;ll fit to offline install while you&amp;rsquo;re download packages before.&lt;/p&gt;
 &lt;h1 id=&#34;download&#34;&gt;Download&lt;/h1&gt;
 &lt;ul&gt;

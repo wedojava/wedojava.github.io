@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>V2ray on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/v2ray/</link>
+    <link>https://huifeng.me/tags/v2ray/</link>
     <description>Recent content in V2ray on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Jul 2019 23:56:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/v2ray/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/v2ray/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>V2ray install and config</title>
-      <link>https://wedojava.github.io/posts/v2ray-install-and-config/</link>
+      <link>https://huifeng.me/posts/v2ray-install-and-config/</link>
       <pubDate>Mon, 15 Jul 2019 23:56:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/v2ray-install-and-config/</guid>
+      <guid>https://huifeng.me/posts/v2ray-install-and-config/</guid>
       <description>Reference: https://toutyrater.github.io/prep/install.html # 1. Install Install or update by script: wget https://install.direct/go.sh sudo bash go.sh Return: PORT:111 UUID:9d1712fd-f641-4be9-b2ca-99c9dc000aeb # 2. Config 2.1. WebSocket+TLS+Web Stable but not fast! Server /etc/v2ray/config.json : { &amp;#34;inbounds&amp;#34;: [{ &amp;#34;port&amp;#34;: 111, &amp;#34;listen&amp;#34;: &amp;#34;127.0.0.1&amp;#34;, &amp;#34;protocol&amp;#34;: &amp;#34;vmess&amp;#34;, &amp;#34;settings&amp;#34;: { &amp;#34;clients&amp;#34;: [ { &amp;#34;id&amp;#34;: &amp;#34;9d1712fd-f641-4be9-b2ca-99c9dc000aeb&amp;#34;, &amp;#34;level&amp;#34;: 1, &amp;#34;alterId&amp;#34;: 64 } ] }, &amp;#34;streamSettings&amp;#34;: { &amp;#34;network&amp;#34;: &amp;#34;ws&amp;#34;, &amp;#34;wsSettings&amp;#34;: { &amp;#34;path&amp;#34;: &amp;#34;/wahaha&amp;#34; } } }], &amp;#34;outbounds&amp;#34;: [{ &amp;#34;protocol&amp;#34;: &amp;#34;freedom&amp;#34;, &amp;#34;settings&amp;#34;: {} }] } Client: { &amp;#34;inbounds&amp;#34;: [ { &amp;#34;port&amp;#34;: 1080, &amp;#34;listen&amp;#34;: &amp;#34;127.0.0.1&amp;#34;, &amp;#34;protocol&amp;#34;: &amp;#34;socks&amp;#34;, &amp;#34;sniffing&amp;#34;: { &amp;#34;enabled&amp;#34;: true, &amp;#34;destOverride&amp;#34;: [&amp;#34;http&amp;#34;, &amp;#34;tls&amp;#34;] }, &amp;#34;settings&amp;#34;: { &amp;#34;auth&amp;#34;: &amp;#34;noauth&amp;#34;, &amp;#34;udp&amp;#34;: false } } ],</description>
     </item>
     
     <item>
       <title>Linux桌面版 &amp; Windows 如何使用 V2ray 服务?</title>
-      <link>https://wedojava.github.io/posts/the-right-way-make-linux-desktop-use-v2ray-service/</link>
+      <link>https://huifeng.me/posts/the-right-way-make-linux-desktop-use-v2ray-service/</link>
       <pubDate>Fri, 12 Oct 2018 10:28:37 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/the-right-way-make-linux-desktop-use-v2ray-service/</guid>
+      <guid>https://huifeng.me/posts/the-right-way-make-linux-desktop-use-v2ray-service/</guid>
       <description>&lt;p&gt;其实我配好的是 Ubuntu 桌面版,如何使用 V2ray,不管什么桌面其实基本大同小异,路子很重要, 路子对了,剩下的就简单了,搞明白后恍然大悟,这么简单就怪自己当时没仔细看文档啊!!!&lt;/p&gt;
 &lt;p&gt;本篇是介绍 V2ray 客户端的使用配置的, 服务端的安装请参照本站另一文.&lt;/p&gt;
 &lt;p&gt;本篇只讲重点,很多内容官方文档都有说明.&lt;/p&gt;
@@ -34,10 +34,10 @@
     
     <item>
       <title>通过 V2ray 实现科学上网</title>
-      <link>https://wedojava.github.io/posts/get-through-gfw-by-v2ray/</link>
+      <link>https://huifeng.me/posts/get-through-gfw-by-v2ray/</link>
       <pubDate>Mon, 08 Oct 2018 18:03:45 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/get-through-gfw-by-v2ray/</guid>
+      <guid>https://huifeng.me/posts/get-through-gfw-by-v2ray/</guid>
       <description>&lt;h1 id=&#34;1-前言&#34;&gt;1. 前言&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;如果要老老实实的，踏踏实实的学习，推荐参考官方网站：https://www.v2ray.com&lt;/li&gt;

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> tips on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/tips/</link>
+    <link>https://huifeng.me/tags/tips/</link>
     <description>Recent content in  tips on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 18 Jan 2020 11:35:36 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/tips/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>《A Tour of Go》 Study note</title>
-      <link>https://wedojava.github.io/posts/go-a-tour-of-go-note.md/</link>
+      <link>https://huifeng.me/posts/go-a-tour-of-go-note.md/</link>
       <pubDate>Sat, 18 Jan 2020 11:35:36 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/go-a-tour-of-go-note.md/</guid>
+      <guid>https://huifeng.me/posts/go-a-tour-of-go-note.md/</guid>
       <description>&lt;p&gt;Some tips I don&amp;rsquo;t know!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Setup-Debian9-Init</title>
-      <link>https://wedojava.github.io/posts/setup-debian9-init/</link>
+      <link>https://huifeng.me/posts/setup-debian9-init/</link>
       <pubDate>Thu, 11 Oct 2018 18:35:12 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/setup-debian9-init/</guid>
+      <guid>https://huifeng.me/posts/setup-debian9-init/</guid>
       <description>&lt;p&gt;本文 Debian 9 安装历程，安装包选的是最小版，界面在安装时选择的是 Xfce，选择它是因为它最快！&lt;/p&gt;
 &lt;p&gt;本文主要记录联网,VM工具,更换国内源,输入法的安装,让debian的桌面翻墙我新开一页写吧.&lt;/p&gt;</description>
     </item>

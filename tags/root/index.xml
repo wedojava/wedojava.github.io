@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> root on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/root/</link>
+    <link>https://huifeng.me/tags/root/</link>
     <description>Recent content in  root on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 04 May 2016 19:10:49 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/root/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/root/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux系统下，如何重置root密码？</title>
-      <link>https://wedojava.github.io/posts/how-to-reset-root-password/</link>
+      <link>https://huifeng.me/posts/how-to-reset-root-password/</link>
       <pubDate>Wed, 04 May 2016 19:10:49 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/how-to-reset-root-password/</guid>
+      <guid>https://huifeng.me/posts/how-to-reset-root-password/</guid>
       <description>&lt;p&gt;本人遇到一个很尴尬的问题，忘记了　vps　的　root　的密码。怎么办？查阅官方提示，找到如下方法：&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.vultr.com/docs/boot-into-single-user-mode-reset-root-password&#34;&gt;https://www.vultr.com/docs/boot-into-single-user-mode-reset-root-password&lt;/a&gt;&lt;/p&gt;</description>
     </item>

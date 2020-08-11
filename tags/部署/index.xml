@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> 部署 on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/%E9%83%A8%E7%BD%B2/</link>
+    <link>https://huifeng.me/tags/%E9%83%A8%E7%BD%B2/</link>
     <description>Recent content in  部署 on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Jul 2019 12:00:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/%E9%83%A8%E7%BD%B2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Deploy Hexo to VPS By Caddy And Webhooks(Python)</title>
-      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</link>
+      <link>https://huifeng.me/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</link>
       <pubDate>Thu, 11 Jul 2019 12:00:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</guid>
+      <guid>https://huifeng.me/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/</guid>
       <description>&lt;p&gt;There are steps to make Hexo works well with caddy, github webhooks and service script write by python3.&lt;/p&gt;
 &lt;p&gt;Why not nginx, because I know well about it, I think, and now I want to try caddy.&lt;/p&gt;
 &lt;p&gt;Why not git to deploy it？ &lt;a href=&#34;https://huifeng.me/2015/08/16/deploy-hexo-to-vps/&#34;&gt;This is the way to use git for deployment&lt;/a&gt;. But it was outdated or I think, use webhooks and caddy maybe the pop and better way than that.&lt;/p&gt;
@@ -47,10 +47,10 @@ Many settings and preparations at VPS.&lt;/p&gt;
     
     <item>
       <title>Deploy Hexo sites to VPS</title>
-      <link>https://wedojava.github.io/posts/deploy-hexo-to-vps/</link>
+      <link>https://huifeng.me/posts/deploy-hexo-to-vps/</link>
       <pubDate>Sun, 16 Aug 2015 00:49:53 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/deploy-hexo-to-vps/</guid>
+      <guid>https://huifeng.me/posts/deploy-hexo-to-vps/</guid>
       <description>&lt;p&gt;&lt;strong&gt;参考以下内容,感谢原作者,转载留个链接:&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Berry的博客: 已消失&amp;hellip;&amp;hellip;

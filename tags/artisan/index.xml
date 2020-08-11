@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> artisan on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/artisan/</link>
+    <link>https://huifeng.me/tags/artisan/</link>
     <description>Recent content in  artisan on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Dec 2015 13:53:07 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/artisan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/artisan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>laravel-artisan-model-常用命令</title>
-      <link>https://wedojava.github.io/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://huifeng.me/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Thu, 31 Dec 2015 13:53:07 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://huifeng.me/posts/laravel-artisan-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>&lt;p&gt;常常会用到 artisan 的一些命令，往往要去查文档，翻弄半天，不方便，这里归纳在这里&lt;/p&gt;</description>
     </item>
     

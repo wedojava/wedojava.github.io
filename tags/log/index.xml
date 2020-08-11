@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> log on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/log/</link>
+    <link>https://huifeng.me/tags/log/</link>
     <description>Recent content in  log on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Feb 2016 11:07:48 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/log/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/log/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Docker-Install-Log</title>
-      <link>https://wedojava.github.io/posts/docker-install-log/</link>
+      <link>https://huifeng.me/posts/docker-install-log/</link>
       <pubDate>Wed, 17 Feb 2016 11:07:48 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/docker-install-log/</guid>
+      <guid>https://huifeng.me/posts/docker-install-log/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;参考：&lt;/p&gt;
 &lt;/blockquote&gt;

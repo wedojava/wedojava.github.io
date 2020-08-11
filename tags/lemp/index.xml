@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> lemp on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/lemp/</link>
+    <link>https://huifeng.me/tags/lemp/</link>
     <description>Recent content in  lemp on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 18 May 2016 18:38:05 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/lemp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/lemp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LEMP/LNMP　环境搭建(Nginx1.10 &#43; PHP7)</title>
-      <link>https://wedojava.github.io/posts/lemp-step-to-step/</link>
+      <link>https://huifeng.me/posts/lemp-step-to-step/</link>
       <pubDate>Wed, 18 May 2016 18:38:05 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/lemp-step-to-step/</guid>
+      <guid>https://huifeng.me/posts/lemp-step-to-step/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;更多文档请浏览官方文档和Wiki，这个很重要，其实文档里已经说的很清楚了，会遇到的Bug往往在回复里也有。&lt;/p&gt;
 &lt;/blockquote&gt;</description>

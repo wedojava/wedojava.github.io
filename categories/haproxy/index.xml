@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HAProxy on 回风舞雪</title>
-    <link>https://wedojava.github.io/categories/haproxy/</link>
+    <link>https://huifeng.me/categories/haproxy/</link>
     <description>Recent content in HAProxy on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 24 Aug 2019 15:56:00 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/categories/haproxy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/categories/haproxy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HAProxy Simple Usage</title>
-      <link>https://wedojava.github.io/posts/haproxy-simple-usage/</link>
+      <link>https://huifeng.me/posts/haproxy-simple-usage/</link>
       <pubDate>Sat, 24 Aug 2019 15:56:00 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/haproxy-simple-usage/</guid>
+      <guid>https://huifeng.me/posts/haproxy-simple-usage/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Reference:
 &lt;a href=&#34;http://cbonte.github.io/haproxy-dconv/1.9/configuration.html#2.5&#34;&gt;http://cbonte.github.io/haproxy-dconv/1.9/configuration.html#2.5&lt;/a&gt;&lt;/p&gt;

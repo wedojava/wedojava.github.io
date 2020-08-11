@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> 插件 on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/%E6%8F%92%E4%BB%B6/</link>
+    <link>https://huifeng.me/tags/%E6%8F%92%E4%BB%B6/</link>
     <description>Recent content in  插件 on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 07 Sep 2015 12:01:03 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sublime-text3使用经验</title>
-      <link>https://wedojava.github.io/posts/sublime-text3-mastery/</link>
+      <link>https://huifeng.me/posts/sublime-text3-mastery/</link>
       <pubDate>Mon, 07 Sep 2015 12:01:03 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/sublime-text3-mastery/</guid>
+      <guid>https://huifeng.me/posts/sublime-text3-mastery/</guid>
       <description>&lt;p&gt;这个编辑器的打开速度是我喜欢的，它的自定义性又很强，经历bracket,atom等各种编辑器后，最后由laracastes.com再次将我带入Sublime text3的世界。下面，我主要介绍下中文输入法和laracastes.com里说的各种技巧。当然前提还是：你得学会在中国上互联网，代理或VPN都行。
 下面进入正题.&lt;/p&gt;</description>
     </item>

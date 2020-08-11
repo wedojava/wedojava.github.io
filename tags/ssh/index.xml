@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> ssh on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/ssh/</link>
+    <link>https://huifeng.me/tags/ssh/</link>
     <description>Recent content in  ssh on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 29 Feb 2020 10:47:39 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cisco sshd config</title>
-      <link>https://wedojava.github.io/posts/cisco-sshd-conf/</link>
+      <link>https://huifeng.me/posts/cisco-sshd-conf/</link>
       <pubDate>Sat, 29 Feb 2020 10:47:39 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/cisco-sshd-conf/</guid>
+      <guid>https://huifeng.me/posts/cisco-sshd-conf/</guid>
       <description>&lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;test if device can up sshd service&lt;/li&gt;
 &lt;/ol&gt;

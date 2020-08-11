@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> sync on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/sync/</link>
+    <link>https://huifeng.me/tags/sync/</link>
     <description>Recent content in  sync on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 01 Sep 2015 22:26:07 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/sync/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/sync/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>跟着宁皓网学 Browser-sync</title>
-      <link>https://wedojava.github.io/posts/ninghao-browser-sync-01/</link>
+      <link>https://huifeng.me/posts/ninghao-browser-sync-01/</link>
       <pubDate>Tue, 01 Sep 2015 22:26:07 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/ninghao-browser-sync-01/</guid>
+      <guid>https://huifeng.me/posts/ninghao-browser-sync-01/</guid>
       <description>&lt;p&gt;这东西很不错，可以让浏览器和我们的文件同步显示，意思是，你一修改完 css 或者 js 或者 Html，立即就能看到浏览器里他们的变化。 You&amp;rsquo;re worth it!&lt;/p&gt;</description>
     </item>
     

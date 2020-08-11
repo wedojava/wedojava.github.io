@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title> cloud on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/cloud/</link>
+    <link>https://huifeng.me/tags/cloud/</link>
     <description>Recent content in  cloud on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 03 May 2016 11:29:51 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Owncloud　安装实录(Apache2.4&#43;PHP7&#43;MariaDB10)</title>
-      <link>https://wedojava.github.io/posts/owncloud-install/</link>
+      <link>https://huifeng.me/posts/owncloud-install/</link>
       <pubDate>Tue, 03 May 2016 11:29:51 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/owncloud-install/</guid>
+      <guid>https://huifeng.me/posts/owncloud-install/</guid>
       <description>&lt;p&gt;本来是用的　Homestead　box　虚拟机环境，但是遇到些问题，看到官方例子是用　Apache，并且官方推荐是用Apache 的 mod_php　来解析PHP。这里记录下整个过程。So many chores beat me?No chores can beat me.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;由于是打算用作运维的环境搭建，所以一切跟着官方文档做吧。

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>并发 on 回风舞雪</title>
-    <link>https://wedojava.github.io/tags/%E5%B9%B6%E5%8F%91/</link>
+    <link>https://huifeng.me/tags/%E5%B9%B6%E5%8F%91/</link>
     <description>Recent content in 并发 on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 11 Aug 2020 00:52:42 +0800</lastBuildDate>
     
-	<atom:link href="https://wedojava.github.io/tags/%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://huifeng.me/tags/%E5%B9%B6%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Concurrency In Go Study</title>
-      <link>https://wedojava.github.io/posts/concurrencyingostudy/</link>
+      <link>https://huifeng.me/posts/concurrencyingostudy/</link>
       <pubDate>Tue, 11 Aug 2020 00:52:42 +0800</pubDate>
       
-      <guid>https://wedojava.github.io/posts/concurrencyingostudy/</guid>
+      <guid>https://huifeng.me/posts/concurrencyingostudy/</guid>
       <description>&lt;p&gt;Go 的并发很核心，理解不难，听懂也简单，但是用好它，很难！至少我现在觉得这东西好绕，当然这也说明我们没有学透彻，学明白，下面把学到的一些东西记录下来。算是二次理解。&lt;br&gt;
 Concurrency is go programing is a core tech, easy to understand but hard to use in best practices.&lt;/p&gt;</description>
     </item>
