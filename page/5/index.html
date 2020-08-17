@@ -99,6 +99,51 @@
 
 <div class="post animated fadeInDown">
     <div class="post_title">
+        <h2><a href='/posts/binary-io-operation/'>Binary I/O operation</a></h2>
+    </div>
+    
+    <div class="list">
+        <div class="post_content markdown">
+            <p>I coped with character type coversion to let it looks like c type, and search bytes from *.dll to modify it. so, there is sth I learned and written down here.
+# Binary I/O operation Define!
+def hex_read(filepath: str) -&gt; bytearray: if os.path.isfile(filepath): with open(filepath, &#39;rb&#39;) as f: data = bytearray(f.read()) return data Usage:
+dll_data = hex_read(&#39;D:\\test\\test.dll&#39;) Find bytes and replace it:
+index_start = dll_data.find(b&#39;\x85\x69\xf0\x7f&#39;) index_end = index_start + 100 if index_start != -1: data_old = dll_data[index_start:index_end] data_new = replacebytes # replacebytes is the content you want to replace dll_data_new = dll_data.replace(data_old, data_new) with open(&#39;D:\\test\\test.dll&#39;, &#39;wb&#39;) as f: f.write(dll_data_new) ......</p>
+        </div>
+    </div>
+    
+    <div class="post_footer">
+        <div class="meta">
+            <div class="info">
+                <span class="field">
+                    <i class="ri-map-pin-time-line"></i>
+                    <span class="date">2019.07.26</span>
+                </span>
+                
+                <span class="field tags">
+                    <i class="ri-stack-line"></i>
+                    
+                    <a href="https://huifeng.me/tags/binary/">binary</a>
+                    
+                    <a href="https://huifeng.me/tags/bytes/"> bytes</a>
+                    
+                    <a href="https://huifeng.me/tags/read/"> read</a>
+                    
+                    <a href="https://huifeng.me/tags/write/"> write</a>
+                    
+                    <a href="https://huifeng.me/tags/python/"> python</a>
+                    
+                    <a href="https://huifeng.me/tags/bytearray/"> bytearray</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post animated fadeInDown">
+    <div class="post_title">
         <h2><a href='/posts/hex-b-str-int-switch-in-python/'>Hex byte string int coversion</a></h2>
     </div>
     
@@ -241,62 +286,6 @@ Many settings and preparations at VPS.</p>
                     <a href="https://huifeng.me/tags/caddy/"> caddy</a>
                     
                     <a href="https://huifeng.me/tags/python/"> python</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/'>Install nginx php7 and config firewalld in CentOS 7.6</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p><h1 id="1-服务器环境">1. 服务器环境</h1>
-<p>系统：CentOS 7.6
-防火墙：firewalld</p>
-<h2 id="11-防火墙配置">1.1. 防火墙配置</h2>
-<p>此防火墙为 CentOS 7.6 自带自启动，默认没有任何通路出去，你只能从外面ping的通，ssh连接，其他什么也做不了。</p>
-<p>下面我们开放两个端口，一个是 <code>80/TCP</code> ，一个是自定义的ssh连接端口 <code>123/TCP</code>.</p>
-<p>Run:</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ firewall-cmd --permanent --add-port=80/tcp
-$ firewall-cmd --permanent --add-port=123/tcp
-</code></pre></div><ol>
-<li>firewall-cmd：是Linux提供的操作firewall的一个工具;</li>
-<li>&ndash;permanent：表示设置为持久;</li>
-<li>&ndash;add-port：标识添加的端口;</li>
-<li>&ndash;zone=public:指定的zone为public(不加此参数默认都是添加到这里).</li>
-</ol>
-<p>默认的，通过命令行添加的规则会添加到文件： <code>/etc/firewalld/zones/public.xml</code> .</p>......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2019.01.16</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/centos/">centos</a>
-                    
-                    <a href="https://huifeng.me/tags/linux/"> linux</a>
-                    
-                    <a href="https://huifeng.me/tags/firewalld/"> firewalld</a>
-                    
-                    <a href="https://huifeng.me/tags/docker/"> docker</a>
-                    
-                    <a href="https://huifeng.me/tags/php/"> php</a>
-                    
-                    <a href="https://huifeng.me/tags/nginx/"> nginx</a>
                     
                 </span>
                 

@@ -99,6 +99,41 @@
 
 <div class="post animated fadeInDown">
     <div class="post_title">
+        <h2><a href='/posts/fix-vmware-kernel-headers-for-versions-not-found/'>Fix VMware kernel headers for versions not found</a></h2>
+    </div>
+    
+    <div class="list">
+        <div class="post_content markdown">
+            <p>Ubuntu 18 的宿主机,核心 Update 了,然后要求重启,然后, VMware 起不来了, 报错: linux VM kernel headers 4.15.0-37-generic were not found So, Google and Sogou, and look: https://blog.csdn.net/ritterliu/article/details/7554183 http://www.vi-toolkit.com/wiki/index.php/Build_host_vmware_kernel_modules 长话短说,我运行了下面一行,然后就好了! ↓ sudo apt-get install linux-headers-$(uname -r) Good luck good day!......</p>
+        </div>
+    </div>
+    
+    <div class="post_footer">
+        <div class="meta">
+            <div class="info">
+                <span class="field">
+                    <i class="ri-map-pin-time-line"></i>
+                    <span class="date">2018.10.11</span>
+                </span>
+                
+                <span class="field tags">
+                    <i class="ri-stack-line"></i>
+                    
+                    <a href="https://huifeng.me/tags/vmware/">VMware</a>
+                    
+                    <a href="https://huifeng.me/tags/kernel/"> kernel</a>
+                    
+                    <a href="https://huifeng.me/tags/ubuntu/"> ubuntu</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post animated fadeInDown">
+    <div class="post_title">
         <h2><a href='/posts/setup-debian9-init/'>Setup-Debian9-Init</a></h2>
     </div>
     
@@ -204,49 +239,6 @@
                     <a href="https://huifeng.me/tags/%E7%BF%BB%E5%A2%99/"> 翻墙</a>
                     
                     <a href="https://huifeng.me/tags/shadowsocks/"> shadowsocks</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/install-redis-cache-on-ubuntu-server-with-php-7-and-owncloud/'>Install Redis Cache on Ubuntu Server with PHP 7 and ownCloud</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p>参考: https://www.techandme.se/install-redis-cache-on-ubuntu-server-with-php-7-and-owncloud/ 缓存,owncloud推荐使用的是 APCu 和 Redis,we with PHP 7 needed to build the PHP module as well, because PECL install didn’t work on PHP 7 yet. And as usual – as we didn’t find any good straight forward guide, here is one that works, enjoy! 原文说的已经很清楚了,细心点应该不会出错,我这里只记录......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2016.06.08</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/linux/">linux</a>
-                    
-                    <a href="https://huifeng.me/tags/php/"> php</a>
-                    
-                    <a href="https://huifeng.me/tags/php7/"> php7</a>
-                    
-                    <a href="https://huifeng.me/tags/redis/"> redis</a>
-                    
-                    <a href="https://huifeng.me/tags/ubuntu/"> ubuntu</a>
-                    
-                    <a href="https://huifeng.me/tags/owncloud/"> owncloud</a>
-                    
-                    <a href="https://huifeng.me/tags/install/"> install</a>
                     
                 </span>
                 

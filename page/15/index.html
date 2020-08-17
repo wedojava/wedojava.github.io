@@ -99,6 +99,45 @@
 
 <div class="post animated fadeInDown">
     <div class="post_title">
+        <h2><a href='/posts/macosx%E5%AE%89%E8%A3%85npm%E7%BB%8F%E9%AA%8C%E8%B0%88/'>MacOSX安装NPM经验谈</a></h2>
+    </div>
+    
+    <div class="list">
+        <div class="post_content markdown">
+            <p><p>为了装hexo-cli,需要先装配好npm环境和Git环境,于是接触到了npm的安装难的问题,我在Ubuntu系统上遇到的问题是个别目录无权限访问,我在Mac上也遇到了同样的问题,有建议是用<code>root</code>权限取安装就好了,但是我不想这样,这样势必是影响了我的操作习惯,<code>root</code>的根目录和非root用户的根目录不同的.所以我这么做了:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo chown -R [你的当前用户名] /usr/local
+</code></pre></div><p>如果你已经安装了很多了,建议直接删除掉项目里的<code>node_moudles</code>,重新安装.</p>......</p>
+        </div>
+    </div>
+    
+    <div class="post_footer">
+        <div class="meta">
+            <div class="info">
+                <span class="field">
+                    <i class="ri-map-pin-time-line"></i>
+                    <span class="date">2015.08.11</span>
+                </span>
+                
+                <span class="field tags">
+                    <i class="ri-stack-line"></i>
+                    
+                    <a href="https://huifeng.me/tags/mac/">Mac</a>
+                    
+                    <a href="https://huifeng.me/tags/npm/"> npm</a>
+                    
+                    <a href="https://huifeng.me/tags/node/"> node</a>
+                    
+                    <a href="https://huifeng.me/tags/%E5%AE%89%E8%A3%85/"> 安装</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post animated fadeInDown">
+    <div class="post_title">
         <h2><a href='/posts/%E9%97%AE%E9%A2%98-%E8%83%BD%E8%A7%A3%E6%9E%90html%E4%BD%86%E4%B8%8D%E8%83%BD%E8%A7%A3%E6%9E%90php/'>&#39;问题:能解析html但不能解析php&#39;</a></h2>
     </div>
     
@@ -231,48 +270,6 @@
                     <a href="https://huifeng.me/tags/error/"> error</a>
                     
                     <a href="https://huifeng.me/tags/error_log/"> error_log</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/07-%E9%85%8D%E7%BD%AEnginx%E4%BC%AA%E9%9D%99%E6%80%81/'>配置Nginx伪静态</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p><p><code>sudo vim /etc/nginx/conf.d/default.conf</code>(编辑其他配置文件也可)</p>
-<p>在server{}里面再添加一个location区块,或在index 设置行的下面添加一行<code>include laravel.conf;</code>(linuxeye一键包的方式)</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">location / {
-  try_files $uri $uri/ /index.php?$query_string;
-}
-</code></pre></div>......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2015.08.10</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/linux/">linux</a>
-                    
-                    <a href="https://huifeng.me/tags/nginx/"> nginx</a>
-                    
-                    <a href="https://huifeng.me/tags/rewrite/"> rewrite</a>
-                    
-                    <a href="https://huifeng.me/tags/%E4%BC%AA%E9%9D%99%E6%80%81/"> 伪静态</a>
                     
                 </span>
                 

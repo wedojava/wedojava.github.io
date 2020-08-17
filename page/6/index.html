@@ -99,6 +99,62 @@
 
 <div class="post animated fadeInDown">
     <div class="post_title">
+        <h2><a href='/posts/install-nginx-php7-and-config-firewalld-in-centos-7.6/'>Install nginx php7 and config firewalld in CentOS 7.6</a></h2>
+    </div>
+    
+    <div class="list">
+        <div class="post_content markdown">
+            <p><h1 id="1-服务器环境">1. 服务器环境</h1>
+<p>系统：CentOS 7.6
+防火墙：firewalld</p>
+<h2 id="11-防火墙配置">1.1. 防火墙配置</h2>
+<p>此防火墙为 CentOS 7.6 自带自启动，默认没有任何通路出去，你只能从外面ping的通，ssh连接，其他什么也做不了。</p>
+<p>下面我们开放两个端口，一个是 <code>80/TCP</code> ，一个是自定义的ssh连接端口 <code>123/TCP</code>.</p>
+<p>Run:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ firewall-cmd --permanent --add-port=80/tcp
+$ firewall-cmd --permanent --add-port=123/tcp
+</code></pre></div><ol>
+<li>firewall-cmd：是Linux提供的操作firewall的一个工具;</li>
+<li>&ndash;permanent：表示设置为持久;</li>
+<li>&ndash;add-port：标识添加的端口;</li>
+<li>&ndash;zone=public:指定的zone为public(不加此参数默认都是添加到这里).</li>
+</ol>
+<p>默认的，通过命令行添加的规则会添加到文件： <code>/etc/firewalld/zones/public.xml</code> .</p>......</p>
+        </div>
+    </div>
+    
+    <div class="post_footer">
+        <div class="meta">
+            <div class="info">
+                <span class="field">
+                    <i class="ri-map-pin-time-line"></i>
+                    <span class="date">2019.01.16</span>
+                </span>
+                
+                <span class="field tags">
+                    <i class="ri-stack-line"></i>
+                    
+                    <a href="https://huifeng.me/tags/centos/">centos</a>
+                    
+                    <a href="https://huifeng.me/tags/linux/"> linux</a>
+                    
+                    <a href="https://huifeng.me/tags/firewalld/"> firewalld</a>
+                    
+                    <a href="https://huifeng.me/tags/docker/"> docker</a>
+                    
+                    <a href="https://huifeng.me/tags/php/"> php</a>
+                    
+                    <a href="https://huifeng.me/tags/nginx/"> nginx</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post animated fadeInDown">
+    <div class="post_title">
         <h2><a href='/posts/exchange-logs-to-csv-by-logparser/'>how to export exchange logs to csv by logparser</a></h2>
     </div>
     
@@ -215,41 +271,6 @@
                     <a href="https://huifeng.me/tags/pip/"> pip</a>
                     
                     <a href="https://huifeng.me/tags/python/"> python</a>
-                    
-                    <a href="https://huifeng.me/tags/ubuntu/"> ubuntu</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/fix-vmware-kernel-headers-for-versions-not-found/'>Fix VMware kernel headers for versions not found</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p>Ubuntu 18 的宿主机,核心 Update 了,然后要求重启,然后, VMware 起不来了, 报错: linux VM kernel headers 4.15.0-37-generic were not found So, Google and Sogou, and look: https://blog.csdn.net/ritterliu/article/details/7554183 http://www.vi-toolkit.com/wiki/index.php/Build_host_vmware_kernel_modules 长话短说,我运行了下面一行,然后就好了! ↓ sudo apt-get install linux-headers-$(uname -r) Good luck good day!......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2018.10.11</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/vmware/">VMware</a>
-                    
-                    <a href="https://huifeng.me/tags/kernel/"> kernel</a>
                     
                     <a href="https://huifeng.me/tags/ubuntu/"> ubuntu</a>
                     

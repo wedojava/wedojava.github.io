@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>study on 回风舞雪</title>
+    <link>https://huifeng.me/tags/study/</link>
+    <description>Recent content in study on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 17 Aug 2020 19:35:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://huifeng.me/tags/study/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gopl.io chapter 9 memo5 study</title>
+      <link>https://huifeng.me/posts/goplchapter9memo5/</link>
+      <pubDate>Mon, 17 Aug 2020 19:35:01 +0800</pubDate>
+      
+      <guid>https://huifeng.me/posts/goplchapter9memo5/</guid>
+      <description>&amp;ldquo;The Go Programming Language&amp;rdquo; 《Go 语言圣经》 第九章 memo5.go 那道例题，困扰了我很久，我承认我理解能力，对Go的掌握程度都没达到我的预期，简单点说，我没我想的那么聪慧。所以我只好花了快5天时间，去理解这个例题，最后，我终于能把每行</description>
+    </item>
+    
+  </channel>
+</rss>

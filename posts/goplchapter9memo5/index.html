@@ -8,11 +8,11 @@
 	
 	
 	
-	<title>Go ｜ 回风舞雪</title>
+	<title>gopl.io chapter 9 memo5 study ｜ 回风舞雪</title>
 	
     
     
-    <meta name="description" content="Just a Tech Blog." />
+    <meta name="description" content="&amp;ldquo;The Go Programming Language&amp;rdquo; 《Go 语言圣经》 第九章 memo5.go 那道例题，困扰了我很久，我承认我理解能力，对Go的掌握程度都没达到我的预期，简单点说，我没我想的那么聪慧。所以我只好花了快5天时间，去理解这个例题，最后，我终于能把每行" />
     
 
     
@@ -21,8 +21,6 @@
     
 
 	
-	<link rel="alternate" type="application/rss+xml" href="https://huifeng.me/categories/go/index.xml" title="回风舞雪" />
-    
     
     <link rel="shortcut icon" href="https://huifeng.me/images/favicon.ico" />
 
@@ -94,39 +92,85 @@
     </div>
 </div>
         <div class="content">
-            <div class="list_with_title">
-                
-                <div class="listing_title">2020</div>
-                <div class="listing">
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/goplchapter9memo5/">gopl.io chapter 9 memo5 study</a>
-                            <div class="post_time"><span class="date">08-17</span></div>
-                        </div>
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/goplchapter9memo5/'>gopl.io chapter 9 memo5 study</a></h2>
+                        <span class="date">2020.08.17</span>
                     </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/concurrencyingostudy/">Concurrency In Go Study</a>
-                            <div class="post_time"><span class="date">08-11</span></div>
+                    <div class="post_content markdown"><blockquote>
+<p>&ldquo;The Go Programming Language&rdquo; <a href="https://books.studygolang.com/gopl-zh/">《Go 语言圣经》</a> 第九章 memo5.go 那道例题，困扰了我很久，我承认我理解能力，对Go的掌握程度都没达到我的预期，简单点说，我没我想的那么聪慧。所以我只好花了快5天时间，去理解这个例题，最后，我终于能把每行代码都解释明白了。我记性不好，所以在这里留个档，方便自己也方便同样学习这一例题的人们。如果有错误的地方，我理解有误的地方，欢迎指出。</p>
+</blockquote>
+<p>为了能理解 memo5.go ，我特意画了一张图，我再次感受到了那条我听过但忘记谁说过的一个什么劳什子定理：“当你能够把问题画下来的时候，你已经解决了一半的问题。”</p>
+<p>这里是图（回头放）<br>
+这是图的源文件（进去再下载）：https://github.com/wedojava/gopl_study/blob/master/ch9/memo5/analysis.xlsx<br>
+这是源码位置：</p>
+<ul>
+<li>memo5: <a href="https://github.com/wedojava/gopl_study/tree/master/ch9/memo5">https://github.com/wedojava/gopl_study/tree/master/ch9/memo5</a></li>
+<li>memotest: <a href="https://github.com/wedojava/gopl_study/tree/master/ch9/memotest">https://github.com/wedojava/gopl_study/tree/master/ch9/memotest</a></li>
+</ul>
+<p>Ok，下面开始正题，我的理解是这样的：</p>
+<ul>
+<li>整个程序的通信是由 channel 来承担，传递数据的最终形态就是 value+err ，就是 result struct。</li>
+<li>Memo struct 里就一个 uncached channel ，用来放请求 request ， Entry 里 res 用来放查询结果，ready 是为了方便 call 和 deliver 通信而存在的 channel 。</li>
+<li>左边是需求方，甲方（Memo struct），右边是乙方（Entry struct），甲方要数据，乙方提供数据，所以就有了：
+<ol>
+<li>甲方通过自己的 channel 提出了 request ，</li>
+<li>乙方查看 request 里的 key 有没有对应的 cache，有就 deliver ，没有就 call 。</li>
+<li>call 完了后给 deliver 一个信号，deliver 就把新 call 出来的内容放到 response channel 里去。</li>
+<li>最终的结果是：乙方 e 把结果打包为 result, 塞到response channel 里。</li>
+<li>而甲方一直在 response 边等着呢，一旦 e 把东西放进去， response 立即会收到result，一轮甲乙双方的交互结束。</li>
+</ol>
+</li>
+</ul>
+<p>TO BE CONTINUE &hellip;</p>
+<p>EOF</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://huifeng.me/tags/gopl/">gopl</a>
+                                    
+                                    <a href="https://huifeng.me/tags/go/">go</a>
+                                    
+                                    <a href="https://huifeng.me/tags/study/">study</a>
+                                    
+                                </span>
+                            </div>
                         </div>
+                        
                     </div>
-                    
-                    <div class="listing_item">
-                        <div class="listing_post">
-                            <a href="/posts/go-a-tour-of-go-note.md/">《A Tour of Go》 Study note</a>
-                            <div class="post_time"><span class="date">01-18</span></div>
-                        </div>
-                    </div>
-                    
                 </div>
                 
+                
+                
+<div class="doc_comments">
+    <div class="comments_block_title">发表评论</div>
+    <div id="vcomments"></div>
+</div>
+
+<link rel="stylesheet" href="https://huifeng.me/css/comments.css" />
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: 'yusajl3uDsnB888cn1ulQeKz-gzGzoHsz',
+        appKey: 'jYjHeNB1qVYREHe1zX4bRx7z',
+        placeholder: ' ',
+        visitor: 'true',
+    })
+</script>
+                
             </div>
-            <div class="pagination"></div>
         </div>
-        <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
     <footer class="footer">
     <div class="powered_by">
         <a href="https://varkai.com">Designed by VarKai,</a>

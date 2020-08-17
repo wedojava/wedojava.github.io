@@ -99,6 +99,46 @@
 
 <div class="post animated fadeInDown">
     <div class="post_title">
+        <h2><a href='/posts/haproxy-simple-usage/'>HAProxy Simple Usage</a></h2>
+    </div>
+    
+    <div class="list">
+        <div class="post_content markdown">
+            <p><blockquote>
+<p>Reference:
+<a href="http://cbonte.github.io/haproxy-dconv/1.9/configuration.html#2.5">http://cbonte.github.io/haproxy-dconv/1.9/configuration.html#2.5</a></p>
+</blockquote>
+<p>No introduce, no advanced usage, also no tutor for how to install, just config to implement proxy.</p>
+<p>The case there is so easy so you can get sense of achivement quickly.</p>......</p>
+        </div>
+    </div>
+    
+    <div class="post_footer">
+        <div class="meta">
+            <div class="info">
+                <span class="field">
+                    <i class="ri-map-pin-time-line"></i>
+                    <span class="date">2019.08.24</span>
+                </span>
+                
+                <span class="field tags">
+                    <i class="ri-stack-line"></i>
+                    
+                    <a href="https://huifeng.me/tags/haproxy/">HAProxy</a>
+                    
+                    <a href="https://huifeng.me/tags/proxy/"> proxy</a>
+                    
+                    <a href="https://huifeng.me/tags/example/"> example</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post animated fadeInDown">
+    <div class="post_title">
         <h2><a href='/posts/program-c-basic-tips/'>Program C Basic Tips [C/C&#43;&#43;]</a></h2>
     </div>
     
@@ -253,51 +293,6 @@ $ sudo yum-config-manager --enable rhui-REGION-rhel-server-extras rhui-REGION-rh
                     <a href="https://huifeng.me/tags/utterances/"> Utterances</a>
                     
                     <a href="https://huifeng.me/tags/next/"> next</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/binary-io-operation/'>Binary I/O operation</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p>I coped with character type coversion to let it looks like c type, and search bytes from *.dll to modify it. so, there is sth I learned and written down here.
-# Binary I/O operation Define!
-def hex_read(filepath: str) -&gt; bytearray: if os.path.isfile(filepath): with open(filepath, &#39;rb&#39;) as f: data = bytearray(f.read()) return data Usage:
-dll_data = hex_read(&#39;D:\\test\\test.dll&#39;) Find bytes and replace it:
-index_start = dll_data.find(b&#39;\x85\x69\xf0\x7f&#39;) index_end = index_start + 100 if index_start != -1: data_old = dll_data[index_start:index_end] data_new = replacebytes # replacebytes is the content you want to replace dll_data_new = dll_data.replace(data_old, data_new) with open(&#39;D:\\test\\test.dll&#39;, &#39;wb&#39;) as f: f.write(dll_data_new) ......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2019.07.26</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/binary/">binary</a>
-                    
-                    <a href="https://huifeng.me/tags/bytes/"> bytes</a>
-                    
-                    <a href="https://huifeng.me/tags/read/"> read</a>
-                    
-                    <a href="https://huifeng.me/tags/write/"> write</a>
-                    
-                    <a href="https://huifeng.me/tags/python/"> python</a>
-                    
-                    <a href="https://huifeng.me/tags/bytearray/"> bytearray</a>
                     
                 </span>
                 
