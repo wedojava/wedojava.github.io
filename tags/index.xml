@@ -6,10 +6,37 @@
     <description>Recent content in Tags on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Aug 2020 19:35:01 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 15:11:20 +0800</lastBuildDate>
     
 	<atom:link href="https://huifeng.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blockchain</title>
+      <link>https://huifeng.me/tags/blockchain/</link>
+      <pubDate>Mon, 24 Aug 2020 15:11:20 +0800</pubDate>
+      
+      <guid>https://huifeng.me/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CTF</title>
+      <link>https://huifeng.me/tags/ctf/</link>
+      <pubDate>Mon, 24 Aug 2020 15:11:20 +0800</pubDate>
+      
+      <guid>https://huifeng.me/tags/ctf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipfs</title>
+      <link>https://huifeng.me/tags/ipfs/</link>
+      <pubDate>Mon, 24 Aug 2020 15:11:20 +0800</pubDate>
+      
+      <guid>https://huifeng.me/tags/ipfs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>go</title>

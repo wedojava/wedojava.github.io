@@ -99,12 +99,30 @@
 
 <div class="post animated fadeInDown">
     <div class="post_title">
-        <h2><a href='/posts/04-%E5%AE%89%E8%A3%85web%E6%9C%8D%E5%8A%A1%E5%99%A8nginx/'>安装Web服务器：Nginx</a></h2>
+        <h2><a href='/posts/linux-common-commands/'>Linux 系统常用命令</a></h2>
     </div>
     
     <div class="list">
         <div class="post_content markdown">
-            <p>这个简单，直接上命令： sudo yum install -y nginx 启动服务：sudo systemctl start nginx 检查服务：systemctl status nginx 设为启动项：sudo systemctl enable nginx......</p>
+            <p><h2 id="常用指令">常用指令</h2>
+<ul>
+<li>ls　　        显示文件或目录
+<ul>
+<li>-l          列出文件详细信息l(list)</li>
+<li>-a         列出当前目录下所有文件及目录，包括隐藏的a(all)</li>
+</ul>
+</li>
+<li>mkdir         创建目录
+<ul>
+<li>-p         创建目录，若无父目录，则创建p(parent)</li>
+</ul>
+</li>
+<li>cd             切换目录</li>
+<li>touch        创建空文件</li>
+<li>echo          创建带有内容的文件。</li>
+<li>cat            查看文件内容</li>
+<li>cp             拷贝</li>
+</ul>......</p>
         </div>
     </div>
     
@@ -121,137 +139,9 @@
                     
                     <a href="https://huifeng.me/tags/linux/">linux</a>
                     
-                    <a href="https://huifeng.me/tags/nginx/"> nginx</a>
+                    <a href="https://huifeng.me/tags/%E5%91%BD%E4%BB%A4/"> 命令</a>
                     
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/03-%E5%AE%89%E8%A3%85php%E4%B8%8E%E5%B8%B8%E7%94%A8%E6%89%A9%E5%B1%95/'>安装PHP与常用扩展</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">yum search php | grep fpm
-</code></pre></div><p>可以找到一行是<code>php56u-fpm.x86_64</code>,就安装这个：</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">sudo yum install -y php56u-fpm
-</code></pre></div>......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2015.08.10</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/linux/">linux</a>
-                    
-                    <a href="https://huifeng.me/tags/php/"> php</a>
-                    
-                    <a href="https://huifeng.me/tags/php-fpm/"> php-fpm</a>
-                    
-                    <a href="https://huifeng.me/tags/mcrypt/"> mcrypt</a>
-                    
-                    <a href="https://huifeng.me/tags/php-cli/"> php-cli</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/02-%E5%AE%89%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9Fmariadb-or-mysql/'>安装数据库管理系统MariaDB(MySQL)</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p><blockquote>
-<p>Maria数据库具体可以搜索看，完全可以替代了MySQL数据库，推荐使用MySQL原作者以自己女儿命名的开源数据库Maria，MySQL被Oracle收下了。恩恩。。</p>
-</blockquote>
-<p><strong>注意,能运行下面的命令,前提是你已经成功添加了资源仓库,并且是CentOS 7.X,如果是6.X,建议直接跳到最后一项.</strong></p>......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2015.08.10</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/linux/">linux</a>
-                    
-                    <a href="https://huifeng.me/tags/mysql/"> MySQL</a>
-                    
-                    <a href="https://huifeng.me/tags/mariadb/"> MariaDB</a>
-                    
-                    <a href="https://huifeng.me/tags/maria/"> Maria</a>
-                    
-                    <a href="https://huifeng.me/tags/%E5%AE%89%E5%85%A8%E9%80%89%E9%A1%B9/"> 安全选项</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/01-%E6%B7%BB%E5%8A%A0%E8%B5%84%E6%BA%90%E4%BB%93%E5%BA%93/'>添加资源仓库</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p><p>由于centos自带的资源仓库里资源的版本不够新,所以我们选择添加两个资源仓库.</p>
-<p>虚拟机从  <a href="https://github.com/chef/bento">https://github.com/chef/bento</a>  找,安装好后,进行下面的步骤:</p>
-<p>这里我安装了centos7.1版本</p>
-<p>下面开始:</p>......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2015.08.10</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/linux/">linux</a>
-                    
-                    <a href="https://huifeng.me/tags/lnmp/"> lnmp</a>
-                    
-                    <a href="https://huifeng.me/tags/epel/"> epel</a>
-                    
-                    <a href="https://huifeng.me/tags/ius/"> ius</a>
-                    
-                    <a href="https://huifeng.me/tags/%E8%B5%84%E6%BA%90%E4%BB%93%E5%BA%93/"> 资源仓库</a>
-                    
-                    <a href="https://huifeng.me/tags/uvh/"> Uvh</a>
-                    
-                    <a href="https://huifeng.me/tags/repos/"> Repos</a>
+                    <a href="https://huifeng.me/tags/vim/"> vim</a>
                     
                 </span>
                 
@@ -264,14 +154,10 @@
 <div class="pagination">
     
     
-    <a href="/page/16/" class="pre">
+    <a href="/page/17/" class="pre">
         Prev
     </a>
     
-    
-    <a href="/page/18/" class="next">
-        Next
-    </a>
     
     
 </div>

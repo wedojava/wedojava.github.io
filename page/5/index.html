@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" >
 <head>
-	<meta name="generator" content="Hugo 0.73.0" />
+	<meta name="generator" content="Hugo 0.74.3" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -96,6 +96,66 @@
 </div>
         <div class="content">
             
+
+<div class="post animated fadeInDown">
+    <div class="post_title">
+        <h2><a href='/posts/use-utteranc-as-hexo-comments/'>Use utterances as Hexo Next theme comments</a></h2>
+    </div>
+    
+    <div class="list">
+        <div class="post_content markdown">
+            <p><p>{% centerquote 王小波 %}
+人的一切痛苦，本质上都是对自己无能的愤怒。
+{% endcenterquote %}</p>
+<h2 id="why-utterances">Why Utterances?</h2>
+<ol>
+<li>The most similar comments to github issue.</li>
+<li>Emoji add free as github issue.</li>
+<li>Markdown support.</li>
+<li>Data storage can be trusted and stable, thanks to github.</li>
+</ol>
+<h2 id="but-my-choice-is-valine">But my choice is Valine</h2>
+<p>Oh my, after study utterances, I have to changed my choice to <a href="https://valine.js.org/">Valine</a>:</p>
+<ol>
+<li>utterances need to modify many theme files, I think I&rsquo;ll forget where to restore it.</li>
+<li>utterances&rsquo;s replies are not smart enough.</li>
+<li>utterances has more differ from github issue after all, it lost some great features like reply.</li>
+<li>utterances cannot display count of comments at home page.</li>
+<li>Valine not the best one but enough for me, except add emoji free to bottom line.</li>
+</ol>
+<p>So, this post is just a study and successful attempt for utterances.</p>
+<h2 id="why-not-gitment-or-gitalk">Why not Gitment or Gitalk?</h2>
+<p>Reference:</p>
+<ul>
+<li><a href="https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public">https://github.com/imsun/gitment#is-it-safe-to-make-my-client-secret-public</a></li>
+<li><a href="https://blog.wolfogre.com/posts/security-problem-of-gitment/">https://blog.wolfogre.com/posts/security-problem-of-gitment/</a></li>
+</ul>......</p>
+        </div>
+    </div>
+    
+    <div class="post_footer">
+        <div class="meta">
+            <div class="info">
+                <span class="field">
+                    <i class="ri-map-pin-time-line"></i>
+                    <span class="date">2019.08.09</span>
+                </span>
+                
+                <span class="field tags">
+                    <i class="ri-stack-line"></i>
+                    
+                    <a href="https://huifeng.me/tags/hexo/">hexo</a>
+                    
+                    <a href="https://huifeng.me/tags/utterances/"> Utterances</a>
+                    
+                    <a href="https://huifeng.me/tags/next/"> next</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="post animated fadeInDown">
     <div class="post_title">
@@ -222,70 +282,6 @@ In [70]: struct.unpack(&quot;I&quot;, b'\x57\x23\x02\x00') Out[70]: (140119,) In
                     <a href="https://huifeng.me/tags/caddy/"> caddy</a>
                     
                     <a href="https://huifeng.me/tags/kcp/"> kcp</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/deploy-hexo-to-vps-by-caddy-and-webhooks/'>Deploy Hexo to VPS By Caddy And Webhooks(Python)</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p><p>There are steps to make Hexo works well with caddy, github webhooks and service script write by python3.</p>
-<p>Why not nginx, because I know well about it, I think, and now I want to try caddy.</p>
-<p>Why not git to deploy it？ <a href="https://huifeng.me/2015/08/16/deploy-hexo-to-vps/">This is the way to use git for deployment</a>. But it was outdated or I think, use webhooks and caddy maybe the pop and better way than that.</p>
-<p>This is not as common use for webhooks, the main idear for easy to write hexo blog is follow:</p>
-<blockquote>
-<p>One github&rsquo;s repository cloned at your local system: Only write your md files at there.
-Two folders at VPS to clone your md files and generate by hexo for deploy.</p>
-<p>Advantage:
-Write blog so easy, just write down and push to github.
-Generate at server, so you never need install hexo to your local system, so you can write and push anywhere have git installed
-Generate at server, so it will stable and faster than local.</p>
-<p>Disadvantage:
-Many settings and preparations at VPS.</p>
-</blockquote>
-<p>My System environment:</p>
-<ul>
-<li>Local: Windows 10</li>
-<li>VPS: Ubuntu 18.04 LTS</li>
-</ul>
-<p><strong>OK, let&rsquo;s GO!</strong></p>
-<p><strong>Outline:</strong></p>
-<ol>
-<li>Preparation for your host: git</li>
-<li>Preparation for your VPS: git, Node.js, Hexo, webhook scripts</li>
-<li>Install and config Caddy to your VPS</li>
-</ol>......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2019.07.11</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/vps/">VPS</a>
-                    
-                    <a href="https://huifeng.me/tags/hexo/"> hexo</a>
-                    
-                    <a href="https://huifeng.me/tags/%E9%83%A8%E7%BD%B2/"> 部署</a>
-                    
-                    <a href="https://huifeng.me/tags/caddy/"> caddy</a>
-                    
-                    <a href="https://huifeng.me/tags/python/"> python</a>
                     
                 </span>
                 
