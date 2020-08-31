@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>lsp on 回风舞雪</title>
+    <link>https://huifeng.me/tags/lsp/</link>
+    <description>Recent content in lsp on 回风舞雪</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Aug 2020 18:08:41 +0800</lastBuildDate>
+    
+	<atom:link href="https://huifeng.me/tags/lsp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Vim Switch YCM to LSP, coc.nvim And Vimgo</title>
+      <link>https://huifeng.me/posts/vimuselspandvimgormycm/</link>
+      <pubDate>Mon, 31 Aug 2020 18:08:41 +0800</pubDate>
+      
+      <guid>https://huifeng.me/posts/vimuselspandvimgormycm/</guid>
+      <description>&lt;p&gt;Hi there, as the refer article author said, it is 2019, but now, me, 2020.&lt;br&gt;
+we use YCM for years, but with the introduction of &lt;a href=&#34;https://langserver.org/&#34;&gt;Language Server Protocol&lt;/a&gt;(LSP),&lt;br&gt;
+there are new options worth exploring, I tried on OSX and ArchLinux, it&amp;rsquo;s great for me, maybe it&amp;rsquo;ll fit you too.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reference: &lt;a href=&#34;https://octetz.com/docs/2019/2019-04-24-vim-as-a-go-ide/&#34;&gt;https://octetz.com/docs/2019/2019-04-24-vim-as-a-go-ide/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

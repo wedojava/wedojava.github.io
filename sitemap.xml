@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://huifeng.me/tags/vim/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/categories/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/categories/editor/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/tags/lsp/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/posts/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/tags/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/posts/vimuselspandvimgormycm/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/tags/vim-go/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/tags/ycm/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://huifeng.me/</loc>
+    <lastmod>2020-08-31T18:08:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://huifeng.me/tags/blockchain/</loc>
     <lastmod>2020-08-24T15:11:20+08:00</lastmod>
   </url>
@@ -18,28 +68,8 @@
   </url>
   
   <url>
-    <loc>https://huifeng.me/posts/</loc>
-    <lastmod>2020-08-24T15:11:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://huifeng.me/tags/</loc>
-    <lastmod>2020-08-24T15:11:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://huifeng.me/</loc>
-    <lastmod>2020-08-24T15:11:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://huifeng.me/posts/qwbctfwriteupofipfs/</loc>
     <lastmod>2020-08-24T15:11:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://huifeng.me/categories/</loc>
-    <lastmod>2020-08-17T19:35:01+08:00</lastmod>
   </url>
   
   <url>
@@ -259,11 +289,6 @@
   
   <url>
     <loc>https://huifeng.me/tags/nvim/</loc>
-    <lastmod>2020-01-22T17:01:42+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://huifeng.me/tags/vim/</loc>
     <lastmod>2020-01-22T17:01:42+08:00</lastmod>
   </url>
   
@@ -690,11 +715,6 @@
   <url>
     <loc>https://huifeng.me/posts/setup-debian9-init/</loc>
     <lastmod>2018-10-11T18:35:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://huifeng.me/categories/editor/</loc>
-    <lastmod>2018-10-10T10:49:14+08:00</lastmod>
   </url>
   
   <url>

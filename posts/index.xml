@@ -6,10 +6,24 @@
     <description>Recent content in Posts on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2020 15:11:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 18:08:41 +0800</lastBuildDate>
     
 	<atom:link href="https://huifeng.me/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vim Switch YCM to LSP, coc.nvim And Vimgo</title>
+      <link>https://huifeng.me/posts/vimuselspandvimgormycm/</link>
+      <pubDate>Mon, 31 Aug 2020 18:08:41 +0800</pubDate>
+      
+      <guid>https://huifeng.me/posts/vimuselspandvimgormycm/</guid>
+      <description>&lt;p&gt;Hi there, as the refer article author said, it is 2019, but now, me, 2020.&lt;br&gt;
+we use YCM for years, but with the introduction of &lt;a href=&#34;https://langserver.org/&#34;&gt;Language Server Protocol&lt;/a&gt;(LSP),&lt;br&gt;
+there are new options worth exploring, I tried on OSX and ArchLinux, it&amp;rsquo;s great for me, maybe it&amp;rsquo;ll fit you too.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Reference: &lt;a href=&#34;https://octetz.com/docs/2019/2019-04-24-vim-as-a-go-ide/&#34;&gt;https://octetz.com/docs/2019/2019-04-24-vim-as-a-go-ide/&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
     
     <item>
       <title>强网杯CTF 2020 区块链题目 IPFS Writeup</title>

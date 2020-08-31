@@ -99,6 +99,37 @@
 
 <div class="post animated fadeInDown">
     <div class="post_title">
+        <h2><a href='/posts/fix-omnimarkdownpreview-cannot-preview/'>Fix OmniMarkdownPreview Cannot Preview</a></h2>
+    </div>
+    
+    <div class="list">
+        <div class="post_content markdown">
+            <p>{% centerquote 王小波 %} 人的一切痛苦，本质上都是对自己无能的愤怒。 {% endcenterquote %} Quick Fix 1: Remove Strikethrough Extension Sublime Text &gt; Preferences &gt; Package Settings &gt; OmniMarkupPreviewer &gt; Settings - User paste the following to remove the strikeout package. { &#34;renderer_options-MarkdownRenderer&#34;: { &#34;extensions&#34;: [&#34;tables&#34;, &#34;fenced_code&#34;, &#34;codehilite&#34;] } } Quick Fix 2: Fix the Strikethrough Extension (if you need it) Find the python-markdown sublime package. On the Mac: subl &#34;/Users/&lt;username&gt;/Library/Application Support/Sublime Text 3/Packages/OmniMarkupPreviewer/OmniMarkupLib/Renderers/libs/mdx_strikeout.py&#34; Replace the makeExtension() method with the following: def makeExtension(*args, **kwargs):......</p>
+        </div>
+    </div>
+    
+    <div class="post_footer">
+        <div class="meta">
+            <div class="info">
+                <span class="field">
+                    <i class="ri-map-pin-time-line"></i>
+                    <span class="date">2018.10.10</span>
+                </span>
+                
+                <span class="field tags">
+                    <i class="ri-stack-line"></i>
+                    
+                    <a href="https://huifeng.me/tags/sublime/">sublime</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="post animated fadeInDown">
+    <div class="post_title">
         <h2><a href='/posts/get-through-gfw-by-v2ray/'>通过 V2ray 实现科学上网</a></h2>
     </div>
     
@@ -228,47 +259,6 @@
                     <a href="https://huifeng.me/tags/apache2/"> apache2</a>
                     
                     <a href="https://huifeng.me/tags/apache/"> apache</a>
-                    
-                </span>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="post animated fadeInDown">
-    <div class="post_title">
-        <h2><a href='/posts/lemp-step-to-step/'>LEMP/LNMP　环境搭建(Nginx1.10 &#43; PHP7)</a></h2>
-    </div>
-    
-    <div class="list">
-        <div class="post_content markdown">
-            <p><blockquote>
-<p>更多文档请浏览官方文档和Wiki，这个很重要，其实文档里已经说的很清楚了，会遇到的Bug往往在回复里也有。</p>
-</blockquote>......</p>
-        </div>
-    </div>
-    
-    <div class="post_footer">
-        <div class="meta">
-            <div class="info">
-                <span class="field">
-                    <i class="ri-map-pin-time-line"></i>
-                    <span class="date">2016.05.18</span>
-                </span>
-                
-                <span class="field tags">
-                    <i class="ri-stack-line"></i>
-                    
-                    <a href="https://huifeng.me/tags/lnmp/">lnmp</a>
-                    
-                    <a href="https://huifeng.me/tags/lemp/"> lemp</a>
-                    
-                    <a href="https://huifeng.me/tags/nginx/"> nginx</a>
-                    
-                    <a href="https://huifeng.me/tags/php/"> php</a>
-                    
-                    <a href="https://huifeng.me/tags/php-fpm/"> php-fpm</a>
                     
                 </span>
                 

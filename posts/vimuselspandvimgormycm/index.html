@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="wedojava" />
+	
+	
+	
+	<title>Vim Switch YCM to LSP, coc.nvim And Vimgo ｜ 回风舞雪</title>
+	
+    
+    
+    <meta name="description" content="Hi there, as the refer article author said, it is 2019, but now, me, 2020.
+we use YCM for years, but with the introduction of Language Server Protocol(LSP),
+there are new options worth exploring, I tried on OSX and ArchLinux, it&amp;rsquo;s great for me, maybe it&amp;rsquo;ll fit you too.
+ Reference: https://octetz.com/docs/2019/2019-04-24-vim-as-a-go-ide/
+" />
+    
+
+    
+    
+    <meta name="keywords" content="Hugo, theme, zozo, huifeng" />
+    
+
+	
+    
+    <link rel="shortcut icon" href="https://huifeng.me/images/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://huifeng.me/css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://huifeng.me/css/zozo.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://huifeng.me/css/search.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://huifeng.me/css/highlight.css" />
+
+    
+    
+</head>
+
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/">Home</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Archive</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Tags</a>
+            </li>
+            
+            <li>
+                <a href="/about/">About</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div>
+        <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <h1>
+                <a href="https://huifeng.me">
+                    <span>回风舞雪</span>
+                </a>
+            </h1>
+        </div>
+        <div class="description">
+            <p class="sub_title">Love My Love</p>
+            <div class="my_socials">
+                
+                
+                <a href="https://github.com/wedojava" title="github" target="_blank"><i class="ri-github-fill"></i></a>
+                
+                
+                
+                <a href="https://weibo.com/wedojava" title="weibo" target="_blank"><i class="ri-weibo-fill"></i></a>
+                
+                
+                <a href="https://huifeng.me/index.xml" type="application/rss+xml" title="rss" target="_blank"><i
+                        class="ri-rss-fill"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/vimuselspandvimgormycm/'>Vim Switch YCM to LSP, coc.nvim And Vimgo</a></h2>
+                        <span class="date">2020.08.31</span>
+                    </div>
+                    <div class="post_content markdown"><p>Hi there, as the refer article author said, it is 2019, but now, me, 2020.<br>
+we use YCM for years, but with the introduction of <a href="https://langserver.org/">Language Server Protocol</a>(LSP),<br>
+there are new options worth exploring, I tried on OSX and ArchLinux, it&rsquo;s great for me, maybe it&rsquo;ll fit you too.</p>
+<blockquote>
+<p>Reference: <a href="https://octetz.com/docs/2019/2019-04-24-vim-as-a-go-ide/">https://octetz.com/docs/2019/2019-04-24-vim-as-a-go-ide/</a></p>
+</blockquote>
+<p>Go&rsquo;s offical LSP is <a href="https://github.com/golang/go/wiki/gopls">gopls</a>, pronounced &ldquo;go please&rdquo;.</p>
+<h1 id="prerequisites">Prerequisites</h1>
+<ul>
+<li>vim or neovim, this article covers vim.</li>
+<li><a href="https://classic.yarnpkg.com/en/docs/install">yarn</a> installed for coc.nvim.</li>
+<li><a href="https://github.com/junegunn/vim-plug">vim-plug</a> installed</li>
+<li>$GOPATH and $GOBIN set, see: <a href="https://golang.org/cmd/go/#hdr-Environment_variables">https://golang.org/cmd/go/#hdr-Environment_variables</a>
+<ul>
+<li><code>go env -w GOBIN=&quot;/home/&lt;username&gt;/go/bin&quot;</code></li>
+</ul>
+</li>
+<li>vim config file: <code>~/.config/nvim/init.vim</code> is neovim&rsquo;s and ~/.vimrc is vim&rsquo;s.</li>
+</ul>
+<h1 id="install-vim-go">Install vim-go</h1>
+<ol>
+<li>rm YCM, rm the line in <code>.vimrc</code> and save, then: <code>:PlugClean</code></li>
+<li>Add config:</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">call plug#begin(&#39;~/.vim/plugged&#39;)
+
+&#34; &lt; Other Plugins, if they exist &gt;
+
+Plug &#39;fatih/vim-go&#39;
+call plug#end()&#34;
+</code></pre></div><ol start="3">
+<li><code>vim +PlugInstall</code> and <code>vim +GoInstallBinaries</code></li>
+<li>vim a go file to verify vim-go working well.</li>
+</ol>
+<h1 id="install-cocnvim">Install coc.nvim</h1>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">call plug#begin(&#39;~/.vim/plugged&#39;)
+
+&#34; &lt; Other Plugins, if they exist &gt;
+
+Plug &#39;fatih/vim-go&#39;
+Plug &#39;neoclide/coc.nvim&#39;, {&#39;do&#39;: &#39;yarn install --frozen-lockfile&#39;}
+call plug#end()&#34;
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">:PlugInstall
+</code></pre></div><p>Copy the following into .vimrc:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&#34; -------------------------------------------------------------------------------------------------
+&#34; coc.nvim default settings
+&#34; -------------------------------------------------------------------------------------------------
+
+&#34; if hidden is not set, TextEdit might fail.
+set hidden
+&#34; Better display for messages
+set cmdheight=2
+&#34; Smaller updatetime for CursorHold &amp; CursorHoldI
+set updatetime=300
+&#34; don&#39;t give |ins-completion-menu| messages.
+set shortmess+=c
+&#34; always show signcolumns
+set signcolumn=yes
+
+&#34; Use tab for trigger completion with characters ahead and navigate.
+&#34; Use command &#39;:verbose imap &lt;tab&gt;&#39; to make sure tab is not mapped by other plugin.
+inoremap &lt;silent&gt;&lt;expr&gt; &lt;TAB&gt;
+      \ pumvisible() ? &#34;\&lt;C-n&gt;&#34; :
+      \ &lt;SID&gt;check_back_space() ? &#34;\&lt;TAB&gt;&#34; :
+      \ coc#refresh()
+inoremap &lt;expr&gt;&lt;S-TAB&gt; pumvisible() ? &#34;\&lt;C-p&gt;&#34; : &#34;\&lt;C-h&gt;&#34;
+
+function! s:check_back_space() abort
+  let col = col(&#39;.&#39;) - 1
+  return !col || getline(&#39;.&#39;)[col - 1]  =~# &#39;\s&#39;
+endfunction
+
+&#34; Use &lt;c-space&gt; to trigger completion.
+inoremap &lt;silent&gt;&lt;expr&gt; &lt;c-space&gt; coc#refresh()
+
+&#34; Use `[c` and `]c` to navigate diagnostics
+nmap &lt;silent&gt; [c &lt;Plug&gt;(coc-diagnostic-prev)
+nmap &lt;silent&gt; ]c &lt;Plug&gt;(coc-diagnostic-next)
+
+&#34; Remap keys for gotos
+nmap &lt;silent&gt; gd &lt;Plug&gt;(coc-definition)
+nmap &lt;silent&gt; gy &lt;Plug&gt;(coc-type-definition)
+nmap &lt;silent&gt; gi &lt;Plug&gt;(coc-implementation)
+nmap &lt;silent&gt; gr &lt;Plug&gt;(coc-references)
+
+&#34; Use U to show documentation in preview window
+nnoremap &lt;silent&gt; U :call &lt;SID&gt;show_documentation()&lt;CR&gt;
+
+&#34; Remap for rename current word
+nmap &lt;leader&gt;rn &lt;Plug&gt;(coc-rename)
+
+&#34; Remap for format selected region
+vmap &lt;leader&gt;f  &lt;Plug&gt;(coc-format-selected)
+nmap &lt;leader&gt;f  &lt;Plug&gt;(coc-format-selected)
+&#34; Show all diagnostics
+nnoremap &lt;silent&gt; &lt;space&gt;a  :&lt;C-u&gt;CocList diagnostics&lt;cr&gt;
+&#34; Manage extensions
+nnoremap &lt;silent&gt; &lt;space&gt;e  :&lt;C-u&gt;CocList extensions&lt;cr&gt;
+&#34; Show commands
+nnoremap &lt;silent&gt; &lt;space&gt;c  :&lt;C-u&gt;CocList commands&lt;cr&gt;
+&#34; Find symbol of current document
+nnoremap &lt;silent&gt; &lt;space&gt;o  :&lt;C-u&gt;CocList outline&lt;cr&gt;
+&#34; Search workspace symbols
+nnoremap &lt;silent&gt; &lt;space&gt;s  :&lt;C-u&gt;CocList -I symbols&lt;cr&gt;
+&#34; Do default action for next item.
+nnoremap &lt;silent&gt; &lt;space&gt;j  :&lt;C-u&gt;CocNext&lt;CR&gt;
+&#34; Do default action for previous item.
+nnoremap &lt;silent&gt; &lt;space&gt;k  :&lt;C-u&gt;CocPrev&lt;CR&gt;
+&#34; Resume latest coc list
+nnoremap &lt;silent&gt; &lt;space&gt;p  :&lt;C-u&gt;CocListResume&lt;CR&gt;
+</code></pre></div><p>more info about config above: <a href="https://github.com/neoclide/coc.nvim/tree/3bdfdd2a86046d7b0938da6e0f940ec39f999bca#example-vim-configuration">coc.nvim&rsquo;s recommendations</a>.</p>
+<p>copy or modify following to tell vim-go to not map <kdb>gb</kdb> as its shortcut for go definition.</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">&#34; disable vim-go :GoDef short cut (gd)
+&#34; this is handled by LanguageClient [LC]
+let g:go_def_mapping_enabled = 0
+</code></pre></div><p>this is disabled to allow coc.vim to do the gd resolution.</p>
+<p>OK, save and exit vim</p>
+<p>Install <code>coc.nvim</code>: <code>vim +PlugInstall</code></p>
+<p>my output:</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">yarn install v1.22.4
+[1/5] Validating package.json...
+[2/5] Resolving packages...
+[3/5] Fetching packages...
+info fsevents@2.1.3: The platform &#34;linux&#34; is incompatible with this module.
+info &#34;fsevents@2.1.3&#34; is an optional dependency and failed compatibility check. Excluding it from installation.
+[4/5] Linking dependencies...
+warning &#34; &gt; @typescript-eslint/eslint-plugin@2.33.0&#34; has incorrect peer dependency &#34;eslint@^5.0.0 || ^6.0.0&#34;.
+warning &#34; &gt; @typescript-eslint/eslint-plugin-tslint@2.33.0&#34; has incorrect peer dependency &#34;eslint@^5.0.0 || ^6.0.0&#34;.
+warning &#34; &gt; @typescript-eslint/eslint-plugin-tslint@2.33.0&#34; has unmet peer dependency &#34;tslint@^5.0.0 || ^6.0.0&#34;.
+warning &#34; &gt; @typescript-eslint/parser@2.33.0&#34; has incorrect peer dependency &#34;eslint@^5.0.0 || ^6.0.0&#34;.
+[5/5] Building fresh packages...
+warning Your current version of Yarn is out of date. The latest version is &#34;1.22.5&#34;, while you&#39;re on &#34;1.22.4&#34;.
+info To upgrade, run the following command:
+$ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+$ npm-run-all clean build
+yarn run v1.22.4
+$ rimraf lib build
+Done in 0.11s.
+yarn run v1.22.4
+$ tsc -p tsconfig.json
+Done in 6.46s.
+Done in 37.76s.
+</code></pre></div><p>Edit the CocConfig: <code>:CocConfig</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">{
+  &#34;languageserver&#34;: {
+    &#34;golang&#34;: {
+      &#34;command&#34;: &#34;gopls&#34;,
+      &#34;rootPatterns&#34;: [&#34;go.mod&#34;, &#34;.vim/&#34;, &#34;.git/&#34;, &#34;.hg/&#34;],
+      &#34;filetypes&#34;: [&#34;go&#34;]
+    }
+  }
+}
+</code></pre></div><p>restart vim. ok, me done. what about u?</p></div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="https://huifeng.me/tags/vim/">vim</a>
+                                    
+                                    <a href="https://huifeng.me/tags/lsp/">lsp</a>
+                                    
+                                    <a href="https://huifeng.me/tags/vim-go/">vim-go</a>
+                                    
+                                    <a href="https://huifeng.me/tags/ycm/">ycm</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                
+<div class="doc_comments">
+    <div class="comments_block_title">发表评论</div>
+    <div id="vcomments"></div>
+</div>
+
+<link rel="stylesheet" href="https://huifeng.me/css/comments.css" />
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+<script type="text/javascript">
+    new Valine({
+        el: '#vcomments',
+        appId: 'yusajl3uDsnB888cn1ulQeKz-gzGzoHsz',
+        appKey: 'jYjHeNB1qVYREHe1zX4bRx7z',
+        placeholder: ' ',
+        visitor: 'true',
+    })
+</script>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a>
+    <footer class="footer">
+    <div class="powered_by">
+        <a href="https://varkai.com">Designed by VarKai,</a>
+        <a href="http://www.gohugo.io/">Proudly published with Hugo</a>
+    </div>
+
+    <div class="footer_slogan">
+        <span>&gt;_ Simple Is Correct.</span>
+    </div>
+</footer>
+    <div id="fastSearch">
+   <input id="searchInput" tabindex="0">
+   <ul id="searchResults">
+   </ul>
+ </div>
+ <script src="/js/fuse.js"></script> 
+ <script src="/js/fastsearch.js"></script>
+<script src="https://huifeng.me/js/jquery-3.5.1.min.js"></script>
+<link href="https://huifeng.me/css/fancybox.min.css" rel="stylesheet">
+<script src="https://huifeng.me/js/fancybox.min.js"></script>
+<script src="https://huifeng.me/js/zozo.js"></script>
+
+
+<script type="text/javascript" async
+    src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\[\[', '\]\]']],
+                processEscapes: true,
+                processEnvironments: true,
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+                TeX: {
+                    equationNumbers: { autoNumber: "AMS" },
+                    extensions: ["AMSmath.js", "AMSsymbols.js"]
+                }
+            }
+        });
+
+        MathJax.Hub.Queue(function () {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for (i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+    </script>
+
+<style>
+    code.has-jax {
+        font: inherit;
+        font-size: 100%;
+        background: inherit;
+        border: inherit;
+        color: #515151;
+    }
+</style>
+
+
+
+
+</body>
+
+</html>

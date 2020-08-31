@@ -6,10 +6,46 @@
     <description>Recent content in Tags on 回风舞雪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2020 15:11:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 18:08:41 +0800</lastBuildDate>
     
 	<atom:link href="https://huifeng.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title> vim</title>
+      <link>https://huifeng.me/tags/vim/</link>
+      <pubDate>Mon, 31 Aug 2020 18:08:41 +0800</pubDate>
+      
+      <guid>https://huifeng.me/tags/vim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lsp</title>
+      <link>https://huifeng.me/tags/lsp/</link>
+      <pubDate>Mon, 31 Aug 2020 18:08:41 +0800</pubDate>
+      
+      <guid>https://huifeng.me/tags/lsp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim-go</title>
+      <link>https://huifeng.me/tags/vim-go/</link>
+      <pubDate>Mon, 31 Aug 2020 18:08:41 +0800</pubDate>
+      
+      <guid>https://huifeng.me/tags/vim-go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ycm</title>
+      <link>https://huifeng.me/tags/ycm/</link>
+      <pubDate>Mon, 31 Aug 2020 18:08:41 +0800</pubDate>
+      
+      <guid>https://huifeng.me/tags/ycm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>blockchain</title>
@@ -314,15 +350,6 @@
       <pubDate>Wed, 22 Jan 2020 17:01:42 +0800</pubDate>
       
       <guid>https://huifeng.me/tags/nvim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title> vim</title>
-      <link>https://huifeng.me/tags/vim/</link>
-      <pubDate>Wed, 22 Jan 2020 17:01:42 +0800</pubDate>
-      
-      <guid>https://huifeng.me/tags/vim/</guid>
       <description></description>
     </item>
     
